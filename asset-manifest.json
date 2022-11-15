@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cvlanes.react/static/css/main.17141bdc.css",
-    "main.js": "/cvlanes.react/static/js/main.0db2e6a8.js",
+    "main.js": "/cvlanes.react/static/js/main.210afa53.js",
     "static/js/787.9f7d7c16.chunk.js": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js",
     "static/media/contact.jpg": "/cvlanes.react/static/media/contact.4fa15829f07142b3f4b1.jpg",
     "static/media/pexels-3.jpg": "/cvlanes.react/static/media/pexels-3.5d2c265eec57d4d20c15.jpg",
     "static/media/pexels-2.jpg": "/cvlanes.react/static/media/pexels-2.711101421f4e7d83ca25.jpg",
     "index.html": "/cvlanes.react/index.html",
     "main.17141bdc.css.map": "/cvlanes.react/static/css/main.17141bdc.css.map",
-    "main.0db2e6a8.js.map": "/cvlanes.react/static/js/main.0db2e6a8.js.map",
+    "main.210afa53.js.map": "/cvlanes.react/static/js/main.210afa53.js.map",
     "787.9f7d7c16.chunk.js.map": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17141bdc.css",
-    "static/js/main.0db2e6a8.js"
+    "static/js/main.210afa53.js"
   ]
 }
