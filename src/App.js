@@ -4,6 +4,7 @@ import './lib/lightbox/css/lightbox.min.css';
 import './css/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import TypewriterComponent from 'typewriter-effect';
+import Hero from './img/hero.png'
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
                         </div>
                         <div className="col-sm-12 col-md-6 d-md-block">
                             <div className="hero-image pe-0">
-                                <img src="/img/hero.png" alt="Ali" />
+                                <img src={Hero} alt="Ali" />
                             </div>
                         </div>
                     </div>
@@ -243,7 +244,7 @@ function App() {
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
                             <div className="team-item">
                                 <div className="team-img">
-                                    <img src="/img/ali.jpg" alt="Ali" />
+                                    <img src={require("./img/ali.jpg")} alt="Ali" />
                                 </div>
                                 <div className="team-text text-start">
                                     <h2>Ali Zuhairi</h2>
