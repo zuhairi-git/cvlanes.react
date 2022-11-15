@@ -3,6 +3,7 @@ import './lib/owlcarousel/assets/owl.carousel.min.css';
 import './lib/lightbox/css/lightbox.min.css';
 import './css/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import TypewriterComponent from 'typewriter-effect';
 
 
 function App() {
@@ -13,12 +14,21 @@ function App() {
                     <div className="row align-items-center">
                         <div className="col-sm-12 col-md-6">
                             <div className="hero-content">
-                                <div class="hero-text">
-                                    <p>I'm</p>
-                                    <h1>Ali Zuhairi</h1>
-                                    <h2></h2>
-                                    <div class="typed-text">Professional Product Designer, Web Designer, Workflow Management Developer, Web UI Developer, Front End UI Developer, App Designer, App UI Developer</div>
-                                </div>
+                            <div class="hero-text text-start">
+                                <p>I'm</p>
+                                <h1>Ali Zuhairi</h1>
+                                <h2>
+                                    <TypewriterComponent
+                                        options={{
+                                        strings: ['Professional Product Designer', 'Web Designer', 'Workflow Management Developer', 'Web UI Developer', 'Front End UI Developer', 'App Designer', 'App UI Developer'],
+                                        autoStart: true,
+                                        delay: 30,
+                                        deleteSpeed: 10,
+                                        loop: true,
+                                        }}
+                                    />
+                                </h2>
+                            </div>
                                 <div className="hero-btn">
                                     <a className="btn" href="#team">Contact Me</a>
                                 </div>
