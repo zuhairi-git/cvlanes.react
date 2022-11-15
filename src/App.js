@@ -275,7 +275,7 @@ function App() {
                                 <p className="text-light">zohairi@live.com</p>
                             </div>
                             <div className="footer-social">
-                                <img src="/img/CV-Lane-h.png" className="w-25" alt="Logo" />
+                                <img src={require("./img/CV-Lane-h.png")} className="w-25" alt="Logo" />
                             </div>
                         </div>
                     </div>
