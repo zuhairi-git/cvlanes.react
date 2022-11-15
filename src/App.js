@@ -26,7 +26,7 @@ function App() {
                         </div>
                         <div className="col-sm-12 col-md-6 d-md-block">
                             <div className="hero-image pe-0">
-                                <img src="assets/img/hero.png" alt="Ali" />
+                                <img src="/img/hero.png" alt="Ali" />
                             </div>
                         </div>
                     </div>
@@ -233,7 +233,7 @@ function App() {
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
                             <div className="team-item">
                                 <div className="team-img">
-                                    <img src="assets/img/ali.jpg" alt="Ali" />
+                                    <img src="/img/ali.jpg" alt="Ali" />
                                 </div>
                                 <div className="team-text text-start">
                                     <h2>Ali Zuhairi</h2>
@@ -264,7 +264,7 @@ function App() {
                                 <p className="text-light">zohairi@live.com</p>
                             </div>
                             <div className="footer-social">
-                                <img src="assets/img/CV-Lane-h.png" className="w-25" alt="Logo" />
+                                <img src="/img/CV-Lane-h.png" className="w-25" alt="Logo" />
                             </div>
                         </div>
                     </div>
