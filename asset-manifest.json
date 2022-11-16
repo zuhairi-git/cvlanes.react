@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cvlanes.react/static/css/main.17141bdc.css",
-    "main.js": "/cvlanes.react/static/js/main.0e01a1d3.js",
+    "main.js": "/cvlanes.react/static/js/main.461f1b45.js",
     "static/js/787.9f7d7c16.chunk.js": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js",
     "static/media/ali.jpg": "/cvlanes.react/static/media/ali.395b4aae39b2728fcf89.jpg",
     "static/media/contact.jpg": "/cvlanes.react/static/media/contact.4fa15829f07142b3f4b1.jpg",
@@ -11,11 +11,11 @@
     "static/media/CV-Lane-h.png": "/cvlanes.react/static/media/CV-Lane-h.826ad67ecbc351d49abf.png",
     "index.html": "/cvlanes.react/index.html",
     "main.17141bdc.css.map": "/cvlanes.react/static/css/main.17141bdc.css.map",
-    "main.0e01a1d3.js.map": "/cvlanes.react/static/js/main.0e01a1d3.js.map",
+    "main.461f1b45.js.map": "/cvlanes.react/static/js/main.461f1b45.js.map",
     "787.9f7d7c16.chunk.js.map": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17141bdc.css",
-    "static/js/main.0e01a1d3.js"
+    "static/js/main.461f1b45.js"
   ]
 }
