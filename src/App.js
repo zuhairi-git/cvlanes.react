@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
 import TopNav from './pages/TopNav';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 function App() {
@@ -72,67 +73,57 @@ function App() {
                         </div>
                         <div className="col-lg-6 mt-4">
                             <div className="about-content">
-                                <div className="skills">
-                                    <div className="skill-name">
+                            <div class="skills">
+                                    <div class="skill-name text-start">
                                         <p>UI/UX - Figma & Adobe XD</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Adobe CC</p><p>75%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={75} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Project Management</p><p>80%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={80} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Test Management - Zephyr Scale for Jira</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Web / Mobile App UI Development</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>WordPress and HubSpot CMS</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Apple, Google, GitHub Development Portal Admin</p><p>75%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={75} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Agile Methodology</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Office 365 / SharePoint Admin</p><p>85%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div className="skill-name">
+                                    <ProgressBar now={85} label={``}/>
+
+                                    <div class="skill-name text-start">
                                         <p>Programming and Linux Servers</p><p>55%</p>
                                     </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    <ProgressBar now={55} label={``}/>
+
                                 </div>
                             </div>
                         </div>
