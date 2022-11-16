@@ -5,11 +5,13 @@ import './css/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
+import TopNav from './pages/TopNav';
 
 
 function App() {
     return (
         <div className="App">
+            <TopNav />
             <div className="hero" id="home">
                 <div className="container-fluid">
                     <div className="row align-items-center">
