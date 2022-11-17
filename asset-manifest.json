@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/cvlanes.react/static/css/main.18faf447.css",
-    "main.js": "/cvlanes.react/static/js/main.82e339c2.js",
+    "main.js": "/cvlanes.react/static/js/main.b01dd19e.js",
     "static/js/787.9f7d7c16.chunk.js": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js",
-    "static/media/ali.jpg": "/cvlanes.react/static/media/ali.395b4aae39b2728fcf89.jpg",
     "static/media/hero.png": "/cvlanes.react/static/media/hero.b253fa1377fda2559888.png",
     "static/media/pexels-3.jpg": "/cvlanes.react/static/media/pexels-3.5d2c265eec57d4d20c15.jpg",
     "static/media/pexels-2.jpg": "/cvlanes.react/static/media/pexels-2.711101421f4e7d83ca25.jpg",
-    "static/media/review-1.jpg": "/cvlanes.react/static/media/review-1.4c2f7f3d5fc903f63c54.jpg",
-    "static/media/review-2.jpg": "/cvlanes.react/static/media/review-2.b444684a5bb79a963721.jpg",
+    "static/media/takeAction.jpg": "/cvlanes.react/static/media/takeAction.5d0681d41d4d12478f90.jpg",
+    "static/media/review-1.jpg": "/cvlanes.react/static/media/review-1.4771833cd40326d603ac.jpg",
+    "static/media/review-2.jpg": "/cvlanes.react/static/media/review-2.de52feee38707cee5a1e.jpg",
     "static/media/CV-Lane-h.png": "/cvlanes.react/static/media/CV-Lane-h.826ad67ecbc351d49abf.png",
     "index.html": "/cvlanes.react/index.html",
     "main.18faf447.css.map": "/cvlanes.react/static/css/main.18faf447.css.map",
-    "main.82e339c2.js.map": "/cvlanes.react/static/js/main.82e339c2.js.map",
+    "main.b01dd19e.js.map": "/cvlanes.react/static/js/main.b01dd19e.js.map",
     "787.9f7d7c16.chunk.js.map": "/cvlanes.react/static/js/787.9f7d7c16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18faf447.css",
-    "static/js/main.82e339c2.js"
+    "static/js/main.b01dd19e.js"
   ]
 }
