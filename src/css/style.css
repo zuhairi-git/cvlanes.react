@@ -888,41 +888,41 @@ a:focus {
 
 
 /*******************************/
-/******* Testimonial CSS *******/
+/******* review CSS *******/
 /*******************************/
-.testimonial {
+.review {
     position: relative;
     margin: 0 45px 0;
     padding: 40px 0;
 }
 
-.testimonial .container {
+.review .container {
     max-width: 900px;
 }
 
-.testimonial .testimonial-icon {
+.review .review-icon {
     margin-bottom: 45px;
     text-align: center;
 }
 
-.testimonial .testimonial-icon i {
+.review .review-icon i {
     font-size: 60px;
     color: #efefef;
 }
 
-.testimonial .testimonial-item {
+.review .review-item {
     position: relative;
     margin: 0 15px;
     text-align: center;
 }
 
-.testimonial .testimonial-img {
+.review .review-img {
     position: relative;
     margin-bottom: 15px;
     z-index: 1;
 }
 
-.testimonial .testimonial-item img {
+.review .review-item img {
     margin: 0 auto;
     width: 120px;
     padding: 10px;
@@ -930,7 +930,7 @@ a:focus {
     border-radius: 100px;
 }
 
-.testimonial .testimonial-text {
+.review .review-text {
     position: relative;
     margin-top: -70px;
     padding: 65px 35px 30px 35px;
@@ -939,30 +939,30 @@ a:focus {
     border-radius: 50px;
 }
 
-.testimonial .testimonial-item p {
+.review .review-item p {
     font-size: 18px;
     font-style: italic;
 }
 
-.testimonial .testimonial-text h3 {
+.review .review-text h3 {
     color: #662D91;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.testimonial .testimonial-text h4 {
+.review .review-text h4 {
     color: #666666;
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.testimonial .owl-dots {
+.review .owl-dots {
     margin-top: 15px;
     text-align: center;
 }
 
-.testimonial .owl-dot {
+.review .owl-dot {
     display: inline-block;
     margin: 0 5px;
     width: 12px;
@@ -971,7 +971,7 @@ a:focus {
     background: rgba(256, 256, 256, .5);
 }
 
-.testimonial .owl-dot.active {
+.review .owl-dot.active {
     background: #ffffff;
 }
 
