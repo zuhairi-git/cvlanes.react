@@ -248,7 +248,7 @@ class App extends React.Component {
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
                                 <div className="team-item">
                                     <div className="team-img">
-                                        <img src={require("./img/ali.jpg")} alt="Ali" />
+                                        <img src={require("./img/takeAction.jpg")} alt="Ali" />
                                     </div>
                                     <div className="team-text text-start">
                                         <h2>Ali Zuhairi</h2>

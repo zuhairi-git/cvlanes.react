@@ -16,8 +16,7 @@ export default function TopNav() {
                             <a href="#about" className="nav-item nav-link">About</a>
                             <a href="#experience" className="nav-item nav-link">Experience</a>
                             <a href="#achievements" className="nav-item nav-link">Achievements</a>
-                            <a href="#portfolio" className="nav-item nav-link">Portfolio</a>
-                            <a href="#review" className="nav-item nav-link">Review</a>
+                            <a href="#review" className="nav-item nav-link">Recommendations</a>
                             <a href="#team" className="nav-item nav-link">Social Media</a>
                             <a href="#footer" className="nav-item nav-link">Contact</a>
                         </div>
