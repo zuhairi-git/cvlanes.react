@@ -212,6 +212,16 @@ class App extends React.Component {
                     </div>
                     <div className="row m-3 justify-content-md-center mb-5">
                         <div className="col-md-5 col-sm-12">
+                            <h3 className="text-start">Inprogress...</h3>
+                            <ul className="">
+                                <li className="text-start">Prototyping the new Android UI and UX based on Google practices (Material UI 3) to stay competitive in the market.</li>
+                                <li className="text-start">Developing the new Android UI with Android Studio.</li>
+                                <li className="text-start">Taking the lead on developing and introducing a new UI framework for the backend(Modular SaaS) next version and modernizing the UI and UX and improving the security.</li>
+                                <li className="text-start">And adding to my skills, I started to create a Testing framework in Jira to improve and fix the bugs in the new and the next version using best practices. It will save time for future testing and it could be also used as documentation for future references.</li>
+                                <li className="text-start">Creating a variety of Workflow for different applications (Web, Mobile, and eCommerce).</li>
+                            </ul>
+                        </div>
+                        <div className="col-md-5 col-sm-12">
                             <h3 className="text-start">Done</h3>
                             <ul className="">
                                 <li className="text-start">Taking the lead on designing the UI for the backend(Modular SaaS) legacy versions.</li>
@@ -222,16 +232,6 @@ class App extends React.Component {
                                 <li className="text-start">Create and develop the blog in HubSpot and participate in sales and marketing.</li>
                                 <li className="text-start">Participating in creating documentation.</li>
                                 <li className="text-start">Significantly improve Android UI, UX, and refactoring code.</li>
-                            </ul>
-                        </div>
-                        <div className="col-md-5 col-sm-12">
-                            <h3 className="text-start">Inprogress...</h3>
-                            <ul className="">
-                                <li className="text-start">Prototyping the new Android UI and UX based on Google practices (Material UI 3) to stay competitive in the market.</li>
-                                <li className="text-start">Developing the new Android UI with Android Studio.</li>
-                                <li className="text-start">Taking the lead on developing and introducing a new UI framework for the backend(Modular SaaS) next version and modernizing the UI and UX and improving the security.</li>
-                                <li className="text-start">And adding to my skills, I started to create a Testing framework in Jira to improve and fix the bugs in the new and the next version using best practices. It will save time for future testing and it could be also used as documentation for future references.</li>
-                                <li className="text-start">Creating a variety of Workflow for different applications (Web, Mobile, and eCommerce).</li>
                             </ul>
                         </div>
                     </div>
@@ -328,16 +328,16 @@ class App extends React.Component {
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Contribution</h5>
-                        </div>
-                        <div class="modal-body">
-                            <h6>Made with React JS</h6>
-                            <h6>CSS by HTML Codex</h6>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Contribution</h5>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Made with React JS</h6>
+                                <h6>CSS by HTML Codex</h6>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
