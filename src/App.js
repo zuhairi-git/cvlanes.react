@@ -321,10 +321,27 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="container copyright">
-                            <p>&copy; CV Lanes, All Right Reserved | Made by React JS</p>
+                            <p>&copy; CV Lanes, All Right Reserved<a class="d-none" href='#exampleModal' data-toggle="modal" data-target="#exampleModal"> | Contribution</a></p>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contribution</h5>
+                        </div>
+                        <div class="modal-body">
+                            <h6>React JS</h6>
+                            <h6>CSS by HTML Codex</h6>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         );
