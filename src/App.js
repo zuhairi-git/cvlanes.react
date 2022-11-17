@@ -60,7 +60,7 @@ class App extends React.Component {
                             <div className="col-lg-6 mt-5">
                                 <div className="about-content">
                                     <div className="section-header text-left">
-                                        <p>Learn About Me</p>
+                                        <p className='sectionSeparator'>Learn About Me</p>
                                         <h2>10 Years Experience</h2>
                                     </div>
                                     <div className="about-text">
@@ -143,7 +143,7 @@ class App extends React.Component {
                 <div className="experience" id="experience">
                     <div className="container">
                         <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                            <p>My Resume</p>
+                            <p className='sectionSeparator'>My Resume</p>
                             <h2>Working Experience</h2>
                         </header>
                         <div className="timeline">
@@ -206,13 +206,13 @@ class App extends React.Component {
                 </div>
                 <div className='separator'></div>
                 <div className="wow zoomIn mt-5" id="achievements" data-wow-delay="0.1s">
-                    <div className="section-header text-center">
-                        <h2 className="">My Achievments</h2>
-                        <span className="text-uppercase">As a Senior UI / UX and Product Designer</span>
-                    </div>
+                    <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                        <p className='sectionSeparator'>My Achievements</p>
+                        <h2>To do or not to do</h2>
+                    </header>
                     <div className="row m-3 justify-content-md-center mb-5">
                         <div className="col-md-5 col-sm-12">
-                            <h3 className="text-start">Inprogress...</h3>
+                            <h3 className="text-start">Ongoing</h3>
                             <ul className="">
                                 <li className="text-start">Prototyping the new Android UI and UX based on Google practices (Material UI 3) to stay competitive in the market.</li>
                                 <li className="text-start">Developing the new Android UI with Android Studio.</li>
@@ -241,7 +241,7 @@ class App extends React.Component {
                 <div className="team" id="team">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                            <p>Social Media</p>
+                            <p className='sectionSeparator'>Social Media</p>
                             <h2>Get in touch with me</h2>
                         </div>
                         <div className="row d-flex justify-content-center">
@@ -272,6 +272,11 @@ class App extends React.Component {
 
                 <div className="review wow fadeInUp" data-wow-delay="0.1s" id="review">
                     <div className="container">
+                        <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                            <p className='sectionSeparator'>Thanks for the feedback</p>
+                            <h2>Recommendations</h2>
+                        </div>
+
                         <div className="review-icon">
                             <i className="fa fa-quote-left"></i>
                         </div>

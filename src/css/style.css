@@ -10,15 +10,22 @@
 .bg-lighter {
     background-color: #ffffff !important;
 }
+
 .colorBG {
     background-color: #662D91 !important;
 
 }
+
 .separator {
+    display: none;
     border-top: 1px solid  #efefef;
     width: 70%;
     margin: auto;
     margin-top: 10px;
+}
+
+.sectionSeparator {
+    color: #662D91 !important; 
 }
 /* End Custom */
 
@@ -398,6 +405,10 @@ a:focus {
         padding: 12px 30px;
         letter-spacing: 1px;
     }
+    .hero .hero-image {
+        margin-bottom: -60px;
+    }
+    
 }
 
 @media (max-width: 767.98px) {
