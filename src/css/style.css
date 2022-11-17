@@ -935,8 +935,9 @@ a:focus {
     margin-top: -70px;
     padding: 65px 35px 30px 35px;
     text-align: center;
-    background: #efefef;;
-    border-radius: 50px;
+    background: #f8f8f8;;
+    border-radius: 20px;
+    border: 1px solid #efefef;
 }
 
 .review .review-item p {
