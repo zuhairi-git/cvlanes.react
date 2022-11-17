@@ -276,7 +276,7 @@ class App extends React.Component {
                             <i className="fa fa-quote-left"></i>
                         </div>
                         <div className="reviews-carousel row">
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-xs-12">
                                 <div className="review-item">
                                     <div className="review-img">
                                         <img src={require("./img/review-2.jpg")} alt="Buda" />
@@ -291,7 +291,7 @@ class App extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-xs-12">
                                 <div className="review-item">
                                     <div className="review-img">
                                         <img src={require("./img/review-1.jpg")} alt="M" />

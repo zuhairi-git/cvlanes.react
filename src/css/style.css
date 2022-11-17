@@ -897,7 +897,7 @@ a:focus {
 }
 
 .review .container {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .review .review-icon {
@@ -975,7 +975,20 @@ a:focus {
 .review .owl-dot.active {
     background: #ffffff;
 }
-
+@media (max-width: 575.98px) {
+    .review {
+        margin: 40px 2px 0;
+        padding: 2px 0;
+    }
+    .review .review-item {
+        margin: 0 5px 15px;
+    }
+    .review .review-text {
+        margin-top: -70px;
+        padding: 65px 15px 30px;
+        position: relative;
+    }
+}
 
 /*******************************/
 /********* Footer CSS **********/
