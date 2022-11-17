@@ -321,7 +321,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="container copyright">
-                            <p>&copy; CV Lanes, All Right Reserved<a class="d-none" href='#exampleModal' data-toggle="modal" data-target="#exampleModal"> | Contribution</a></p>
+                            <p>&copy; CV Lanes 2022<a class="d-none" href='#exampleModal' data-toggle="modal" data-target="#exampleModal"> | Contribution</a></p>
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@ class App extends React.Component {
                             <h5 class="modal-title" id="exampleModalLabel">Contribution</h5>
                         </div>
                         <div class="modal-body">
-                            <h6>React JS</h6>
+                            <h6>Made with React JS</h6>
                             <h6>CSS by HTML Codex</h6>
                         </div>
                         <div class="modal-footer">
