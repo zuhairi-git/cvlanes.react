@@ -236,9 +236,9 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className='separator'></div>
+                <div className='separator mt-5'></div>
 
-                <div className="team" id="team">
+                <div className="team mb-5 mt-5" id="team">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                             <p className='sectionSeparator'>Social Media</p>
@@ -270,7 +270,7 @@ class App extends React.Component {
                 </div>
                 <div className='separator'></div>
 
-                <div className="review wow fadeInUp" data-wow-delay="0.1s" id="review">
+                <div className="review wow fadeInUp mt-5" data-wow-delay="0.1s" id="review">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                             <p className='sectionSeparator'>Thanks for the feedback</p>
