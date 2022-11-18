@@ -54,6 +54,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+
                 <div className="about wow fadeInUp" data-wow-delay="0.1s" id="about">
                     <div className="container-fluid">
                         <div className="row">
@@ -139,7 +140,6 @@ class App extends React.Component {
                     </div>
                 </div>
 
-
                 <div className="experience" id="experience">
                     <div className="container">
                         <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
@@ -204,7 +204,9 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+
                 <div className='separator'></div>
+
                 <div className="wow zoomIn mt-5" id="achievements" data-wow-delay="0.1s">
                     <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                         <p className='sectionSeparator'>My Achievements</p>
@@ -236,6 +238,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+
                 <div className='separator mt-5'></div>
 
                 <div className="team mb-5 mt-5" id="team">
@@ -268,6 +271,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+
                 <div className='separator'></div>
 
                 <div className="review wow fadeInUp mt-5" data-wow-delay="0.1s" id="review">
@@ -334,22 +338,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Contribution</h5>
-                            </div>
-                            <div class="modal-body">
-                                <h6>Made with React JS</h6>
-                                <h6>CSS by HTML Codex</h6>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
 
