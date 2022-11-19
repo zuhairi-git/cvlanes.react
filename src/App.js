@@ -8,6 +8,7 @@ import './lib/lightbox/css/lightbox.min.css';
 import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
+import MyCV from './pdf/CV-18-18-2022.pdf'
 import TopNav from './pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 
@@ -31,7 +32,7 @@ class App extends React.Component {
                                     <div className="hero-text text-start">
                                         <p>I'm</p>
                                         <h1>Ali Zuhairi</h1>
-                                        <h2>
+                                        <h2 style={{ fontSize: '1.4rem' }}>
                                             <TypewriterComponent
                                                 options={{
                                                     strings: ['Professional Product Designer', 'Web Designer', 'Workflow Management Developer', 'Web UI Developer', 'Front End UI Developer', 'App Designer', 'App UI Developer'],
@@ -78,7 +79,8 @@ class App extends React.Component {
                                             many platforms.
                                         </p>
                                     </div>
-                                    <a className="btn" href="#team">Keep in touch with me</a>
+                                    <a className="btn m-2" href="#team">Keep in touch with me</a>
+                                    <a className="btn m-2" href={MyCV}>My CV (PDF)</a>
 
                                 </div>
                             </div>
