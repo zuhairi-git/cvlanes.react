@@ -64,7 +64,7 @@ class App extends React.Component {
                             <div className="col-lg-6 mt-5">
                                 <div className="about-content">
                                     <div className="section-header text-left">
-                                        <p className='sectionSeparator'>Learn About Me</p>
+                                        <p className='sectionSeparator'>About Me</p>
                                         <h2>10 Years Experience</h2>
                                     </div>
                                     <div className="about-text">
