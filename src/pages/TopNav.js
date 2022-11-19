@@ -5,9 +5,9 @@ import logo from '../img/CV-Lane-h.png'
 
 function ContainerInsideExample() {
   return (
-    <Navbar className="navbar nav-sticky" expand="lg" variant="light" bg="light">
+    <Navbar className="nav-sticky" expand="lg" variant="light" bg="light">
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#" className="navbar-brand">
             <img
               alt="Brand"
               src={logo}
@@ -16,7 +16,7 @@ function ContainerInsideExample() {
               className="d-inline-block align-top"
             />
         </Navbar.Brand>
-        <Nav className="">
+        <Nav className="navbar-nav ml-auto">
             <Nav.Link href="#home" className="nav-item nav-link active">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>

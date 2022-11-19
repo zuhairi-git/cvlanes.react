@@ -9,7 +9,7 @@ import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
 import MyCV from './pdf/CV-18-18-2022.pdf'
-import TopNav from './pages/TopNav';
+import TopNavHTML from './pages/TopNavHTML';
 import ScrollToTop from "react-scroll-to-top";
 
 
@@ -23,7 +23,8 @@ class App extends React.Component {
         return (
             <div className="App">
                 <ScrollToTop />
-                <TopNav />
+                <TopNavHTML />
+
                 <div className="hero" id="home">
                     <div className="container-fluid">
                         <div className="row align-items-center">
