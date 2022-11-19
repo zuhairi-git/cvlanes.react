@@ -37,7 +37,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   
-  <body data-spy="scroll" data-target=".navbar" data-offset="51" data-new-gr-c-s-check-loaded="14.1086.0" data-gr-ext-installed="">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
@@ -57,5 +57,21 @@
     <script src="mail/contact.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      {
+        const navbar = document.querySelector(".navbar");
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener("scroll", () => {
+          if (lastScrollY < window.scrollY) {
+            navbar.classList.add("navbar--hidden");
+          } else {
+            navbar.classList.remove("navbar--hidden");
+          }
+
+          lastScrollY = window.scrollY;
+        });
+      }
+  </script>
   </body>
 </html>

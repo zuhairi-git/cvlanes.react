@@ -3,9 +3,10 @@ import React from 'react';
 class TopNavHTML extends React.Component {
   render() {
     return (
-      <div class="navbar nav-sticky navbar-expand-lg bg-light navbar-light">
+      <div class="navbar nav navbar-expand-lg bg-light navbar-light" id="navbar">
         <div class="container-fluid">
           <a href="index.html" class="navbar-brand"><img src="img/CV-Lane-h.png" alt="Logo" /></a>
+
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,6 +25,7 @@ class TopNavHTML extends React.Component {
               <a href="#footer" class="nav-item nav-link">Contact</a>
             </div>
           </div>
+          
         </div>
       </div>
     );

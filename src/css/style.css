@@ -168,6 +168,11 @@ a:focus {
     z-index: 999;
 }
 
+.navbar--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+}
+  
 .navbar.nav-sticky {
     position: fixed;
     top: 0;
@@ -211,7 +216,7 @@ a:focus {
         padding: 10px 60px;
         background: #fffffff5 !important;
     }
-    
+      
     .nav-blur-bg {
         filter: blur(8px);
         -webkit-filter: blur(8px);
@@ -274,7 +279,7 @@ a:focus {
 
 
 /*******************************/
-/********** My CSS ***********/
+/******* Achievement CSS *******/
 /*******************************/
 .subtitle-light {
     color: #f0ddff !important;
@@ -293,7 +298,7 @@ a:focus {
 }
 #achievements {
     margin: 25px 45px;
-    padding: 75px 0 0 0;
+    padding: 15px 0 0 0;
 }
 
 /*******************************/
@@ -471,6 +476,9 @@ a:focus {
         padding: 8px 10px;
         letter-spacing: 0;
     }
+    .scroll-to-top {
+        padding: 5px 7px;
+    }
 }
 
 
@@ -561,7 +569,7 @@ a:focus {
 }
 
 .about .about-content {
-    padding: 40px 60px;
+    padding: 0px 60px;
 }
 
 .about .about-text p {
@@ -616,7 +624,7 @@ a:focus {
 /*******************************/
 .experience {
     position: relative;
-    padding: 75px 0 15px 0;
+    padding: 15px 0 15px 0;
 }
 
 .experience .timeline {
@@ -793,7 +801,7 @@ a:focus {
 .team {
     position: relative;
     width: 100%;
-    padding: 80px 0 15px 0;
+    padding: 10px 0 15px 0;
 }
 
 .team .team-item {
@@ -914,7 +922,7 @@ a:focus {
 .review {
     position: relative;
     margin: 0 45px 0;
-    padding: 80px 0;
+    padding: 10px 0;
 }
 
 .review .container {
