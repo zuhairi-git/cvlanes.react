@@ -21,8 +21,8 @@ function ContainerInsideExample() {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#achievements">Achievements</Nav.Link>
-            <Nav.Link href="#review">Recommendations</Nav.Link>
             <Nav.Link href="#team">Social Media</Nav.Link>
+            <Nav.Link href="#review">Recommendations</Nav.Link>
             <Nav.Link href="#footer">Contact</Nav.Link>
           </Nav>
       </Container>

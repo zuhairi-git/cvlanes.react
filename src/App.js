@@ -209,7 +209,7 @@ class App extends React.Component {
 
                 <div className='separator'></div>
 
-                <div className="wow zoomIn mt-5" id="achievements" data-wow-delay="0.1s">
+                <div className="wow zoomIn" id="achievements" data-wow-delay="0.1s">
                     <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                         <p className='sectionSeparator'>My Achievements</p>
                         <h2>To do or not to do</h2>
