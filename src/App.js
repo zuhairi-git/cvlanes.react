@@ -46,7 +46,7 @@ class App extends React.Component {
                                         </h2>
                                     </div>
                                     <div className="hero-btn">
-                                        <a className="btn" href="#team">Contact Me</a>
+                                        <a className="btn mb-2" href="#team">Contact Me</a>
                                     </div>
                                 </div>
                             </div>
