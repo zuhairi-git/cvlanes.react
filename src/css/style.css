@@ -209,7 +209,12 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: #fffffff5 !important;
+    }
+    
+    .nav-blur-bg {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
     }
     
     .navbar .navbar-brand {

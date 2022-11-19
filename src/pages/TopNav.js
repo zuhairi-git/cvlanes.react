@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
+import logo from '../img/CV-Lane-h.png'
 
 function ContainerInsideExample() {
   return (
@@ -10,9 +10,9 @@ function ContainerInsideExample() {
         <Navbar.Brand href="#">
             <img
               alt="Brand"
-              src="../img/CV-Lane-h.png"
+              src={logo}
               width="150"
-              height="30"
+              height="auto"
               className="d-inline-block align-top"
             />
         </Navbar.Brand>
