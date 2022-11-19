@@ -5,7 +5,7 @@ import logo from '../img/CV-Lane-h.png'
 
 function ContainerInsideExample() {
   return (
-    <Navbar className="nav-sticky" expand="lg" variant="light" bg="light">
+    <Navbar className="navbar nav-sticky" expand="lg" variant="light" bg="light">
       <Container>
         <Navbar.Brand href="#">
             <img

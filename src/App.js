@@ -88,52 +88,52 @@ class App extends React.Component {
                                 <div className="about-content">
                                     <div className="skills">
                                         <div className="skill-name text-start">
-                                            <p>UI/UX - Figma & Adobe XD</p><p>85%</p>
+                                            <p>UI/UX - Figma & Adobe XD</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Adobe CC</p><p>85%</p>
+                                            <p>Adobe CC</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Design Systems (Google, Apple, Atlassian)</p><p>75%</p>
-                                        </div>
-                                        <ProgressBar now={75} label={``} />
-
-                                        <div className="skill-name text-start">
-                                            <p>Project Management</p><p>80%</p>
+                                            <p>Design Systems (Google, Apple, Atlassian)</p><p></p>
                                         </div>
                                         <ProgressBar now={80} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Test Management - Zephyr Scale for Jira</p><p>85%</p>
+                                            <p>Project Management</p><p></p>
+                                        </div>
+                                        <ProgressBar now={80} label={``} />
+
+                                        <div className="skill-name text-start">
+                                            <p>Test Management - Zephyr Scale for Jira</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Web / Mobile App UI Development</p><p>85%</p>
+                                            <p>Web / Mobile App UI Development</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>WordPress and HubSpot CMS</p><p>85%</p>
+                                            <p>WordPress and HubSpot CMS</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Agile Methodology</p><p>85%</p>
+                                            <p>Agile Methodology</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Office 365 / SharePoint Admin</p><p>85%</p>
+                                            <p>Office 365 / SharePoint Admin</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>React JS, Programming, and Linux Servers</p><p>55%</p>
+                                            <p>React JS, Programming, and Linux Servers</p><p></p>
                                         </div>
                                         <ProgressBar now={55} label={``} />
 
@@ -281,7 +281,7 @@ class App extends React.Component {
                 <div className="review wow fadeInUp mt-5" data-wow-delay="0.1s" id="review">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                            <p className='sectionSeparator'>Thanks for Recommendations</p>
+                            <p className='sectionSeparator'>Thank You for the</p>
                             <h2>Recommendations</h2>
                         </div>
 
