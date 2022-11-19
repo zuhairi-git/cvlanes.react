@@ -9,6 +9,7 @@ import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
 import TopNav from './pages/TopNav';
+import ScrollToTop from "react-scroll-to-top";
 
 
 class App extends React.Component {
@@ -20,6 +21,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
+                <ScrollToTop />
                 <TopNav />
                 <div className="hero" id="home">
                     <div className="container-fluid">
@@ -89,7 +91,12 @@ class App extends React.Component {
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Adobe CC</p><p>75%</p>
+                                            <p>Adobe CC</p><p>85%</p>
+                                        </div>
+                                        <ProgressBar now={85} label={``} />
+
+                                        <div className="skill-name text-start">
+                                            <p>Design Systems (Google, Apple, Atlassian)</p><p>75%</p>
                                         </div>
                                         <ProgressBar now={75} label={``} />
 
@@ -114,11 +121,6 @@ class App extends React.Component {
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Apple, Google, GitHub Development Portal Admin</p><p>75%</p>
-                                        </div>
-                                        <ProgressBar now={75} label={``} />
-
-                                        <div className="skill-name text-start">
                                             <p>Agile Methodology</p><p>85%</p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
@@ -129,7 +131,7 @@ class App extends React.Component {
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Programming and Linux Servers</p><p>55%</p>
+                                            <p>React JS, Programming, and Linux Servers</p><p>55%</p>
                                         </div>
                                         <ProgressBar now={55} label={``} />
 
@@ -277,7 +279,7 @@ class App extends React.Component {
                 <div className="review wow fadeInUp mt-5" data-wow-delay="0.1s" id="review">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                            <p className='sectionSeparator'>Thanks for the feedback</p>
+                            <p className='sectionSeparator'>Thanks for Recommendations</p>
                             <h2>Recommendations</h2>
                         </div>
 
@@ -339,6 +341,11 @@ class App extends React.Component {
                     </div>
                 </div>
 
+                <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+            
+                <div id="loader" class="hide">
+                    <div class="loader"></div>
+                </div>
 
             </div>
 
