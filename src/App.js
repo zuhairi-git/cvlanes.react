@@ -343,11 +343,6 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-            
-                <div id="loader" class="hide">
-                    <div class="loader"></div>
-                </div>
 
             </div>
 
