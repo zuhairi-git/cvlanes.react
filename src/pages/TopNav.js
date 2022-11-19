@@ -1,30 +1,33 @@
-import React from 'react';
-
-export default function TopNav() {
-    return (
-        <React.Fragment>
-            <div className="navbar navbar-expand-lg bg-light navbar-light">
-                <div className="container-fluid">
-                    <a href="index.html" className="navbar-brand"><img src={require("../img/CV-Lane-h.png")} alt="Logo" /></a>
-                    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                        <div className="navbar-nav ml-auto">
-                            <a href="#home" className="nav-item nav-link active">Home</a>
-                            <a href="#about" className="nav-item nav-link">About</a>
-                            <a href="#experience" className="nav-item nav-link">Experience</a>
-                            <a href="#achievements" className="nav-item nav-link">Achievements</a>
-                            <a href="#review" className="nav-item nav-link">Recommendations</a>
-                            <a href="#team" className="nav-item nav-link">Social Media</a>
-                            <a href="#footer" className="nav-item nav-link">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 
-        </React.Fragment>
-    )
+function ContainerInsideExample() {
+  return (
+    <Navbar className="nav-sticky" expand="lg" variant="light" bg="light">
+      <Container>
+        <Navbar.Brand href="#">
+            <img
+              alt="Brand"
+              src="../img/CV-Lane-h.png"
+              width="150"
+              height="30"
+              className="d-inline-block align-top"
+            />
+        </Navbar.Brand>
+        <Nav className="">
+            <Nav.Link href="#home" className="nav-item nav-link active">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#experience">Experience</Nav.Link>
+            <Nav.Link href="#achievements">Achievements</Nav.Link>
+            <Nav.Link href="#review">Recommendations</Nav.Link>
+            <Nav.Link href="#team">Social Media</Nav.Link>
+            <Nav.Link href="#footer">Contact</Nav.Link>
+          </Nav>
+      </Container>
+    </Navbar>
+  );
 }
+
+export default ContainerInsideExample;

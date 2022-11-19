@@ -22,7 +22,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <ScrollToTop />
-                <TopNav />
+                <TopNav sticky="top" />
                 <div className="hero" id="home">
                     <div className="container-fluid">
                         <div className="row align-items-center">
