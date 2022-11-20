@@ -339,7 +339,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="container copyright">
-                            <p>&copy; CV Lanes 2022<a class="d-none" href='#exampleModal' data-toggle="modal" data-target="#exampleModal"> | Contribution</a></p>
+                            <p>&copy; CV Lanes 2022 | Made With React.js</p>
                         </div>
                     </div>
                 </div>
