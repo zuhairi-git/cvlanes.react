@@ -8,7 +8,7 @@ import './lib/lightbox/css/lightbox.min.css';
 import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
-import MyCV from './pdf/CV-18-18-2022.pdf'
+import MyCV from './pdf/CV.pdf'
 import TopNavHTML from './pages/TopNavHTML';
 import ScrollToTop from "react-scroll-to-top";
 
