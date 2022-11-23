@@ -342,9 +342,10 @@ class App extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col align-items-center text-center">
-                                    <h3 className='text-light'>A Day Of Mylife</h3>
-                                    <img src={DayOfMylife} alt="Ali" width={'250px'} />
-
+                                    <div className="footer-info">
+                                        <h2>A Day Of My Life</h2>
+                                        <img src={DayOfMylife} alt="Ali" width={'250px'} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
