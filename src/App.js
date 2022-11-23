@@ -9,6 +9,7 @@ import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from './img/hero.png'
 import MyCV from './pdf/CV.pdf'
+import DayOfMylife from './vector/DayOfMylife.svg'
 import TopNavHTML from './pages/TopNavHTML';
 import ScrollToTop from "react-scroll-to-top";
 
@@ -326,20 +327,29 @@ class App extends React.Component {
                 <div id="footer" className="footer wow fadeIn" data-wow-delay="0.2s">
                     <div className="container-fluid">
                         <div className="container">
-                            <div className="footer-info">
-                                <h2>Ali Zuhairi</h2>
-                                <h3>Espoo, Suurpelto</h3>
-                                <div className="footer-menu">
-                                    <p className="text-light">044 2 844 844</p>
-                                    <p className="text-light">zohairi@live.com</p>
+                            <div className="row">
+                                <div className="col mb-5">
+                                    <div className="footer-info">
+                                        <h2>Ali Zuhairi</h2>
+                                        <h3>Espoo, Suurpelto</h3>
+                                        <div className="footer-menu">
+                                            <p className="text-light">044 2 844 844</p>
+                                            <p className="text-light">zohairi@live.com</p>
+                                        </div>
+                                        <div className="footer-social">
+                                            <img src={require("./img/CV-Lane-v.png")} width={'128px'} alt="Logo" />
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="footer-social">
-                                    <img src={require("./img/CV-Lane-h.png")} className="w-25" alt="Logo" />
+                                <div className="col align-items-center text-center">
+                                    <h3 className='text-light'>A Day Of Mylife</h3>
+                                    <img src={DayOfMylife} alt="Ali" width={'250px'} />
+
                                 </div>
                             </div>
                         </div>
                         <div className="container copyright">
-                            <p>&copy; CV Lanes 2022 | Made With React.js</p>
+                            <p>&copy; CV Lanes 2022 | Made With React JS</p>
                         </div>
                     </div>
                 </div>
