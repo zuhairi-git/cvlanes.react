@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
 
 class TopNavHTML extends React.Component {
   render() {
@@ -13,19 +14,18 @@ class TopNavHTML extends React.Component {
 
           <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
             <div className="navbar-nav ml-auto">
-              <a href="#home" className="nav-item nav-link active">Home</a>
-              <a href="#about" className="nav-item nav-link">About</a>
-              <a href="#service" className="d-none nav-item nav-link">Service</a>
-              <a href="#experience" className="nav-item nav-link">Experience</a>
-              <a href="#achievements" className="nav-item nav-link">Achievements</a>
-              <a href="#price" className="d-none nav-item nav-link">Price</a>
-              <a href="#team" className="nav-item nav-link">Social Media</a>
-              <a href="#review" className="nav-item nav-link">Recommendations</a>
-              <a href="#blog" className="d-none nav-item nav-link">Blog</a>
-              <a href="#footer" className="nav-item nav-link">Contact</a>
+              <Nav className="navbar-nav ml-auto">
+                <Nav.Link href="#home" className="nav-item nav-link active">Home</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#experience">Experience</Nav.Link>
+                <Nav.Link href="#achievements">Achievements</Nav.Link>
+                <Nav.Link href="#team">Social Media</Nav.Link>
+                <Nav.Link href="#review">Recommendations</Nav.Link>
+                <Nav.Link href="#footer">Contact</Nav.Link>
+              </Nav>
             </div>
           </div>
-          
+
         </div>
       </div>
     );
