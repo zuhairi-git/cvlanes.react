@@ -89,8 +89,13 @@ class App extends React.Component {
                             <div className="col-lg-6 mt-4">
                                 <div className="about-content">
                                     <div className="skills">
-                                        <div className="skill-name text-start">
+                                    <div className="skill-name text-start">
                                             <p>UI/UX - Figma & Adobe XD</p><p></p>
+                                        </div>
+                                        <ProgressBar now={85} label={``} />
+
+                                        <div className="skill-name text-start">
+                                            <p>Maze - Test and Validate Prototypes and Concepts</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
