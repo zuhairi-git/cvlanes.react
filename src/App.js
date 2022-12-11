@@ -7,7 +7,7 @@ import './lib/owlcarousel/assets/owl.carousel.min.css';
 import './lib/lightbox/css/lightbox.min.css';
 import './css/style.css';
 import TypewriterComponent from 'typewriter-effect';
-import Hero from './img/hero.png'
+import Hero from './img/Hero-left.png'
 import MyCV from './pdf/CV.pdf'
 import DayOfMylife from './vector/DayOfMylife.svg'
 import TopNavHTML from './pages/TopNavHTML';
