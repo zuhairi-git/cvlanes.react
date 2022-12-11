@@ -4,7 +4,7 @@
 
 /* Start Custom */
 .bg-darker{
-    background-color: #662D91 !important;
+    background-color: #1EB6C3 !important;
 }
 
 .bg-lighter {
@@ -12,7 +12,7 @@
 }
 
 .colorBG {
-    background-color: #662D91 !important;
+    background-color: #1EB6C3 !important;
 
 }
 
@@ -25,7 +25,7 @@
 }
 
 .sectionSeparator {
-    color: #662D91 !important; 
+    color: #1EB6C3 !important; 
 }
 /* End Custom */
 
@@ -53,7 +53,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #662D91;
+    color: #1EB6C3;
     outline: none;
     text-decoration: none;
 }
@@ -73,20 +73,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #662D91;
+    background: #1EB6C3;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #662D91;
+    box-shadow: inset 0 0 0 50px #1EB6C3;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #662D91;
+    color: #1EB6C3;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #662D91;
-    border-color: #662D91;
+    box-shadow: inset 0 0 0 0 #1EB6C3;
+    border-color: #1EB6C3;
 }
 
 #loader {
@@ -120,7 +120,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #662D91;
+    border-top: 5px solid #1EB6C3;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -227,7 +227,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #662D91;
+        color: #1EB6C3;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -245,12 +245,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #ED1E79;
+        color: #c8e7ea;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #ED1E79;
+        color: #c8e7ea;
     }
 }
 
@@ -261,7 +261,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #662D91;
+        color: #1EB6C3;
     }
     
     .navbar .navbar-nav {
@@ -291,7 +291,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgb(102, 45, 145,0.95), rgb(102, 45, 145,0.95)), url(../img/pexels-3.jpg);
+    background: linear-gradient(#058e9a, #1EB6C3), url(../img/pexels-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgb(102, 45, 145,0.95), rgb(102, 45, 145,0.95)), url(../img/pexels-2.jpg);
+    background: linear-gradient(#21c6d5, #1EB6C3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -377,7 +377,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #662D91;
+    color: #1EB6C3;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -513,7 +513,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #662D91;
+    background: #1EB6C3;
     z-index: -1;
 }
 
@@ -524,7 +524,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #662D91;
+    background: #1EB6C3;
     z-index: 1;
 }
 
@@ -606,7 +606,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #662D91;
+    background: #1EB6C3;
     border-radius: 10px;
     transition: 2s;
 }
@@ -639,7 +639,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #662D91;
+    background: #1EB6C3;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -671,7 +671,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #662D91;
+    border: 2px solid #1EB6C3;
     border-radius: 16px;
     z-index: 1;
 }
@@ -703,7 +703,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #662D91;
+    color: #1EB6C3;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -837,7 +837,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #662D91;
+    color: #1EB6C3;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -876,7 +876,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #662D91;
+    box-shadow: inset 800px 0 0 0 #1EB6C3;
 }
 
 .team .team-item:hover .team-img img {
@@ -978,7 +978,7 @@ a:focus {
 }
 
 .review .review-text h3 {
-    color: #662D91;
+    color: #1EB6C3;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1028,7 +1028,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #662D91;
+    background: #1EB6C3;
 }
 
 .footer .container-fluid {
