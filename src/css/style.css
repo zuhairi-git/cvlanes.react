@@ -3,6 +3,19 @@
 /*******************************/
 
 /* Start Custom */
+
+.brand-bg {
+    background-color: #1EB6C3;
+}
+
+.brand-bg-light {
+    background-color: #c8e7ea;
+}
+
+.brand-text {
+    color: #1EB6C3;
+}
+
 .bg-darker{
     background-color: #1EB6C3 !important;
 }
@@ -801,6 +814,7 @@ a:focus {
         border-left: 5px solid #dddddd;
     }
 }
+
 
 
 /*******************************/
