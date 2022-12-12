@@ -939,7 +939,7 @@ a:focus {
 
 .review .review-icon i {
     font-size: 60px;
-    color: #efefef;
+    color:  rgba(200, 231, 234, 1);
 }
 
 .review .review-item {
@@ -958,7 +958,7 @@ a:focus {
     margin: 0 auto;
     width: 120px;
     padding: 10px;
-    border: 5px dotted #f8f8f8;
+    border: 5px dotted rgba(200, 231, 234, 1);
     border-radius: 100px;
 }
 
@@ -967,9 +967,9 @@ a:focus {
     margin-top: -70px;
     padding: 65px 35px 30px 35px;
     text-align: center;
-    background: #f8f8f8;;
+    background: rgba(200, 231, 234, 1) !important;
     border-radius: 20px;
-    border: 1px solid #efefef;
+    border: 1px solid rgb(182, 231, 236) !important;
 }
 
 .review .review-item p {
