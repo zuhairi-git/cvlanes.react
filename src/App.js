@@ -251,9 +251,9 @@ class App extends React.Component {
                 </div>
 
                 <div className='separator mt-5'></div>
-                <div className='d-flex text-center mb-5 mt-5 brand-bg-light'>
-                    <div className='col text-end align-self-center'>
-                        <div className='text-center'>
+                <div className='row text-center mb-5 mt-5 brand-bg-light'>
+                    <div className='col text-end align-self-center mt-5'>
+                        <div className='text-center '>
                             <h6>Imagine this with <b>James Earl Jones</b> Voice</h6>
                             <h1 className="mb-3">This is on HubSpot</h1>
                             <a className="btn m-2" href="https://cvlanes.online">cvlanes.online</a>
