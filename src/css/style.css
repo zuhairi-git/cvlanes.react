@@ -3,6 +3,12 @@
 /*******************************/
 
 /* Start Custom */
+.image-col {
+    max-width: 400px;
+}
+.image-col-align {
+    text-align: left !important;
+}
 
 .brand-bg {
     background-color: #1EB6C3;
@@ -476,6 +482,13 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    .image-col {
+        max-width: 400px;
+    }
+    .image-col-align {
+        text-align: center !important;
+    }
+        
     .hero .hero-text p {
         font-size: 16px;
     }
