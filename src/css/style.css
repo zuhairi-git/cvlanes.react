@@ -284,6 +284,7 @@ a:focus {
 .subtitle-light {
     color: #f0ddff !important;
 }
+
 .achievement {
     position: relative;
     color: white;
@@ -298,6 +299,10 @@ a:focus {
 }
 #achievements {
     padding: 15px 0 0 0;
+}
+
+.text-start {
+    color: #444;
 }
 
 /*******************************/
@@ -975,6 +980,7 @@ a:focus {
 .review .review-item p {
     font-size: 18px;
     font-style: italic;
+    color: #444;
 }
 
 .review .review-text h3 {
@@ -985,7 +991,7 @@ a:focus {
 }
 
 .review .review-text h4 {
-    color: #666666;
+    color: #444;
     font-size: 14px;
     margin-bottom: 0;
 }
