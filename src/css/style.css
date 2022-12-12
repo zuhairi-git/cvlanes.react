@@ -483,7 +483,7 @@ a:focus {
 
 @media (max-width: 575.98px) {
     .image-col {
-        max-width: 400px;
+        max-width: 350px;
     }
     .image-col-align {
         text-align: center !important;
