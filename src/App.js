@@ -251,7 +251,7 @@ class App extends React.Component {
                 </div>
 
                 <div className='separator mt-5'></div>
-                <div className='row text-center mb-5 mt-5 brand-bg-light'>
+                <div className='row wow zoomIn text-center mb-5 mt-5 brand-bg-light'>
                     <div className='col-md-6 text-end align-self-center mt-5'>
                         <div className='text-center'>
                             <h6>Imagine this with <b>James Earl Jones</b> Voice</h6>
