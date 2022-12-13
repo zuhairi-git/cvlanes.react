@@ -224,7 +224,7 @@ class App extends React.Component {
                         <h2>To do or not to do</h2>
                     </header>
                     <div className="row m-3 justify-content-md-center mb-5">
-                        <div className="col-md-5 col-sm-12">
+                        <div className="col-md-5 col-sm-12 wow slideInLeft">
                             <h3 className="text-start">Ongoing</h3>
                             <ul className="">
                                 <li className="text-start">Prototyping the new Android UI and UX based on Google practices (Material UI 3) to stay competitive in the market.</li>
@@ -234,7 +234,7 @@ class App extends React.Component {
                                 <li className="text-start">Creating a variety of Workflow for different applications (Web, Mobile, and eCommerce).</li>
                             </ul>
                         </div>
-                        <div className="col-md-5 col-sm-12">
+                        <div className="col-md-5 col-sm-12 wow slideInRight">
                             <h3 className="text-start">Done</h3>
                             <ul className="">
                                 <li className="text-start">Taking the lead on designing the UI for the backend(Modular SaaS) legacy versions.</li>
@@ -251,15 +251,15 @@ class App extends React.Component {
                 </div>
 
                 <div className='separator mt-5'></div>
-                <div className='row wow zoomIn text-center mb-5 mt-5 brand-bg-light' data-wow-delay="0.1s">
-                    <div className='wow slideInLeft col-md-6 text-end align-self-center mt-5' data-wow-delay="0.2s">
+                <div className='row m-3 justify-content-md-center mb-5 wow zoomIn brand-bg-light' data-wow-delay="0.1s">
+                    <div className='wow slideInLeft col-md-5 col-sm-12 text-end align-self-center mt-5' data-wow-delay="0.2s">
                         <div className='text-center'>
                             <h6>Imagine this with <b>James Earl Jones</b> Voice</h6>
                             <h1 className="mb-3">This is on HubSpot</h1>
                             <a className="btn m-2" href="https://cvlanes.online">cvlanes.online</a>
                         </div>
                     </div>
-                    <div className='wow slideInRight col-md-6 image-col-align  pt-5' data-wow-delay="0.2s">
+                    <div className='wow slideInRight col-md-5 col-sm-12 image-col-align  pt-5' data-wow-delay="0.2s">
                         <img src='./img/dw.png' alt='DW' className='image-col' />
 
                     </div>
@@ -310,7 +310,7 @@ class App extends React.Component {
                             <i className="fa fa-quote-left"></i>
                         </div>
                         <div className="reviews-carousel row">
-                            <div className="col-md-6 col-xs-12">
+                            <div className="col-md-6 col-xs-12 wow slideInLeft" data-wow-delay="0.3s">
                                 <div className="review-item">
                                     <div className="review-img">
                                         <img src={require("./img/review-2.jpg")} alt="Buda" />
@@ -325,7 +325,7 @@ class App extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-xs-12">
+                            <div className="col-md-6 col-xs-12 wow slideInRight" data-wow-delay="0.3s">
                                 <div className="review-item">
                                     <div className="review-img">
                                         <img src={require("./img/review-1.jpg")} alt="M" />
