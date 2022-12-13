@@ -52,7 +52,7 @@ class App extends React.Component {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6 d-md-block">
-                                <div className="hero-image pe-0">
+                                <div className="hero-image pe-0 wow zoomIn" data-wow-delay="0.1s">
                                     <img src={Hero} alt="Ali" />
                                 </div>
                             </div>
