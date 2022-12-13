@@ -3,9 +3,15 @@
 /*******************************/
 
 /* Start Custom */
+.overflow-x-hidden {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .image-col {
     max-width: 400px;
 }
+
 .image-col-align {
     text-align: left !important;
 }
@@ -53,8 +59,6 @@ body {
     color: #797979;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 h1,
