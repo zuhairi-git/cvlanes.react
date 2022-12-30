@@ -349,15 +349,17 @@ class App extends React.Component {
                             <div className="row">
                                 <div className="col mb-5">
                                     <div className="footer-info">
+                                        <div className="footer-social">
+                                            <img src={require("./img/cvlanes-bg.png")} style={{ width: '196px', marginTop: '-20px' }} alt="Logo" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col mb-5">
+                                    <div className="footer-info">
                                         <h2>Ali Zuhairi</h2>
                                         <h3>Espoo, Suurpelto</h3>
-                                        <div className="footer-menu">
-                                            <p className="text-light">044 2 844 844</p>
-                                            <p className="text-light">zohairi@live.com</p>
-                                        </div>
-                                        <div className="footer-social">
-                                            <img src={require("./img/cvlanes-color.png")} width={'128px'} alt="Logo" />
-                                        </div>
+                                        <h3>044 2 844 844</h3>
+                                        <h3>zohairi@live.com</h3>
                                     </div>
                                 </div>
                                 <div className="col align-items-center text-center">
