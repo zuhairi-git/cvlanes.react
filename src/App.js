@@ -356,7 +356,7 @@ class App extends React.Component {
                                             <p className="text-light">zohairi@live.com</p>
                                         </div>
                                         <div className="footer-social">
-                                            <img src={require("./img/CV-Lane-v.png")} width={'128px'} alt="Logo" />
+                                            <img src={require("./img/cvlanes-color.png")} width={'128px'} alt="Logo" />
                                         </div>
                                     </div>
                                 </div>
