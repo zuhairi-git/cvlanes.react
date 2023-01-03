@@ -347,14 +347,14 @@ class App extends React.Component {
                     <div className="container-fluid">
                         <div className="container">
                             <div className="row">
-                                <div className="col mb-5">
+                                <div className="col-md-4 col-xs-12 mb-5">
                                     <div className="footer-info">
                                         <div className="footer-social">
                                             <img src={require("./img/cvlanes-bg.png")} style={{ width: '196px', marginTop: '-20px' }} alt="Logo" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col mb-5">
+                                <div className="col-md-4 col-xs-12  mb-5">
                                     <div className="footer-info">
                                         <h2>Ali Zuhairi</h2>
                                         <h3>Espoo, Suurpelto</h3>
@@ -362,7 +362,7 @@ class App extends React.Component {
                                         <h3>zohairi@live.com</h3>
                                     </div>
                                 </div>
-                                <div className="col align-items-center text-center">
+                                <div className="col-md-4 col-xs-12  align-items-center text-center">
                                     <div className="footer-info">
                                         <h2>A Day Of My Life</h2>
                                         <img src={DayOfMylife} alt="Ali" width={'250px'} />
