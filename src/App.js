@@ -350,7 +350,7 @@ class App extends React.Component {
                                 <div className="col-md-4 col-xs-12 mb-5">
                                     <div className="footer-info">
                                         <div className="footer-social">
-                                            <img src={require("./img/cvlanes-bg.png")} style={{ width: '196px', marginTop: '-20px' }} alt="Logo" />
+                                            <img src={require("./img/cvlanes-bg.png")} style={{ width: '256px', marginTop: '-40px' }} alt="Logo" />
                                         </div>
                                     </div>
                                 </div>
