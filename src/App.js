@@ -71,7 +71,7 @@ class App extends React.Component {
                                     </div>
                                     <div className="about-text">
                                         <p>
-                                            Creating user-centric and business-relevant design is my true
+                                            Creating user-centric and business-relevant product is my true
                                             passion. Getting a well-designed product that reflects the brand
                                             identity into the hands of compassionate users is my calling.
                                             I have the privilege to work with professional partners, marketers,
@@ -130,12 +130,12 @@ class App extends React.Component {
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Agile Methodology</p><p></p>
+                                            <p>Agile Methodology (Jira, Sprint, Scrum, Kanban)</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
                                         <div className="skill-name text-start">
-                                            <p>Office 365 / SharePoint Admin</p><p></p>
+                                            <p>Global Admin: SharePoint, GitHub, GCP, AWS</p><p></p>
                                         </div>
                                         <ProgressBar now={85} label={``} />
 
@@ -164,7 +164,7 @@ class App extends React.Component {
                                     <h2>Professional Product Designer</h2>
                                     <h4>Reslink, Espoo, Finland</h4>
                                     <p>
-                                        Workflow Management, WebApp (SaaS), and Mobile. @Reslink Solutions.
+                                    Workflow and Cloud Management, WebApp (SaaS), and Mobile.<br /> @Reslink Solutions.
                                     </p>
                                 </div>
                             </div>
