@@ -18,6 +18,21 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+/* Responsive Hidden Options */
+	/* .hidden-xxs */
+    @media only screen and (max-width: 368px){ .hidden-xxs{ display: none !important; } }
+	/* .hidden-xs */
+		@media only screen and (max-width: 576px){ .hidden-xs{ display: none !important; } }
+	/* .hidden-sm */
+		@media only screen and (max-width: 768px){ .hidden-sm{ display: none !important; } }
+	/* .hidden-md */
+		@media only screen and (min-width: 768px) and (max-width: 991px){ .hidden-md{ display: none !important; } }
+	/* .hidden-lg */
+		@media only screen and (min-width: 992px){ .hidden-lg{ display: none !important; } }
+	/* .hidden-xl */
+		@media only screen and (min-width: 1200px){ .hidden-xl{ display: none !important; } }
+	/* .hidden-xxl */
+		@media only screen and (min-width: 1441px){ .hidden-xxl{ display: none !important; } }
 
 /* Start Custom */
 .overflow-x-hidden {
@@ -310,7 +325,7 @@ a:focus {
 @media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #c8e7ea !important;
     }
 
     .navbar .navbar-brand {
@@ -759,12 +774,12 @@ a:focus {
     right: 10px;
     z-index: 1;
     border: 10px solid;
-    border-color: transparent transparent transparent #dddddd;
+    border-color: transparent transparent transparent #c8e7ea;
 }
 
 .experience .timeline .timeline-item.right::before {
     left: 10px;
-    border-color: transparent #dddddd transparent transparent;
+    border-color: transparent #c8e7ea transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -793,13 +808,13 @@ a:focus {
     padding: 30px;
     background: #ffffff;
     position: relative;
-    border-right: 5px solid #dddddd;
+    border-right: 5px solid #c8e7ea;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
-    border-left: 5px solid #dddddd;
+    border-left: 5px solid #c8e7ea;
 }
 
 .experience .timeline .timeline-text h2 {
