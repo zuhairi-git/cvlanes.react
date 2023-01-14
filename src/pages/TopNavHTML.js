@@ -6,7 +6,7 @@ class TopNavHTML extends React.Component {
     return (
       <div className="navbar nav navbar-expand-lg bg-light navbar-light" id="navbar">
         <div className="container-fluid">
-          <a href="index.html" className="navbar-brand"><img src="img/cvlanes-logo.png" alt="Logo" /></a>
+          <a href="index.html" className="navbar-brand brand-color-bg"><img src="img/cvlanes-white.png" alt="Logo" /></a>
 
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
