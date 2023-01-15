@@ -164,7 +164,7 @@ class App extends React.Component {
                                     <h2>Professional Product Designer</h2>
                                     <h4>Reslink, Espoo, Finland</h4>
                                     <p>
-                                    Workflow and Cloud Management, WebApp (SaaS), and Mobile.<br /> @Reslink Solutions.
+                                        Workflow and Cloud Management, WebApp (SaaS), and Mobile.<br /> @Reslink Solutions.
                                     </p>
                                 </div>
                             </div>

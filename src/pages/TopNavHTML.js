@@ -8,9 +8,9 @@ class TopNavHTML extends React.Component {
         <div className="container-fluid">
           <a href="index.html" className="navbar-brand hidden-md hidden-sm"><img src="img/cvlanes-white.png" alt="Logo" /></a>
 
-            <div class="mobile-screen hidden-lg">
-              <a href="index.html" className="navbar-brand"><img src="img/cvlanes-logo.png" alt="Logo" /></a>
-            </div>
+          <div class="mobile-screen hidden-lg">
+            <a href="index.html" className="navbar-brand"><img src="img/cvlanes-logo.png" alt="Logo" /></a>
+          </div>
 
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>

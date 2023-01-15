@@ -279,7 +279,7 @@ a:focus {
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
+        border-bottom: 0px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }
 
@@ -387,7 +387,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#21c6d5, #1EB6C3);
+    background: linear-gradient(#1EB6C3, #1EB6C3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
