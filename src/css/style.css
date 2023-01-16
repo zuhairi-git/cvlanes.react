@@ -865,7 +865,7 @@ a:focus {
     .experience .timeline .timeline-item.left::before,
     .experience .timeline .timeline-item.right::before {
         left: 18px;
-        border-color: transparent #dddddd transparent transparent;
+        border-color: transparent #c8e7ea transparent transparent;
     }
 
     .experience .timeline .timeline-item.left .timeline-date,
@@ -881,7 +881,7 @@ a:focus {
     .experience .timeline .timeline-item.left .timeline-text,
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
-        border-left: 5px solid #dddddd;
+        border-left: 5px solid #c8e7ea;
     }
 }
 
