@@ -11,10 +11,6 @@
     background: #1EB6C3;
 }
 
-.brand-light-color-bg {
-    background: #c8e7ea;
-}
-
 /* Responsive Hidden Options */
     /* .hidden-xxs */
     @media only screen and (max-width: 368px){ .hidden-xxs{ display: none !important; } }
