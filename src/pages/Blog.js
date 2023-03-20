@@ -27,7 +27,7 @@ class App extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-sm-12 col-md-6">
                                 <div className="hero-content">
-                                    <div className="hero-text text-start">
+                                    <div className="hero-text text-start wow fadeInUp" data-wow-delay="0.3s">
                                         <h1 className='text-light mt-5 text-shadow'>To Blog... or not to Blog</h1>
                                     </div>
                                 </div>
