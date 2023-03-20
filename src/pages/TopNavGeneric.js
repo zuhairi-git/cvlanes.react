@@ -12,12 +12,7 @@ function ResponsiveNavbar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="/" className="nav-item nav-link active">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#achievements">Achievements</Nav.Link>
-            <Nav.Link href="#team">Social Media</Nav.Link>
-            <Nav.Link href="#review">Recommendations</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="#footer">Contact</Nav.Link>
