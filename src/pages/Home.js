@@ -275,7 +275,7 @@ class App extends React.Component {
                         </div>
                         <div className="row d-flex justify-content-center">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                                <div className="team-item">
+                                <div className="team-item m-2">
                                     <div className="team-img">
                                         <img src={require("../img/takeAction.jpg")} alt="Ali" />
                                     </div>
