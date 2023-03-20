@@ -285,10 +285,12 @@ class App extends React.Component {
                                         <p>
                                             Thinking outside the box
                                         </p>
-                                        <div className="team-social">
+                                        <div className="team-social pb-2">
                                             <a className="btn" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
                                             <a className="btn" href="https://www.linkedin.com/in/ali-zuhairi/"><i className="fab fa-linkedin-in"></i></a>
                                             <a className="btn" href="https://www.facebook.com/zuhairi.one"><i className="fab fa-facebook-f"></i></a>
+                                        </div>
+                                        <div className="team-social">
                                             <a className="btn" href="https://www.tiktok.com/@zuhairi.ali"><Tiktok /></a>
                                             <a className="btn" href="https://www.youtube.com/@Ali.Zuhairi"><Youtube /></a>
                                             <a className="btn" href="mailto:zohairi@live.com"><i className="fa fa-envelope"></i></a>
