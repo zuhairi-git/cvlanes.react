@@ -275,7 +275,7 @@ class App extends React.Component {
                         </div>
                         <div className="row d-flex justify-content-center">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                                <div className="team-item m-2">
+                                <div className="team-item">
                                     <div className="team-img">
                                         <img src={require("../img/takeAction.jpg")} alt="Ali" />
                                     </div>
@@ -285,7 +285,7 @@ class App extends React.Component {
                                         <p>
                                             Thinking outside the box
                                         </p>
-                                        <div className="team-social pb-2">
+                                        <div className="team-social pb-1">
                                             <a className="btn" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
                                             <a className="btn" href="https://www.linkedin.com/in/ali-zuhairi/"><i className="fab fa-linkedin-in"></i></a>
                                             <a className="btn" href="https://www.facebook.com/zuhairi.one"><i className="fab fa-facebook-f"></i></a>
