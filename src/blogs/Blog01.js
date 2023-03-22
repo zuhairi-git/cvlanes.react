@@ -47,7 +47,7 @@ class App extends React.Component {
                             Here are some tips for writing about the circle of daily rhythm:
                         </p>
                         <div className='text-center m-5'>
-                            <img className='image-circle' src='../img/blog-writing.jpg' />
+                            <img className='w-100 image-circle' src='../img/blog-writing.jpg' />
                         </div>
                         <h2>Brainstorming</h2>
                         <p className='mb-4'>Take a few minutes to write down all the activities and behaviors that make up your typical day. Don't worry about organizing them yet, just write down everything that comes to mind.</p>
@@ -73,7 +73,7 @@ class App extends React.Component {
                         </p>
                         <hr className='m-5' />
                         <div className='text-center m-5'>
-                            <img className='image-circle' src='../img/circle-daily-rhythm.jpg' />
+                            <img className='w-100 image-circle' src='../img/circle-daily-rhythm.jpg' />
                         </div>
 
                         <h2 className='primary-title'>Here's a glimpse into my daily routine</h2>
