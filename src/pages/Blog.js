@@ -39,11 +39,13 @@ class App extends React.Component {
                     <h1 className='text-center mt-5'>Blog</h1>
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
+                            <a href='/blogs/circle-of-rhythm'>
                             <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
-                            <h5 className='mt-2'>To Blog... or not to Blog</h5>
+                            <h5 className='mt-2'>Circle of Daily Rhythm</h5>
                             <p>Coming Soon</p>
+                            </a>
                         </div>
-
+                        
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                             <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
                             <h5 className='mt-2'>To Blog... or not to Blog</h5>

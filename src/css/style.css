@@ -1,7 +1,19 @@
-/*******************************/
-/*********    Colors   *********/
-/* 1EB6C3
-/*******************************/
+/* Page Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i,900i');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*--------------------------------------------------------------
+# Main
+
+#1EB6C3;
+#ededf4;
+--------------------------------------------------------------*/
+
 .navbar {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -27,11 +39,21 @@
     /* .hidden-xxl */
     @media only screen and (min-width: 1441px){ .hidden-xxl{ display: none !important; } }
 
-
 /*******************************/
 /********* General CSS *********/
 /*******************************/
 
+.primary-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.primary-title-color {
+    color: #fff;
+}
 
 /* Start Custom */
 .overflow-x-hidden {
@@ -105,6 +127,7 @@ h6 {
 a {
     color: #313131;
     transition: .3s;
+    text-decoration: none;
 }
 
 a:hover,
@@ -379,7 +402,7 @@ a:focus {
 /***** Blog / Portfolio CSS ****/
 /*******************************/
 
-.blog, .portfolio {
+.blog, .portfolio, .jobseeking, .blog01 {
     position: relative;
     width: 100%;
     height: 40vh;
@@ -394,6 +417,47 @@ a:focus {
 
 .portfolio {
     background-image: url(/src/img/portfolio-cover-dark.jpeg);
+}
+
+.jobseeking {
+    background-image: url(/src/img/jobseeking-cover.jpeg);
+}
+
+.blog-author {
+    height: 56px;
+    border-radius: 360px;
+    border: solid #efefef 1px;
+    box-shadow: #efefef 2px 2px 5px;
+}
+
+.blog-author-name {
+    height: 31px;
+    display: table-cell;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.blog-author-position {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.div-author{
+    display: flex;
+    height: 56px;
+}
+
+.blog-width{
+    width: 60%;
+}
+
+.blog01 {
+    background-image: url(/src/img/daily-rhythm.jpeg);
+}
+
+.image-circle{
+    border-radius: 360px;
 }
 
 .text-shadow {
@@ -562,6 +626,10 @@ a:focus {
 
     .blog {
         height: 400px;
+    }
+
+    .blog-width{
+        width: 85%;
     }
 
     .image-col {
