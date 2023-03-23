@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import BlogAuthor from '../blogs/BlogAuthor';
+import BlogShare from '../blogs/BlogShare';
 
 
 class App extends React.Component {
@@ -97,8 +98,8 @@ class App extends React.Component {
                         </p>
                     </div>
 
+                    <BlogShare />
                 </div>
-
                 <Footer />
             </div>
 
