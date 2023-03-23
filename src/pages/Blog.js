@@ -36,7 +36,7 @@ class App extends React.Component {
                     </div>
                 </div>
                 <div className="container-fluid">
-                    <h1 className='text-center mt-5'>Blog</h1>
+                    <h2 className='text-center mt-5 primary-title display-2'>Blog</h2>
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
                             <a href='/blogs/circle-of-rhythm'>
