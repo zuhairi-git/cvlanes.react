@@ -29,7 +29,7 @@ class App extends React.Component {
                             <div className="col-sm-12 col-md-6">
                                 <div className="hero-content">
                                     <div className="hero-text text-start wow fadeInUp" data-wow-delay="0.3s">
-                                        <h1 className='primary-title text-light mt-5 text-shadow'>Circle of Daily Rhythm</h1>
+                                        <h1 className='primary-title text-light mt-5 text-shadow'>It's blogging time!</h1>
                                     </div>
                                 </div>
                             </div>
