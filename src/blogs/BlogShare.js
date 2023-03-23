@@ -4,7 +4,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-                <hr className='m-4'/>
+                <hr className='border-top'/>
                 <div className='d-none m-4'>
                     <a href='' className='p-3'><i className='fab fa-linkedin-in'></i></a>
                     <a href='' className='p-3'><i className='fab fa-twitter'></i></a>

@@ -33,7 +33,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="container copyright">
-                            <p>&copy; CV Lanes 2022 | Made With React JS</p>
+                            <p>&copy; CV Lanes 2023 | Made With React JS</p>
                         </div>
                     </div>
                 </div>

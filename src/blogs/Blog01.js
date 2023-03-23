@@ -47,7 +47,7 @@ class App extends React.Component {
 
                             Here are some tips for writing about the circle of daily rhythm:
                         </p>
-                        <div className='text-center mb-5 mt-5'>
+                        <div className='text-center mb-5 mt-5 bg-image hover-zoom'>
                             <img className='w-100 image-circle' src='../img/blog-writing.jpg' />
                         </div>
                         <h2>Brainstorming</h2>
@@ -96,9 +96,10 @@ class App extends React.Component {
                         <p className='mb-4'>
                             Overall, this is a rough outline of my daily rhythm.
                         </p>
+                        
+                        <BlogShare />
                     </div>
 
-                    <BlogShare />
                 </div>
                 <Footer />
             </div>
