@@ -45,22 +45,22 @@ class App extends React.Component {
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
                             <h5 className='mt-2'>Project Type</h5>
-                            <p>Text</p>
+                            <p>Fontend Appliction for End User</p>
                         </div>
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.2s">
                             <h5 className='mt-2'>Timeline</h5>
-                            <p>Text</p>
+                            <p>4 Weeks</p>
                         </div>
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.3s">
                             <h5 className='mt-2'>Roles</h5>
-                            <p>Text</p>
+                            <p>Product Designer | Product Manager | User Research | User Study | User Behavior Analytics</p>
                         </div>
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.4s">
                             <h5 className='mt-2'>Tools</h5>
-                            <p>Text</p>
+                            <p>Figma, Figma Jam, Maze</p>
                         </div>
 
                     </div>
@@ -68,8 +68,18 @@ class App extends React.Component {
 
                 <div className="container-fluid">
                     <div className='m-5'>
+                        <h2 className='primary-title'>Application Flow</h2>
+                        <img src='../img/jobseeking/JobSeekingFlow.jpg' className="w-100" alt="cover" />
+                    </div>
+                    <div className="m-5">
+                        <p>MVP Flow</p>
+                    </div>
+                </div>
+
+                <div className="container-fluid">
+                    <div className='m-5'>
                         <h2 className='primary-title'>Design Process</h2>
-                        <img src='../img/portfolio-cover-dark.jpeg' className="w-100" alt="cover" />
+                        <img src='../img/jobseeking/DesignProcess.jpg' className="w-100" alt="cover" />
                     </div>
                     <div className="m-5">
                         <p>Deuble Diamond Design Model</p>
