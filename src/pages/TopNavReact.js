@@ -5,7 +5,7 @@ import logo from '../img/cvlanes-white.png'
 
 function ResponsiveNavbar() {
   return (
-    <Navbar sticky="top" className="navbar nav navbar-expand-lg" expand="lg">
+    <Navbar sticky="top"  className="navbar nav navbar-expand-lg bg-light navbar-light" id="navbar">
       <Container>
         <Navbar.Brand href="/"><img src={logo} style={{ width: '50px' }} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
