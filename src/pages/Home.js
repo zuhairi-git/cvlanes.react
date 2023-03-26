@@ -13,7 +13,6 @@ import DayOfMylife from '../vector/DayOfMylife.svg'
 import TopNav from '../pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
-import { Helmet } from "react-helmet";
 
 
 class App extends React.Component {
@@ -27,18 +26,6 @@ class App extends React.Component {
             <div className="App overflow-x-hidden">
                 <ScrollToTop />
                 <TopNav />
-
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>CV Lanes</title>
-                    <meta name="description" content="Professional Product" />
-                    <meta name="type" content="profile" />
-                    <meta name="url" content="https://cvlanes.com" />
-                    <meta name="image" content="https://cvlanes.com/img/ali.png" />
-                    <meta name="image:width" content="1200" />
-                    <meta name="image:height" content="630" />
-                    <meta name="image:alt" content="Circle of Rhythm" />
-                </Helmet>
 
                 <div className="hero" id="home">
                     <div className="container">
