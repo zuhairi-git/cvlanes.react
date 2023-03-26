@@ -12,6 +12,28 @@ import BlogAuthor from '../blogs/BlogAuthor';
 import BlogShare from '../blogs/BlogShare';
 import Helmet from 'react-helmet';
 
+const HeadTags = (props) => {
+
+    const {
+        title = "Circle of Daily Rhythm",
+        metaAuthor = "Ali Zuhairi",
+        metaWebsite = "https://cvlanes.com",
+        metaSiteName = "https://cvlanes.com",
+        metaImage = "https://cvlanes.com",
+    } = props;
+    return (
+
+        <Helmet>
+            <title>{title}</title>
+            <meta property='og:type' content='article' />
+            <meta property='article:author' content={metaAuthor} />
+            <meta property='article:publisher' content={metaWebsite} />
+            <meta property='og:site_name' content={metaSiteName} />
+            <meta property="og:image" content={metaImage} />
+        </Helmet>
+    );
+};
+
 class App extends React.Component {
     componentDidMount() {
         new WOW.WOW({
@@ -21,14 +43,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="App overflow-x-hidden">
-                <Helmet>
-                    <title>Circle of Daily Rhythm</title>
-                    <meta property='og:type' content='article' />
-                    <meta property='article:author' content='Ali Zuhairi' />
-                    <meta property='article:publisher' content='https://cvlanes.com' />
-                    <meta property='og:site_name' content='cvlanes.com' />
-                    <meta property="og:image" content="../img/blog-writing.jpg" />
-                </Helmet>
 
                 <ScrollToTop />
                 <TopNavGeneric />
