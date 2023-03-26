@@ -20,12 +20,13 @@ const HeadTags = (props) => {
         metaWebsite = "https://cvlanes.com",
         metaSiteName = "https://cvlanes.com",
         metaImage = "https://cvlanes.com",
+        metaArticle = "https://cvlanes.com",
     } = props;
     return (
 
         <Helmet>
             <title>{title}</title>
-            <meta property='og:type' content='article' />
+            <meta property='og:type' content={metaArticle} />
             <meta property='article:author' content={metaAuthor} />
             <meta property='article:publisher' content={metaWebsite} />
             <meta property='og:site_name' content={metaSiteName} />
