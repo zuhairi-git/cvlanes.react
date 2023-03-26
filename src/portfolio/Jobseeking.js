@@ -39,7 +39,7 @@ class App extends React.Component {
                 <div className="container-fluid">
                     <div className='m-5'>
                         <h2 className='primary-title'>Job Seeking Application</h2>
-                        <p>Description here..</p>
+                        <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
                         <a className="btn btn-default" href='#'>Link to the project</a>
                     </div>
                     <div className="row p-5">
@@ -122,6 +122,16 @@ class App extends React.Component {
                 <div className="mb-2">
                     <div className='brand-bg p-5'>
                         <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
+                    </div>
+                    <div className="m-5">
+                        <p>Text</p>
+                    </div>
+                </div>
+                <hr />
+
+                <div className="mb-2">
+                    <div className='p-5'>
+                        <h2 className='primary-title text-center'>User Research</h2>
                     </div>
                     <div className="m-5">
                         <p>Text</p>
