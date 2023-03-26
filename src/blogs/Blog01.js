@@ -10,6 +10,7 @@ import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import BlogAuthor from '../blogs/BlogAuthor';
 import BlogShare from '../blogs/BlogShare';
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {
@@ -20,7 +21,18 @@ class App extends React.Component {
     render() {
         return (
             <div className="App overflow-x-hidden">
-
+            <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Circle of Daily Rhythm</title>
+                    <meta name="description" content="React application" />
+                    <meta name="type" content="blog" />
+                    <meta name="url" content="https://cvlanes.com" />
+                    <meta name="image" content="https://cvlanes.com/img/ali.png" />
+                    <meta name="image:width" content="1200" />
+                    <meta name="image:height" content="630" />
+                    <meta name="image:alt" content="Blog" />
+                </Helmet>
+ 
                 <ScrollToTop />
                 <TopNavGeneric />
 
