@@ -97,42 +97,42 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Discover Phase</h2>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Challenge</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Discovery</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Initial Research</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Hypothesis</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Primary Research</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
@@ -143,10 +143,10 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Define Phase</h2>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Persona</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
@@ -157,18 +157,18 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Develope Phase</h2>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>Epic</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>User Story</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
@@ -179,10 +179,10 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
                     </div>
                     <div className="row m-5">
-                        <div className='col-3 mb-5'>
+                        <div className='col-sm-12 col-md-3 mb-5'>
                             <h3 className='primary-title'>User Test - Session 1</h3>
                         </div>
-                        <div className='col-9 mb-5'>
+                        <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
                         </div>
                     </div>
