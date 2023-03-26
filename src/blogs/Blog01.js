@@ -21,7 +21,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App overflow-x-hidden">
-            <Helmet>
+                <Helmet>
                     <meta charSet="utf-8" />
                     <title>Circle of Daily Rhythm</title>
                     <meta name="description" content="The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day." />
@@ -32,7 +32,7 @@ class App extends React.Component {
                     <meta name="image:height" content="630" />
                     <meta name="image:alt" content="Circle of Rhythm" />
                 </Helmet>
- 
+
                 <ScrollToTop />
                 <TopNavGeneric />
 
