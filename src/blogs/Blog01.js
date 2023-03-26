@@ -19,8 +19,10 @@ const HeadTags = (props) => {
         metaAuthor = "Ali Zuhairi",
         metaWebsite = "https://cvlanes.com",
         metaSiteName = "https://cvlanes.com",
-        metaImage = "https://cvlanes.com",
-        metaArticle = "https://cvlanes.com",
+        metaArticle = "Article",
+        metaImage = "../img/blog-writing.jpg",
+        metaWidth = "800px",
+        metaHeight = "600px",
     } = props;
     return (
 
@@ -31,6 +33,8 @@ const HeadTags = (props) => {
             <meta property='article:publisher' content={metaWebsite} />
             <meta property='og:site_name' content={metaSiteName} />
             <meta property="og:image" content={metaImage} />
+            <meta property="og:image:width" content={metaWidth} />
+            <meta property="og:image:height" content={metaHeight} />
         </Helmet>
     );
 };
