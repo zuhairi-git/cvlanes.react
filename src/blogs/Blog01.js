@@ -10,7 +10,7 @@ import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import BlogAuthor from '../blogs/BlogAuthor';
 import BlogShare from '../blogs/BlogShare';
-
+import Helmet from 'react-helmet';
 
 class App extends React.Component {
     componentDidMount() {
@@ -21,6 +21,15 @@ class App extends React.Component {
     render() {
         return (
             <div className="App overflow-x-hidden">
+                <Helmet>
+                    <title>Circle of Daily Rhythm</title>
+                    <meta property='og:type' content='article' />
+                    <meta property='article:author' content='Ali Zuhairi' />
+                    <meta property='article:publisher' content='https://cvlanes.com' />
+                    <meta property='og:site_name' content='cvlanes.com' />
+                    <meta property="og:image" content="../img/blog-writing.jpg" />
+                </Helmet>
+
                 <ScrollToTop />
                 <TopNavGeneric />
 
@@ -80,7 +89,7 @@ class App extends React.Component {
                         </div>
 
                         <h2 className='primary-title'>Here's a glimpse into my daily routine</h2>
-                       <p className='mb-4'>
+                        <p className='mb-4'>
                             My daily routine can be broken down into different parts. Typically, I sleep from midnight until 6:00 am, although there are times when I wake up earlier.
                         </p>
                         <h4>Morning</h4>
@@ -98,7 +107,7 @@ class App extends React.Component {
                         <p className='mb-4'>
                             Overall, this is a rough outline of my daily rhythm.
                         </p>
-                        
+
                         <BlogShare />
                     </div>
 
