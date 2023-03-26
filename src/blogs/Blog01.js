@@ -27,7 +27,7 @@ class App extends React.Component {
                     <meta name="description" content="React application" />
                     <meta name="type" content="blog" />
                     <meta name="url" content="https://cvlanes.com" />
-                    <meta name="image" content="https://cvlanes.com/img/ali.png" />
+                    <meta name="image" content="https://cvlanes.com/img/circle-daily-rhythm.jpg" />
                     <meta name="image:width" content="1200" />
                     <meta name="image:height" content="630" />
                     <meta name="image:alt" content="Blog" />
