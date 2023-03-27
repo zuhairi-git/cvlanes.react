@@ -176,12 +176,12 @@ class App extends React.Component {
                             <h3 className='primary-title'>Epic</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>The most effective method of quickly earning money.</p>
                         </div>
                     </div>
                     <div className="row m-5">
                         <div className='col-sm-12 col-md-3 mb-5'>
-                            <h3 className='primary-title'>User Story</h3>
+                            <h3 className='primary-title'>User Journey</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
                             <p>Text</p>
