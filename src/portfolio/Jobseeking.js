@@ -84,10 +84,10 @@ class App extends React.Component {
                     <div className="m-5">
                         <p>Deuble Diamond Design Model</p>
                         <ul>
-                            <li className='p-1'><b>Discover:</b> Text</li>
-                            <li className='p-1'><b>Define:</b> Text</li>
-                            <li className='p-1'><b>Develope:</b> Text</li>
-                            <li className='p-1'><b>Deliver:</b> Text</li>
+                            <li className='p-1'><b>Discover:</b> Gain a comprehensive understanding of the problem domain by conducting research and collecting insights from interviews.</li>
+                            <li className='p-1'><b>Define:</b> Establish the extent of the challenge by utilizing the insights and research collected during the Discover phase.</li>
+                            <li className='p-1'><b>Develope:</b> Generate concepts for potential digital solutions.</li>
+                            <li className='p-1'><b>Deliver:</b> Perform user testing and refine the solution based on feedback received.</li>
                         </ul>
                     </div>
                 </div>
