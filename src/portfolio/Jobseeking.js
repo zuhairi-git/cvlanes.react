@@ -101,7 +101,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>Challenge</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>What are some ways to make more money tomorrow? Is it feasible to secure a permanent job? Additionally, how can I discover a trustworthy functional app for searching temporary or permanent jobs nearby?</p>
                         </div>
                     </div>
                     <div className="row m-5">
