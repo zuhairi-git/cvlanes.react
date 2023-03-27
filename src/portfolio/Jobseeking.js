@@ -128,7 +128,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>Hypothesis</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>A local job provider with a focus on the local market is crucial for individuals seeking employment. While there are various platforms that offer such services, many of them have an international presence and may not prioritize the domestic market. To stand out from other providers, offering efficient and user-friendly profile creation and app usage can be significant factors.</p>
                         </div>
                     </div>
                     <div className="row m-5">
