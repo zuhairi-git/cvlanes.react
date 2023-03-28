@@ -154,7 +154,7 @@ class App extends React.Component {
                             <p>
                                 Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.
                                 <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaAllen.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaAllen.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
                                 </div>
                             </p>
                             <h5 className='primary-title'>James</h5>
@@ -163,7 +163,7 @@ class App extends React.Component {
                                 When seeking employment through  Job Seeking app, James prioritizes finding jobs in the same industry or at least similar to his previous work experience. He has a somewhat flexible schedule, but prefers to work at his favorite restaurants whenever possible.
                             </p>
                                 <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaJames.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaJames.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
                                 </div>
                             <h5 className='primary-title'>Eeva</h5>
                             <p>
@@ -171,7 +171,7 @@ class App extends React.Component {
                                 When searching for jobs on the app, Eeva prioritizes finding positions that offer a good salary and the ability to secure work for the days she wants to work. While she does not necessarily work every day, she is available for work on many days and wants to ensure she has consistent job opportunities.
                             </p>
                                 <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaEeva.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaEeva.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
                                 </div>
                         </div>
                     </div>
