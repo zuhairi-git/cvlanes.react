@@ -39,16 +39,16 @@ class App extends React.Component {
                     <h2 className='text-center mt-5 primary-title display-2'>Portfolio</h2>
                     <div className="row p-5">
                         <a href='/portfolio/jobseeking'>
-                        <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
-                            <img src='../img/portfolio-cover-dark.jpeg' className="w-100" alt="cover" />
-                            <h5 className='mt-2'>Job Seeking</h5>
-                            <p>Inprogress</p>
-                            <p>User journey and behavior analytics. User actions, awareness, consideration, loyalty, feelings, opportunities, and pain points. </p>
-                        </div>
+                            <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
+                                <img src='../img/portfolio-cover-dark.jpeg' className="w-100" alt="cover" />
+                                <h5 className='mt-2'>Job Seeking</h5>
+                                <p>Inprogress</p>
+                                <p>User journey and behavior analytics. User actions, awareness, consideration, loyalty, feelings, opportunities, and pain points. </p>
+                            </div>
                         </a>
 
                     </div>
-                    </div>
+                </div>
 
                 <Footer />
             </div>

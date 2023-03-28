@@ -40,12 +40,12 @@ class App extends React.Component {
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
                             <a href='/blogs/circle-of-rhythm'>
-                            <img src='../img/blog-writing.jpg' className="w-100" alt="cover" />
-                            <h5 className='mt-2'>Circle of Daily Rhythm</h5>
-                            <p>The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.</p>
+                                <img src='../img/blog-writing.jpg' className="w-100" alt="cover" />
+                                <h5 className='mt-2'>Circle of Daily Rhythm</h5>
+                                <p>The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.</p>
                             </a>
                         </div>
-                        
+
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                             <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
                             <h5 className='mt-2'>To Blog... or not to Blog</h5>
@@ -59,7 +59,7 @@ class App extends React.Component {
                         </div>
 
                     </div>
-                    </div>
+                </div>
 
                 <Footer />
             </div>
