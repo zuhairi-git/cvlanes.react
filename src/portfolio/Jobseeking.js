@@ -50,12 +50,12 @@ class App extends React.Component {
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.2s">
                             <h5 className='mt-2'>Timeline</h5>
-                            <p>4 Weeks</p>
+                            <p>8 Weeks</p>
                         </div>
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.3s">
                             <h5 className='mt-2'>Roles</h5>
-                            <p>Product Designer | Product Manager | User Research | User Study | User Behavior Analytics</p>
+                            <p>Product Designer | Product Manager | User Research | Testing | User Behavior Analytics</p>
                         </div>
 
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.4s">
@@ -152,17 +152,27 @@ class App extends React.Component {
                         <div className='col-sm-12 col-md-9 mb-5'>
                             <h5 className='primary-title'>Allen</h5>
                             <p>
-                                Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.</p>
+                                Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.
+                                <div className='text-center mb-5 mt-3'>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaAllen.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                </div>
+                            </p>
                             <h5 className='primary-title'>James</h5>
                             <p>
                                 James is a university student, approximately 20-25 years old, who is determined to obtain a good diploma and pursue a career in a field that is not related to jobs offered by  Job Seeking app. Despite this, James works regularly through  Job Seeking app, typically completing 2-3 shifts per week. He has a strong preference for the restaurant industry and enjoys working the same job at the same establishment, preferably a restaurant where he is well-known. While James is occasionally willing to take on related jobs like dishwashing, his preferred role is that of a waiter at his favorite restaurant.  Job Seeking app provides James with a reliable source of supplemental income to support his student lifestyle.
                                 When seeking employment through  Job Seeking app, James prioritizes finding jobs in the same industry or at least similar to his previous work experience. He has a somewhat flexible schedule, but prefers to work at his favorite restaurants whenever possible.
                             </p>
+                                <div className='text-center mb-5 mt-3'>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaJames.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                </div>
                             <h5 className='primary-title'>Eeva</h5>
                             <p>
                                 Eeva is a 40-year-old who relies on a Job Seeking app as a regular source of income. She typically works 2-4 shifts per week through the app, which accounts for at least 20-40% of her total income. Eeva does not have any particular industry preferences and is willing to take on jobs from any sector. She has a reputation for being extremely reliable and has never canceled a job. Eeva is also a proactive planner and likes to schedule her work ahead of time, sometimes even several weeks in advance.
                                 When searching for jobs on the app, Eeva prioritizes finding positions that offer a good salary and the ability to secure work for the days she wants to work. While she does not necessarily work every day, she is available for work on many days and wants to ensure she has consistent job opportunities.
                             </p>
+                                <div className='text-center mb-5 mt-3'>
+                                    <img className='shadow-lg rounded-5' src='../img/Jobseeking/UserPersonaEeva.jpeg' alt='User Personas' style={{width:'800px'}}/>
+                                </div>
                         </div>
                     </div>
                 </div>
