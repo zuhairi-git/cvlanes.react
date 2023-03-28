@@ -120,7 +120,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>Initial Research</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>Comparing job seeking methods and platforms can be challenging due to varying perspectives and levels of technological understanding among people. Nevertheless, the approach taken to provide job seeking services can greatly impact the outcome. One potential approach is to implement an obligatory contract after an employer-employee match has been made, which could increase the likelihood of finding work and offer a sense of security.</p>
                         </div>
                     </div>
                     <div className="row m-5">
