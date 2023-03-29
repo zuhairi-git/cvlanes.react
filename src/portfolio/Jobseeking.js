@@ -8,7 +8,7 @@ import '../css/style.css';
 import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class App extends React.Component {
     componentDidMount() {
@@ -82,7 +82,7 @@ class App extends React.Component {
                         <img src='../img/jobseeking/DesignProcess.jpg' className="w-100" alt="cover" />
                     </div>
                     <div className="m-5">
-                        <p>Deuble Diamond Design Model</p>
+                        <p>Double Diamond Design Model</p>
                         <ul>
                             <li className='p-1'><b>Discover:</b> Gain a comprehensive understanding of the problem domain by conducting research and collecting insights from interviews.</li>
                             <li className='p-1'><b>Define:</b> Establish the extent of the challenge by utilizing the insights and research collected during the Discover phase.</li>
@@ -136,7 +136,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>Primary Research</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p><i className='fa fa-circle-notch fa-lg fa-spin' style={{animationDuration: '7s', marginTop:'10px'}}></i></p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>User Journey</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>Coming Soon</p>
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@ class App extends React.Component {
                             <h3 className='primary-title'>User Test - Session 1</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p>Text</p>
+                            <p>Coming Soon</p>
                         </div>
                     </div>
                 </div>
