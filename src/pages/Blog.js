@@ -38,24 +38,27 @@ class App extends React.Component {
                 <div className="container-fluid">
                     <h2 className='text-center mt-5 primary-title display-2'>Blog</h2>
                     <div className="row p-5">
+
+                        <div className="col-sm-12 col-md-4 wow fadeIn d-none" data-wow-delay="0.3s">
+                            <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
+                            <h5 className='mt-2'>To Blog... or not to Blog</h5>
+                            <p>Coming Soon</p>
+                        </div>
+
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
-                            <a href='/blogs/circle-of-rhythm'>
+                            <a className='blog-link' href='/blogs/circle-of-rhythm'>
                                 <img src='../img/blog-writing.jpg' className="w-100" alt="cover" />
                                 <h5 className='mt-2'>Circle of Daily Rhythm</h5>
                                 <p>The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.</p>
                             </a>
                         </div>
 
-                        <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.3s">
-                            <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
-                            <h5 className='mt-2'>To Blog... or not to Blog</h5>
-                            <p>Coming Soon</p>
-                        </div>
-
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
-                            <h5 className='mt-2'>To Blog... or not to Blog</h5>
-                            <p>Coming Soon</p>
+                            <a className='blog-link' href='/blogs/ios-notifications'>
+                                <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
+                                <h5 className='mt-2'>How to get notifications on iOS with personal focus on?</h5>
+                                <p>Published on Linkedin</p>
+                            </a>
                         </div>
 
                     </div>
