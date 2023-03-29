@@ -46,19 +46,23 @@ class App extends React.Component {
                         </div>
 
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
-                            <a className='blog-link' href='/blogs/circle-of-rhythm'>
-                                <img src='../img/blog-writing.jpg' className="w-100" alt="cover" />
-                                <h5 className='mt-2'>Circle of Daily Rhythm</h5>
-                                <p>The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.</p>
-                            </a>
+                            <div className='m-3 blog-link'>
+                                <a href='/blogs/circle-of-rhythm'>
+                                    <img src='../img/blog-writing.jpg' className="w-100 blog-image" alt="cover" />
+                                    <h5 className='mt-2'>Circle of Daily Rhythm</h5>
+                                    <p>The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.</p>
+                                </a>
+                            </div>
                         </div>
 
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <a className='blog-link' href='/blogs/ios-notifications'>
-                                <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
-                                <h5 className='mt-2'>How to get notifications on iOS with personal focus on?</h5>
-                                <p>Published on Linkedin</p>
-                            </a>
+                            <div className='m-3 blog-link'>
+                                <a href='/blogs/ios-notifications'>
+                                    <img src='../img/blog-cover.jpeg' className="w-100 blog-image" alt="cover" />
+                                    <h5 className='mt-2'>How to get notifications on iOS with personal focus on?</h5>
+                                    <p>Published on Linkedin</p>
+                                </a>
+                            </div>
                         </div>
 
                     </div>

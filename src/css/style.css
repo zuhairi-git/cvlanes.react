@@ -456,6 +456,22 @@ a:focus {
     font-weight: 500;
 }
 
+.blog-image {
+    border-radius: 5px;
+}
+
+.blog-link {
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.blog-link:hover {
+    top: -15px;
+    color: red;
+}
+
 .div-author{
     display: flex;
     height: 56px;
