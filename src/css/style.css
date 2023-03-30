@@ -115,6 +115,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -122,6 +126,7 @@ h4,
 h5,
 h6 {
     color: #414141;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
