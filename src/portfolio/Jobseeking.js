@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {
@@ -21,6 +22,17 @@ class App extends React.Component {
             <div className="App overflow-x-hidden">
                 <ScrollToTop />
                 <TopNavGeneric />
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>How to get notifications on iOS with personal focus on?</title>
+                    <meta name="description" content="How to get notifications on iOS with personal focus on?" />
+                    <meta name="type" content="blog" />
+                    <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
+                    <meta name="image" content="https://cvlanes.com/img/blog/iphone-mail-notifications.jpg" />
+                    <meta name="image:width" content="1200" />
+                    <meta name="image:height" content="630" />
+                    <meta name="image:alt" content="How to get notifications on iOS with personal focus on?" />
+                </Helmet>
 
                 <div className="jobseeking" id="home">
                     <div className="container">
