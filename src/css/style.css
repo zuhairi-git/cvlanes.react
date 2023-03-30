@@ -262,6 +262,11 @@ a:focus {
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+    border-radius: 10px;
+  }
+
+  .video-responsive:hover {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
   }
   
   .video-responsive iframe {
