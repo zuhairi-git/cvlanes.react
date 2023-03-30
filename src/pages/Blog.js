@@ -58,7 +58,7 @@ class App extends React.Component {
                         <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.4s">
                             <div className='m-3 blog-link'>
                                 <a href='/blogs/ios-notifications'>
-                                    <img src='../img/blog-cover.jpeg' className="w-100 blog-image" alt="cover" />
+                                    <img src='../img/blog/iphone-mail-notifications.jpg' className="w-100 blog-image" alt="cover" />
                                     <h5 className='mt-2'>How to get notifications on iOS with personal focus on?</h5>
                                     <p>Published on Linkedin</p>
                                 </a>
