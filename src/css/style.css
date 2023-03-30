@@ -264,10 +264,6 @@ a:focus {
     height: 0;
     border-radius: 10px;
   }
-
-  .video-responsive:hover {
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-  }
   
   .video-responsive iframe {
     left: 0;
@@ -277,7 +273,14 @@ a:focus {
     position: absolute;
   }
 
-
+  .shorts iframe  {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px!important;
+    aspect-ratio: 9 / 16 !important;
+  }
+  
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/

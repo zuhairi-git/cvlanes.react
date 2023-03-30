@@ -13,7 +13,7 @@ import BlogShare from './BlogShare';
 import { Helmet } from "react-helmet";
 import YoutubeShortsEmbed from "../generic/YoutubeShortsEmbed";
 import YoutubeEmbed from "../generic/YoutubeEmbed";
-import TiktokEmbed from "../generic/TiktokEmbed";
+import { TikTok } from "react-tiktok";
 
 class App extends React.Component {
     componentDidMount() {
@@ -71,11 +71,13 @@ class App extends React.Component {
                             This experience inspired me to create a video on <a href='https://www.tiktok.com/@zuhairi.ali/video/7211812954591743238?is_from_webapp=1&sender_device=pc&web_id=7211808504469636614'>TikTok</a> and <a href='https://youtube.com/shorts/wxHIKbD0gM4'>YouTube</a> #shorts, where I shared the steps on how to activate or deactivate and add people and apps to your personal or work focus profile. In the video, I walked viewers through the process of going to Settings > Focus > Personal > People/Apps > Add.
                         </p>
                         <div className='row'>
-                            <div className='col-md mb-5'>
-                                <YoutubeShortsEmbed embedId="wxHIKbD0gM4" />
-                            </div>
-                            <div className='col-md mb-5 d-none'>
-                                <TiktokEmbed embedId="7211812954591743238" />
+                            <div className='text-center'>
+                                <div className='col-md-auto mb-5 d-none'>
+                                    <YoutubeShortsEmbed embedId="wxHIKbD0gM4" />
+                                </div>
+                                <div className='col-md-auto mb-5'>
+                                    <TikTok url="https://www.tiktok.com/@zuhairi.ali/video/7211812954591743238?is_from_webapp=1&sender_device=pc&web_id=7211808504469636614" />
+                                </div>
                             </div>
                         </div>
                         <p>
