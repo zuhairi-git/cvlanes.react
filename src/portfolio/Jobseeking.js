@@ -24,14 +24,14 @@ class App extends React.Component {
                 <TopNavGeneric />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>How to get notifications on iOS with personal focus on?</title>
-                    <meta name="description" content="How to get notifications on iOS with personal focus on?" />
+                    <title>Job Seeking Application</title>
+                    <meta name="description" content="Job Seeking Application" />
                     <meta name="type" content="blog" />
                     <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
                     <meta name="image" content="https://cvlanes.com/img/blog/iphone-mail-notifications.jpg" />
                     <meta name="image:width" content="1200" />
                     <meta name="image:height" content="630" />
-                    <meta name="image:alt" content="How to get notifications on iOS with personal focus on?" />
+                    <meta name="image:alt" content="Job Seeking Application" />
                 </Helmet>
 
                 <div className="jobseeking" id="home">
