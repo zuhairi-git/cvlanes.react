@@ -8,7 +8,7 @@ import '../css/style.css';
 import TopNavGeneric from './TopNavGeneric';
 import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
-
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {
@@ -21,6 +21,18 @@ class App extends React.Component {
             <div className="App overflow-x-hidden">
                 <ScrollToTop />
                 <TopNavGeneric />
+
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Portfolio</title>
+                    <meta name="description" content="Where Magic Happens" />
+                    <meta name="type" content="blog" />
+                    <meta name="url" content="https://cvlanes.com/portfolio" />
+                    <meta name="image" content="https://cvlanes.com/img/portfolio-cover-dark.jpeg" />
+                    <meta name="image:width" content="1200" />
+                    <meta name="image:height" content="630" />
+                    <meta name="image:alt" content="Portfolio" />
+                </Helmet>
 
                 <div className="portfolio" id="home">
                     <div className="container">

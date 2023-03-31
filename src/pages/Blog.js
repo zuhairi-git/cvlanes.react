@@ -22,6 +22,18 @@ class App extends React.Component {
                 <ScrollToTop />
                 <TopNavGeneric />
 
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Blog</title>
+                    <meta name="description" content="To Blog... or not to Blog" />
+                    <meta name="type" content="blog" />
+                    <meta name="url" content="https://cvlanes.com/portfolio" />
+                    <meta name="image" content="https://cvlanes.com/img/blog-cover.jpeg" />
+                    <meta name="image:width" content="1200" />
+                    <meta name="image:height" content="630" />
+                    <meta name="image:alt" content="Blog" />
+                </Helmet>
+
                 <div className="blog" id="home">
                     <div className="container">
                         <div className="row align-items-center">
