@@ -20,9 +20,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="App overflow-x-hidden">
-                <ScrollToTop />
-                <TopNavGeneric />
-
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Blog</title>
@@ -34,6 +31,9 @@ class App extends React.Component {
                     <meta name="image:height" content="630" />
                     <meta name="image:alt" content="Blog" />
                 </Helmet>
+
+                <ScrollToTop />
+                <TopNavGeneric />
 
                 <div className="blog" id="home">
                     <div className="container">
