@@ -8,6 +8,7 @@ import '../css/style.css';
 import TopNavGeneric from './TopNavGeneric';
 import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
+import { Helmet } from "react-helmet";
 
 
 class App extends React.Component {
