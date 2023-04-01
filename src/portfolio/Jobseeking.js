@@ -53,7 +53,7 @@ class App extends React.Component {
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
                         <div className='row'>
-                            <div className='col-md-auto mb-lg-5 mb-xs-2 mb-sm-2'>
+                            <div className='text-center col-md-auto mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <div className="figma">
                                     <iframe
                                         style={{ border: '0px solid rgba(0, 0, 0, 0.1)' }}
