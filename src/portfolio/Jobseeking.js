@@ -53,7 +53,7 @@ class App extends React.Component {
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
                         <div className='row'>
-                            <div className='col-md-auto mb-lg-5 mb-xs-3 mb-sm-3'>
+                            <div className='col-md-auto mb-5'>
                                 <img src='../img/jobseeking/low-fid/low-fid-prototype.png' className="w-100 rounded-5" alt="cover" />
                             </div>
                         </div>
