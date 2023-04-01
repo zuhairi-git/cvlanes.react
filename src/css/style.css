@@ -281,6 +281,14 @@ a:focus {
     aspect-ratio: 9 / 16 !important;
   }
   
+  .figma iframe  {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px!important;
+    aspect-ratio: 9 / 16 !important;
+  }
+  
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/

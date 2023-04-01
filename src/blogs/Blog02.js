@@ -12,7 +12,6 @@ import BlogAuthor from './BlogAuthor';
 import BlogShare from './BlogShare';
 import { Helmet } from "react-helmet";
 import YoutubeShortsEmbed from "../generic/YoutubeShortsEmbed";
-import YoutubeEmbed from "../generic/YoutubeEmbed";
 import { TikTok } from "react-tiktok";
 
 class App extends React.Component {

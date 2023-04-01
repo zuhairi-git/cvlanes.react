@@ -8,7 +8,7 @@ import '../css/style.css';
 import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import FigmaEmbed from "../generic/FigmaEmbed";
 import { Helmet } from "react-helmet";
 
 class App extends React.Component {
@@ -52,8 +52,25 @@ class App extends React.Component {
                     <div className='m-5'>
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
-                        <a className="btn btn-default me-5" href='https://www.figma.com/proto/Gu3b0JHoN773RkYQ1iz7eV/Low-Fidelity-Design-Kit?page-id=403%3A643&node-id=405-939&viewport=131%2C463%2C0.48&scaling=scale-down&starting-point-node-id=403%3A644' target='_blank'>Low-Fid Prototype</a>
-                        <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
+                        <div className='row'>
+                            <div className='col-md-auto'>
+                                <div className="figma">
+                                    <iframe
+                                        style={{ border: '0px solid rgba(0, 0, 0, 0.1)' }}
+                                        width="100%"
+                                        height="auto"
+                                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644"
+                                        allowfullscreen >
+                                    </iframe>
+                                </div>
+
+                            </div>
+                            <div className='col-md-auto'>
+                                <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
+
+                            </div>
+                        </div>
+
                     </div>
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
@@ -150,7 +167,7 @@ class App extends React.Component {
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
                             <p>
-                                <i className='d-none fa fa-circle-notch fa-lg fa-spin' style={{animationDuration: '7s', marginTop:'10px'}}></i>
+                                <i className='d-none fa fa-circle-notch fa-lg fa-spin' style={{ animationDuration: '7s', marginTop: '10px' }}></i>
                                 It is crucial at this point to identify potential test candidates who are actively searching for temporary or permanent employment. These candidates should fall under two main categories, namely temporary job seekers and permanent job seekers. Additionally, each category should be further hypothetically divided into various personas.
                             </p>
                         </div>
@@ -170,7 +187,7 @@ class App extends React.Component {
                             <p>
                                 Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.
                                 <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaAllen.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
+                                    <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaAllen.jpeg' alt='User Personas' style={{ maxWidth: '700px', width: '100%' }} />
                                 </div>
                             </p>
                             <h5 className='primary-title'>James</h5>
@@ -178,17 +195,17 @@ class App extends React.Component {
                                 James is a university student, approximately 20-25 years old, who is determined to obtain a good diploma and pursue a career in a field that is not related to jobs offered by  Job Seeking app. Despite this, James works regularly through  Job Seeking app, typically completing 2-3 shifts per week. He has a strong preference for the restaurant industry and enjoys working the same job at the same establishment, preferably a restaurant where he is well-known. While James is occasionally willing to take on related jobs like dishwashing, his preferred role is that of a waiter at his favorite restaurant.  Job Seeking app provides James with a reliable source of supplemental income to support his student lifestyle.
                                 When seeking employment through  Job Seeking app, James prioritizes finding jobs in the same industry or at least similar to his previous work experience. He has a somewhat flexible schedule, but prefers to work at his favorite restaurants whenever possible.
                             </p>
-                                <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaJames.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
-                                </div>
+                            <div className='text-center mb-5 mt-3'>
+                                <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaJames.jpeg' alt='User Personas' style={{ maxWidth: '700px', width: '100%' }} />
+                            </div>
                             <h5 className='primary-title'>Eeva</h5>
                             <p>
                                 Eeva is a 40-year-old who relies on a Job Seeking app as a regular source of income. She typically works 2-4 shifts per week through the app, which accounts for at least 20-40% of her total income. Eeva does not have any particular industry preferences and is willing to take on jobs from any sector. She has a reputation for being extremely reliable and has never canceled a job. Eeva is also a proactive planner and likes to schedule her work ahead of time, sometimes even several weeks in advance.
                                 When searching for jobs on the app, Eeva prioritizes finding positions that offer a good salary and the ability to secure work for the days she wants to work. While she does not necessarily work every day, she is available for work on many days and wants to ensure she has consistent job opportunities.
                             </p>
-                                <div className='text-center mb-5 mt-3'>
-                                    <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaEeva.jpeg' alt='User Personas' style={{maxWidth:'700px', width:'100%'}}/>
-                                </div>
+                            <div className='text-center mb-5 mt-3'>
+                                <img className='shadow-lg rounded-5' src='../img/jobseeking/UserPersonaEeva.jpeg' alt='User Personas' style={{ maxWidth: '700px', width: '100%' }} />
+                            </div>
                         </div>
                     </div>
                 </div>
