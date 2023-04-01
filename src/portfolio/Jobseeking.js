@@ -61,7 +61,7 @@ class App extends React.Component {
                             <div className='col-md-auto mb-5 d-none'>
                                 <div className="figma text-center">
                                     <iframe
-                                        style={{ borderRadius:'10px' }}
+                                        style={{ borderRadius: '10px' }}
                                         width="100%"
                                         height="auto"
                                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644"
@@ -129,11 +129,11 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <div className="mb-2">
-                    <div className='brand-bg p-5'>
-                        <h2 className='primary-title primary-title-color'>Discover Phase</h2>
-                    </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                <div className='brand-bg p-5'>
+                    <h2 className='primary-title primary-title-color'>Discover Phase</h2>
+                </div>
+                <div className="container-fluid mb-2">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Challenge</h3>
                         </div>
@@ -141,7 +141,7 @@ class App extends React.Component {
                             <p>What are some ways to make more money tomorrow? Is it feasible to secure a permanent job? Additionally, how can I discover a trustworthy functional app for searching temporary or permanent jobs nearby?</p>
                         </div>
                     </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Discovery</h3>
                         </div>
@@ -152,7 +152,7 @@ class App extends React.Component {
                                 To make this process easier, using a job-finding application that allows you to create a profile and showcase your skills and work history can be a highly efficient way to find weekend job opportunities in your local area.</p>
                         </div>
                     </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Initial Research</h3>
                         </div>
@@ -160,7 +160,7 @@ class App extends React.Component {
                             <p>Comparing job seeking methods and platforms can be challenging due to varying perspectives and levels of technological understanding among people. Nevertheless, the approach taken to provide job seeking services can greatly impact the outcome. One potential approach is to implement an obligatory contract after an employer-employee match has been made, which could increase the likelihood of finding work and offer a sense of security.</p>
                         </div>
                     </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Hypothesis</h3>
                         </div>
@@ -168,7 +168,7 @@ class App extends React.Component {
                             <p>A local job provider with a focus on the local market is crucial for individuals seeking employment. While there are various platforms that offer such services, many of them have an international presence and may not prioritize the domestic market. To stand out from other providers, offering efficient and user-friendly profile creation and app usage can be significant factors.</p>
                         </div>
                     </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Primary Research</h3>
                         </div>
@@ -181,11 +181,11 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <div className="mb-2">
-                    <div className='brand-bg p-5'>
-                        <h2 className='primary-title primary-title-color'>Define Phase</h2>
-                    </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                <div className='brand-bg p-5'>
+                    <h2 className='primary-title primary-title-color'>Define Phase</h2>
+                </div>
+                <div className="container-fluid mb-2">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Personas</h3>
                         </div>
@@ -217,11 +217,11 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <div className="mb-2">
-                    <div className='brand-bg p-5'>
-                        <h2 className='primary-title primary-title-color'>Develope Phase</h2>
-                    </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                <div className='brand-bg p-5'>
+                    <h2 className='primary-title primary-title-color'>Develope Phase</h2>
+                </div>
+                <div className="container-fluid mb-2">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>Epic</h3>
                         </div>
@@ -229,7 +229,7 @@ class App extends React.Component {
                             <p>The most effective method of quickly earning money.</p>
                         </div>
                     </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>User Journey</h3>
                         </div>
@@ -239,11 +239,11 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <div className="mb-2">
-                    <div className='brand-bg p-5'>
-                        <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
-                    </div>
-                    <div className="row m-lg-5 m-xs-3 m-sm-3">
+                <div className='brand-bg p-5'>
+                    <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
+                </div>
+                <div className="container-fluid mb-2">
+                    <div className="row m-4">
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title'>User Test - Session 1</h3>
                         </div>
