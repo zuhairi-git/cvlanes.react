@@ -58,7 +58,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-md-auto mb-lg-5 mb-xs-3 mb-sm-3 d-none'>
+                            <div className='col-md-auto mb-5 d-none'>
                                 <div className="figma text-center">
                                     <iframe
                                         style={{ borderRadius:'10px' }}
