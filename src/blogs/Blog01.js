@@ -51,7 +51,7 @@ class App extends React.Component {
                 </div>
 
                 <div className="container-fluid">
-                    <div className='blog-width m-5 mx-auto'>
+                    <div className='blog-width m-lg-5 m-xs-3 m-sm-3 mx-auto'>
                         <h2 className='primary-title'>Circle of Daily Rhythm</h2>
                         <BlogAuthor />
                         <p className='mb-4'>
@@ -86,8 +86,8 @@ class App extends React.Component {
                         <p className='mb-4'>
                             By committing to these guidelines, it is possible to establish a daily routine that fosters your aspirations, and hopefully boosts your health, and facilitates a satisfying existence.
                         </p>
-                        <hr className='m-5' />
-                        <div className='text-center m-5'>
+                        <hr className=' m-lg-5 m-xs-3 m-sm-3' />
+                        <div className='text-center  m-lg-5 m-xs-3 m-sm-3'>
                             <img className='w-100' src='../img/circle-daily-rhythm.jpg' />
                         </div>
 

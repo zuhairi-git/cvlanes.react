@@ -50,7 +50,7 @@ class App extends React.Component {
                 </div>
                 <div className="container-fluid">
                     <h2 className='text-center mt-5 primary-title display-2'>Blog</h2>
-                    <div className="row p-5">
+                    <div className="row p-lg-5 p-xs-3 p-sm-3">
 
                         <div className="col-sm-12 col-md-4 wow fadeIn d-none" data-wow-delay="0.3s">
                             <img src='../img/blog-cover.jpeg' className="w-100" alt="cover" />
