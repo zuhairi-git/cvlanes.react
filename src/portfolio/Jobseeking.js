@@ -52,7 +52,7 @@ class App extends React.Component {
                     <div className='m-5'>
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
-                        <a className="btn btn-default me-5" href='https://www.figma.com/file/Gu3b0JHoN773RkYQ1iz7eV/Low-Fidelity-Design-Kit?node-id=403%3A643&t=8LTznjUNh4C63pA2-1'>Low-Fid Prototype</a>
+                        <a className="btn btn-default me-5" href='https://www.figma.com/proto/Gu3b0JHoN773RkYQ1iz7eV/Low-Fidelity-Design-Kit?page-id=403%3A643&node-id=405-939&viewport=131%2C463%2C0.48&scaling=scale-down&starting-point-node-id=403%3A644' target='_blank'>Low-Fid Prototype</a>
                         <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
                     </div>
                     <div className="row p-5">
