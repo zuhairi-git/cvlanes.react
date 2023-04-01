@@ -84,9 +84,9 @@ class App extends React.Component {
                         <img src='../img/jobseeking/JobSeekingFlow.jpg' className="w-100" alt="cover" />
                     </div>
                     <div className="m-5">
-                        <p>MVP Flow</p>
+                        <p>The MVP (Minimum Viable Product) workflow facilitates a quicker and more effective initiation of idea development and application towards achieving maturity. This approach is particularly crucial for startups and independent professionals who aim to rapidly build their portfolios, as I do.</p>
                     </div>
-                </div>
+                </div><br />
 
                 <div className="container-fluid">
                     <div className='m-5'>
@@ -148,7 +148,10 @@ class App extends React.Component {
                             <h3 className='primary-title'>Primary Research</h3>
                         </div>
                         <div className='col-sm-12 col-md-9 mb-5'>
-                            <p><i className='fa fa-circle-notch fa-lg fa-spin' style={{animationDuration: '7s', marginTop:'10px'}}></i></p>
+                            <p>
+                                <i className='d-none fa fa-circle-notch fa-lg fa-spin' style={{animationDuration: '7s', marginTop:'10px'}}></i>
+                                It is crucial at this point to identify potential test candidates who are actively searching for temporary or permanent employment. These candidates should fall under two main categories, namely temporary job seekers and permanent job seekers. Additionally, each category should be further hypothetically divided into various personas.
+                            </p>
                         </div>
                     </div>
                 </div>
