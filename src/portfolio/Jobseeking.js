@@ -71,7 +71,7 @@ class App extends React.Component {
 
                             </div>
                             <div className='col-md-auto mb-5'>
-                                <a className="btn btn-default me-5" href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644' target="_blank">Low-Fid Prototype (Coming Soon)</a>
+                                <a className="btn btn-default me-5" href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644' target="_blank">Low-Fid Prototype</a>
                             </div>
                             <div className='col-md-auto'>
                                 <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
