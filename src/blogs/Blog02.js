@@ -30,9 +30,9 @@ class App extends React.Component {
                     <meta name="description" content="How to get notifications on iOS with personal focus on?" />
                     <meta name="type" content="blog" />
                     <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
-                    <meta name="image" content="https://cvlanes.com/img/circle-daily-rhythm.jpg" />
-                    <meta name="image:width" content="1200" />
-                    <meta name="image:height" content="630" />
+                    <meta property="og:image" content='https://cvlanes.com/img/iphone-mail-notifications.jpg' />
+                    <meta property="og:image:width" content='1200' />
+                    <meta property="og:image:height" content='630' />
                     <meta name="image:alt" content="How to get notifications on iOS with personal focus on?" />
                 </Helmet>
 

@@ -25,9 +25,9 @@ class App extends React.Component {
                     <meta name="description" content="Where Magic Happens" />
                     <meta name="type" content="blog" />
                     <meta name="url" content="https://cvlanes.com/portfolio" />
-                    <meta name="image" content="https://cvlanes.com/img/portfolio-cover-dark.jpeg" />
-                    <meta name="image:width" content="1200" />
-                    <meta name="image:height" content="630" />
+                    <meta property="og:image" content='https://cvlanes.com/img/portfolio-cover-dark.jpeg' />
+                    <meta property="og:image:width" content='1200' />
+                    <meta property="og:image:height" content='630' />
                     <meta name="image:alt" content="Portfolio" />
                 </Helmet>
 

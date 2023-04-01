@@ -27,10 +27,10 @@ class App extends React.Component {
                     <title>Job Seeking Application</title>
                     <meta name="description" content="Job Seeking Application" />
                     <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
-                    <meta name="image" content="https://cvlanes.com/img/blog/iphone-mail-notifications.jpg" />
-                    <meta name="image:width" content="1200" />
-                    <meta name="image:height" content="630" />
+                    <meta name="url" content="https://cvlanes.com/portfolio/jobseeking" />
+                    <meta property="og:image" content='https://cvlanes.com/img/jobseeking-cover.jpeg' />
+                    <meta property="og:image:width" content='1200' />
+                    <meta property="og:image:height" content='630' />
                     <meta name="image:alt" content="Job Seeking Application" />
                 </Helmet>
 
