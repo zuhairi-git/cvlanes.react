@@ -53,10 +53,15 @@ class App extends React.Component {
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
                         <div className='row'>
-                            <div className='col-md-auto mb-lg-5 mb-xs-2 mb-sm-2'>
+                            <div className='col-md-auto mb-lg-5 mb-xs-3 mb-sm-3'>
+                                <img src='../img/jobseeking/low-fid/low-fid-prototype.png' className="w-100 rounded-5" alt="cover" />
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col-md-auto mb-lg-5 mb-xs-3 mb-sm-3 d-none'>
                                 <div className="figma text-center">
                                     <iframe
-                                        style={{ border: '0px solid rgba(0, 0, 0, 0.1)' }}
+                                        style={{ borderRadius:'10px' }}
                                         width="100%"
                                         height="auto"
                                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644"
@@ -64,6 +69,9 @@ class App extends React.Component {
                                     </iframe>
                                 </div>
 
+                            </div>
+                            <div className='col-md-auto'>
+                                <a className="btn btn-default me-5" href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644' target="_blank">Low-Fid Prototype (Coming Soon)</a>
                             </div>
                             <div className='col-md-auto'>
                                 <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
