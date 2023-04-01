@@ -52,7 +52,8 @@ class App extends React.Component {
                     <div className='m-5'>
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
-                        <a className="btn btn-default" href='#'>Prototype (Coming Soon)</a>
+                        <a className="btn btn-default me-5" href='https://www.figma.com/file/Gu3b0JHoN773RkYQ1iz7eV/Low-Fidelity-Design-Kit?node-id=403%3A643&t=8LTznjUNh4C63pA2-1'>Low-Fid Prototype</a>
+                        <a className="btn btn-default me-5" href='#'>High-Fid Prototype (Coming Soon)</a>
                     </div>
                     <div className="row p-5">
                         <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
