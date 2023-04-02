@@ -10,6 +10,7 @@ import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import LowFidJobseeking from '../generic/carousel/jobseeking/LowFidJobseeking';
 
 class App extends React.Component {
     componentDidMount() {
