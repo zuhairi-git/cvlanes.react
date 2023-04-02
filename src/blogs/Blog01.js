@@ -51,7 +51,7 @@ class App extends React.Component {
                 </div>
 
                 <div className="container-fluid">
-                    <div className='blog-width m-lg-5 m-xs-3 m-sm-3 mx-auto'>
+                    <div className='blog-width m-5 mx-auto'>
                         <h2 className='primary-title'>Circle of Daily Rhythm</h2>
                         <BlogAuthor />
                         <p className='mb-4'>
