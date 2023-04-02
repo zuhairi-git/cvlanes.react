@@ -48,11 +48,11 @@ const BlogPage = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
+                    <Col md={4} className='mb-5'>
                         <Card>
                             <Card.Img variant="top" src="../img/blog-writing.jpg" />
                             <Card.Body>
-                                <Card.Title>Circle of Daily Rhythm</Card.Title>
+                                <Card.Title>Circle of Daily Rhythm</Card.Title><br />
                                 <Card.Text>
                                     The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.
                                 </Card.Text>
@@ -61,13 +61,13 @@ const BlogPage = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={4} className='mb-5'>
                         <Card>
                             <Card.Img variant="top" src="../img/blog/iphone-mail-notifications.jpg" />
                             <Card.Body>
                                 <Card.Title>How to get notifications on iOS with personal focus on?</Card.Title>
                                 <Card.Text>
-                                    Published on Linkedin
+                                    Are you one of those people who have been experiencing difficulty getting notifications on your iPhone lately?
                                 </Card.Text>
                                 <Button href="/blogs/ios-notifications" variant="primary">Read more</Button>
                             </Card.Body>
