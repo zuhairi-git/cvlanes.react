@@ -292,49 +292,47 @@ class App extends React.Component {
                     <h2 className='primary-title primary-title-color'>Define Phase</h2>
                 </div>
                 <div className="container-fluid mb-2">
-                    <div className="row mt-4">
-                        <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
-                            <h3 className='primary-title'>Personas</h3>
-                        </div>
-
-                        <Row className='mb-5 mt-4'>
-                            <Col className="mb-5" md={12}>
-                                <Card>
-                                    <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaAllen.jpeg" />
-                                    <Card.Body>
-                                        <Card.Title className='primary-title'>Allen</Card.Title>
-                                        <Card.Text>
-                                            Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col className="mb-5" md={12}>
-                                <Card>
-                                    <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaJames.jpeg" />
-                                    <Card.Body>
-                                        <Card.Title className='primary-title'>James</Card.Title>
-                                        <Card.Text>
-                                            James is a university student, approximately 20-25 years old, who is determined to obtain a good diploma and pursue a career in a field that is not related to jobs offered by  Job Seeking app. Despite this, James works regularly through  Job Seeking app, typically completing 2-3 shifts per week. He has a strong preference for the restaurant industry and enjoys working the same job at the same establishment, preferably a restaurant where he is well-known. While James is occasionally willing to take on related jobs like dishwashing, his preferred role is that of a waiter at his favorite restaurant.  Job Seeking app provides James with a reliable source of supplemental income to support his student lifestyle.
-                                            When seeking employment through  Job Seeking app, James prioritizes finding jobs in the same industry or at least similar to his previous work experience. He has a somewhat flexible schedule, but prefers to work at his favorite restaurants whenever possible.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col className="mb-5" md={12}>
-                                <Card>
-                                    <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaEeva.jpeg" />
-                                    <Card.Body>
-                                        <Card.Title className='primary-title'>Eeva</Card.Title>
-                                        <Card.Text>
-                                            Eeva is a 40-year-old who relies on a Job Seeking app as a regular source of income. She typically works 2-4 shifts per week through the app, which accounts for at least 20-40% of her total income. Eeva does not have any particular industry preferences and is willing to take on jobs from any sector. She has a reputation for being extremely reliable and has never canceled a job. Eeva is also a proactive planner and likes to schedule her work ahead of time, sometimes even several weeks in advance.
-                                            When searching for jobs on the app, Eeva prioritizes finding positions that offer a good salary and the ability to secure work for the days she wants to work. While she does not necessarily work every day, she is available for work on many days and wants to ensure she has consistent job opportunities.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        </Row>
+                    <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                        <h3 className='primary-title mt-5'>Personas</h3>
                     </div>
+
+                    <Row className='mb-5 mt-4'>
+                        <Col className="mb-5" md={12}>
+                            <Card>
+                                <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaAllen.jpeg" />
+                                <Card.Body>
+                                    <Card.Title className='primary-title'>Allen</Card.Title>
+                                    <Card.Text>
+                                        Allen is a 20-year-old vocational school student who uses the Job Seeking app occasionally, typically only once a month or every couple of months. He doesn't have a particular preference for any type of job and uses the app mainly as a way to earn extra money when he unexpectedly has free time or runs low on funds. Despite his tendency to cancel jobs at the last minute, customers report that Kevin is a diligent worker when he does show up. He is open to hard work and evening/night shifts, which are qualities appreciated by many employers. His primary job-seeking needs are centered around finding opportunities for the following evening or weekend, when he has free time and is willing to work for some extra cash.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col className="mb-5" md={12}>
+                            <Card>
+                                <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaJames.jpeg" />
+                                <Card.Body>
+                                    <Card.Title className='primary-title'>James</Card.Title>
+                                    <Card.Text>
+                                        James is a university student, approximately 20-25 years old, who is determined to obtain a good diploma and pursue a career in a field that is not related to jobs offered by  Job Seeking app. Despite this, James works regularly through  Job Seeking app, typically completing 2-3 shifts per week. He has a strong preference for the restaurant industry and enjoys working the same job at the same establishment, preferably a restaurant where he is well-known. While James is occasionally willing to take on related jobs like dishwashing, his preferred role is that of a waiter at his favorite restaurant.  Job Seeking app provides James with a reliable source of supplemental income to support his student lifestyle.
+                                        When seeking employment through  Job Seeking app, James prioritizes finding jobs in the same industry or at least similar to his previous work experience. He has a somewhat flexible schedule, but prefers to work at his favorite restaurants whenever possible.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col className="mb-5" md={12}>
+                            <Card>
+                                <Card.Img className='w-100' variant="top" src="../img/jobseeking/UserPersonaEeva.jpeg" />
+                                <Card.Body>
+                                    <Card.Title className='primary-title'>Eeva</Card.Title>
+                                    <Card.Text>
+                                        Eeva is a 40-year-old who relies on a Job Seeking app as a regular source of income. She typically works 2-4 shifts per week through the app, which accounts for at least 20-40% of her total income. Eeva does not have any particular industry preferences and is willing to take on jobs from any sector. She has a reputation for being extremely reliable and has never canceled a job. Eeva is also a proactive planner and likes to schedule her work ahead of time, sometimes even several weeks in advance.
+                                        When searching for jobs on the app, Eeva prioritizes finding positions that offer a good salary and the ability to secure work for the days she wants to work. While she does not necessarily work every day, she is available for work on many days and wants to ensure she has consistent job opportunities.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
                 </div>
 
                 <div className='brand-bg p-5'>
