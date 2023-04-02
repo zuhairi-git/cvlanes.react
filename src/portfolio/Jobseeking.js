@@ -84,7 +84,7 @@ class App extends React.Component {
                                         <Card.Body>
                                             <Card.Title>Splash</Card.Title>
                                             <Card.Text>
-                                                Go to Login Screen after delay.
+                                                After Delay Effect.
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -168,7 +168,7 @@ class App extends React.Component {
                                         <Card.Body>
                                             <Card.Title>Profile</Card.Title>
                                             <Card.Text>
-                                                Earnings, Files, Skills, Etc.,.
+                                                Earnings, Skills, Etc.
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
