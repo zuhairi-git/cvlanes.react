@@ -1,5 +1,4 @@
 import React from 'react';
-import WOW from 'wowjs';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../lib/animate/animate.min.css';
 import '../lib/owlcarousel/assets/owl.carousel.min.css';
@@ -9,65 +8,65 @@ import TopNavGeneric from './TopNavGeneric';
 import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
 import { Helmet } from "react-helmet";
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
-class App extends React.Component {
-    componentDidMount() {
-        new WOW.WOW({
-            live: false
-        }).init();
-    }
-    render() {
-        return (
-            <div className="App overflow-x-hidden">
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Portfolio</title>
-                    <meta name="description" content="Where Magic Happens" />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/portfolio" />
-                    <meta property="og:image" content='https://cvlanes.com/img/portfolio-cover-dark.jpeg' />
-                    <meta property="og:image:width" content='1200' />
-                    <meta property="og:image:height" content='630' />
-                    <meta name="image:alt" content="Portfolio" />
-                </Helmet>
+const Portfolio = () => {
+    return (
 
-                <ScrollToTop />
-                <TopNavGeneric />
+        <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Portfolio</title>
+                <meta name="description" content="Where Magic Happens" />
+                <meta name="type" content="blog" />
+                <meta name="url" content="https://cvlanes.com/portfolio" />
+                <meta property="og:image" content='https://cvlanes.com/img/portfolio-cover-dark.jpeg' />
+                <meta property="og:image:width" content='1200' />
+                <meta property="og:image:height" content='630' />
+                <meta name="image:alt" content="Portfolio" />
+            </Helmet>
 
-                <div className="portfolio" id="home">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-sm-12 col-md-6">
-                                <div className="hero-content">
-                                    <div className="hero-text text-start wow fadeInUp" data-wow-delay="0.3s">
-                                        <h1 className='text-light mt-5 text-shadow primary-title'>Where Magic Happens</h1>
-                                    </div>
+            <ScrollToTop />
+            <TopNavGeneric />
+            <div className="portfolio" id="portfolio">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-sm-12 col-md-6">
+                            <div className="hero-content">
+                                <div className="hero-text text-start wow fadeInUp" data-wow-delay="0.3s">
+                                    <h1 className='text-light mt-5 text-shadow primary-title'>Where Magic Happens</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid">
-                    <h2 className='text-center mt-5 primary-title display-2'>Portfolio</h2>
-                    <div className="row p-lg-5 p-xs-3 p-sm-3">
-                        <div className="col-sm-12 col-md-4 wow fadeIn" data-wow-delay="0.2s">
-                            <div className='m-lg-3 m-xs-3 m-sm-3 blog-link'>
-                                <a href='/portfolio/jobseeking'>
-                                    <img src='../img/portfolio-cover-dark.jpeg' className="w-100 blog-image" alt="cover" />
-                                    <h5 className='mt-2'>Job Seeking</h5>
+            </div>
+            <Container>
+                <Row>
+                    <Col>
+                        <h1 className="text-center my-5 primary-title display-2">My Portfolio</h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4}>
+                        <Card>
+                            <Card.Img variant="top" src="../img/portfolio-cover-dark.jpeg" />
+                            <Card.Body>
+                                <Card.Title>Job Seeking</Card.Title>
+                                <Card.Text>
                                     <p>Inprogress</p>
                                     <p>User journey and behavior analytics. User actions, awareness, consideration, loyalty, feelings, opportunities, and pain points. </p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                </Card.Text>
+                                <Button href="/portfolio/jobseeking" variant="primary">Read more</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                <Footer />
-            </div>
+                </Row>
+            </Container>
+            <Footer />
 
-        );
-    }
-}
-
-export default App;
+        </div>
+    );
+};
+export default Portfolio;
