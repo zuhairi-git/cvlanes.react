@@ -204,7 +204,7 @@ class App extends React.Component {
                 <div className="full-image" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
                     <div className="container-fluid">
                         <div className='m-lg-5 m-xs-3 m-sm-3'>
-                            <h2 className='primary-title mb-3'>Application Flow</h2>
+                            <h2 className='primary-title mb-3 mt-5'>Application Flow</h2>
                             <Col className="mb-5" md={12}>
                                 <Card>
                                     <Card.Img className='w-100' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
