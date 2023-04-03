@@ -48,9 +48,9 @@ const Portfolio = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
+                <Col md={4} className='mb-5'>
                         <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/portfolio-cover-dark.jpeg" />
+                            <Card.Img variant="top" src="../img/jobseeking-cover.jpeg" />
                             <Card.Body>
                                 <Card.Title>Job Seeking</Card.Title>
                                 <Card.Text>
@@ -58,6 +58,34 @@ const Portfolio = () => {
                                     <p>User journey and behavior analytics. User actions, awareness, consideration, loyalty, feelings, opportunities, and pain points. </p>
                                 </Card.Text>
                                 <Button href="/portfolio/jobseeking" variant="primary">Read more</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={4} className='mb-5'>
+                        <Card className='border bordered-1'>
+                            <Card.Img variant="top" src="../img/smart-banking/hassle-free-banking.jpg" />
+                            <Card.Body>
+                                <Card.Title>Smart Banking</Card.Title>
+                                <Card.Text>
+                                    <p>Coming Soon</p>
+                                    <p>Hassle free banking application.</p>
+                                </Card.Text>
+                                <Button href="#" variant="primary" disabled>Read more</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={4} className='mb-5'>
+                        <Card className='border bordered-1'>
+                            <Card.Img variant="top" src="../img/smart-shopping/smart-shopping-cover.jpg" />
+                            <Card.Body>
+                                <Card.Title>Smart Shopping</Card.Title>
+                                <Card.Text>
+                                    <p>Coming Soon</p>
+                                    <p>Why not take pleasure when there is an opportunity?</p>
+                                </Card.Text>
+                                <Button href="#" variant="primary" disabled>Read more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
