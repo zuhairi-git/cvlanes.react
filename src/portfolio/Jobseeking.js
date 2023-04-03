@@ -81,7 +81,7 @@ class App extends React.Component {
                             <Row className='mt-4'>
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Splash.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Splash.jpg" />
                                         <Card.Body>
                                             <Card.Title>Splash</Card.Title>
                                             <Card.Text>
@@ -93,7 +93,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Login.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Login.jpg" />
                                         <Card.Body>
                                             <Card.Title>Login</Card.Title>
                                             <Card.Text>
@@ -105,7 +105,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Main.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Main.jpg" />
                                         <Card.Body>
                                             <Card.Title>Home</Card.Title>
                                             <Card.Text>
@@ -117,7 +117,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Calendar.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Calendar.jpg" />
                                         <Card.Body>
                                             <Card.Title>Calendar</Card.Title>
                                             <Card.Text>
@@ -129,7 +129,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/CalendarNext.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/CalendarNext.jpg" />
                                         <Card.Body>
                                             <Card.Title>Calendar</Card.Title>
                                             <Card.Text>
@@ -141,7 +141,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/CalendarHistory.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/CalendarHistory.jpg" />
                                         <Card.Body>
                                             <Card.Title>Calendar</Card.Title>
                                             <Card.Text>
@@ -153,7 +153,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Messeges.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Messeges.jpg" />
                                         <Card.Body>
                                             <Card.Title>Messeges</Card.Title>
                                             <Card.Text>
@@ -165,7 +165,7 @@ class App extends React.Component {
 
                                 <Col className="mb-5" md={3}>
                                     <Card>
-                                        <Card.Img className='w-100' variant="top" src="../img/jobseeking/low-fid/Profile.jpg" />
+                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Profile.jpg" />
                                         <Card.Body>
                                             <Card.Title>Profile</Card.Title>
                                             <Card.Text>
@@ -209,7 +209,7 @@ class App extends React.Component {
                             <h2 className='primary-title mb-3 mt-5'>Application Flow</h2>
                             <Col className="mb-5" md={12}>
                                 <Card>
-                                    <Card.Img className='w-100' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
+                                    <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
                                     <Card.Body>
                                         <Card.Title className='primary-title'></Card.Title>
                                         <Card.Text>
