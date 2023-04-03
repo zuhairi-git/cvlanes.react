@@ -20,7 +20,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="App overflow-x-hidden">
+            <div> {/* className="App overflow-x-hidden" */}
                 <ScrollToTop />
                 <TopNavGeneric />
                 <Helmet>
@@ -176,7 +176,7 @@ class App extends React.Component {
                                 </Col>
                             </Row>
                         </Container>
-                        
+
                         <Container>
                             <div className='col-md-auto mb-5 d-none'>
                                 <div className="figma text-center">

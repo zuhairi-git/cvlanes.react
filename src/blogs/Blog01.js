@@ -20,7 +20,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="App overflow-x-hidden">
+            <div>
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Circle of Daily Rhythm</title>
