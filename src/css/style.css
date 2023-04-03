@@ -731,14 +731,6 @@ a:focus {
 
 @media (max-width: 575.98px) {
 
-    .blog {
-        height: 400px;
-    }
-
-    .blog-width{
-        width: 85%;
-    }
-
     .image-col {
         max-width: 100%;
     }
