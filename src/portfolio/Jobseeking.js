@@ -59,24 +59,24 @@ class App extends React.Component {
                                 <p>Fontend Appliction for End User</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.2s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
                                 <h5 className='mt-2'>Timeline</h5>
                                 <p>8 Weeks</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
                                 <h5 className='mt-2'>Roles</h5>
                                 <p>Product Designer | Product Manager | User Research | Testing | User Behavior Analytics</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.4s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
                                 <h5 className='mt-2'>Tools</h5>
                                 <p>Figma, Figma Jam, Maze</p>
                             </div>
 
                         </div>
 
-                        <Container style={{ width: '85%' }}>
+                        <Container>
                             <h5 className='text-center mt-5 text-secondary'>Low-Fid Prototype</h5>
                             <Row className='mt-4'>
                                 <Col className="mb-5" md={3}>
@@ -176,7 +176,8 @@ class App extends React.Component {
                                 </Col>
                             </Row>
                         </Container>
-                        <div className='row'>
+                        
+                        <Container>
                             <div className='col-md-auto mb-5 d-none'>
                                 <div className="figma text-center">
                                     <iframe
@@ -197,7 +198,7 @@ class App extends React.Component {
                                     <Button className='w-100' href="#" target="_blank" variant="primary">High-Fid Prototype (Coming Soon)</Button>
                                 </Col>
                             </Row>
-                        </div>
+                        </Container>
 
                     </div>
                 </div>
