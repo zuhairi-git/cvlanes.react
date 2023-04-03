@@ -69,7 +69,7 @@ const Portfolio = () => {
                                 <Card.Title>Smart Banking</Card.Title>
                                 <Card.Text>
                                     <p>Coming Soon</p>
-                                    <p>Hassle free banking application.</p>
+                                    <p>Hassle free banking application. It's time to get productive.</p>
                                 </Card.Text>
                                 <Button href="#" variant="primary" disabled>Read more</Button>
                             </Card.Body>
