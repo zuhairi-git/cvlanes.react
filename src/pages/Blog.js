@@ -49,7 +49,7 @@ const BlogPage = () => {
                 </Row>
                 <Row>
                     <Col md={4} className='mb-5'>
-                        <Card>
+                        <Card className='border bordered-1'>
                             <Card.Img variant="top" src="../img/blog-writing.jpg" />
                             <Card.Body>
                                 <Card.Title>Circle of Daily Rhythm</Card.Title><br />
@@ -62,7 +62,7 @@ const BlogPage = () => {
                     </Col>
 
                     <Col md={4} className='mb-5'>
-                        <Card>
+                        <Card className='border bordered-1'>
                             <Card.Img variant="top" src="../img/blog/iphone-mail-notifications.jpg" />
                             <Card.Body>
                                 <Card.Title>How to get notifications on iOS with personal focus on?</Card.Title>

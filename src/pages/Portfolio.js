@@ -49,7 +49,7 @@ const Portfolio = () => {
                 </Row>
                 <Row>
                     <Col md={4}>
-                        <Card>
+                        <Card className='border bordered-1'>
                             <Card.Img variant="top" src="../img/portfolio-cover-dark.jpeg" />
                             <Card.Body>
                                 <Card.Title>Job Seeking</Card.Title>
