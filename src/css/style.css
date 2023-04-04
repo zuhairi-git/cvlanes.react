@@ -55,16 +55,18 @@ h6 {
 
 /* Section Backgrounds */
 .blog-bg {
-    background-position: center;
-    background-repeat: repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .portfolio-bg {
-    background-position: center;
-    background-repeat: repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-}
+  }
 
 .blog-bg::before {    
     content: "";
