@@ -54,6 +54,18 @@ h6 {
 }
 
 /* Section Backgrounds */
+.blog-bg {
+    background-position: center;
+    background-repeat: repeat; 
+    background-size: cover;
+}
+
+.portfolio-bg {
+    background-position: center;
+    background-repeat: repeat; 
+    background-size: cover;
+}
+
 .blog-bg::before {    
     content: "";
     background-image: url('../img/blog-social-media-bg.jpg');
