@@ -54,46 +54,32 @@ h6 {
 }
 
 /* Section Backgrounds */
-.blog-bg {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.portfolio-bg {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
 .blog-bg::before {    
     content: "";
-    background-image: url('../img/blog-social-media-bg.jpg');
+    background-repeat: repeat;
+    background-image: url('../img/blog/blog-repeat-bg.jpg');
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
-    background-size: cover;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;
+    opacity: 0.06;
 }
 
 .portfolio-bg::before {    
     content: "";
-    background-image: url('../img/portfolio-bg.jpg');
+    background-repeat: repeat;
+    background-image: url('../img/portfolio-repeat-bg-2.jpg');
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
-    background-size: cover;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;
+    opacity: 0.06;
 }
 
 /* Section Backgrounds End */
