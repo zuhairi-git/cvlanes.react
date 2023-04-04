@@ -13,7 +13,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 const BlogPage = () => {
     return (
 
-        <div> {/* className="App overflow-x-hidden" */} 
+        <div className='blog-bg'> {/* className="App overflow-x-hidden" */} 
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Blog</title>

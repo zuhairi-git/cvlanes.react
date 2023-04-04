@@ -13,7 +13,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 const Portfolio = () => {
     return (
 
-        <div>
+        <div className='portfolio-bg'>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Portfolio</title>

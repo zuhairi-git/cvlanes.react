@@ -26,6 +26,38 @@
     background: #1EB6C3;
 }
 
+/* Section Backgrounds */
+.blog-bg::before {    
+    content: "";
+    background-image: url('../img/blog-social-media-bg.jpg');
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+.portfolio-bg::before {    
+    content: "";
+    background-image: url('../img/portfolio-bg.jpg');
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+/* Section Backgrounds End */
+
+
 /* Responsive Hidden Options */
     /* .hidden-xxs */
     @media only screen and (max-width: 368px){ .hidden-xxs{ display: none !important; } }
