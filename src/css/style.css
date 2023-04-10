@@ -49,9 +49,16 @@ h6 {
     backdrop-filter: blur(5px);
 }
 
-.brand-color-bg {
-    background: #1EB6C3;
+.brand-border-bold {
+    border: solid 10px #1EB6C3 !important;
+    border-radius: 2rem;
 }
+
+.border-bold {
+    border: solid 10px #8e8e8e !important;
+    border-radius: 2rem;
+}
+
 
 /* Section Backgrounds */
 .blog-bg::before {    
