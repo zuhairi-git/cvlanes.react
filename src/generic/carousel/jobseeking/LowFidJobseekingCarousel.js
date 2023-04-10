@@ -8,8 +8,8 @@ const LowFidJobseekingCarousel = () => {
   };
 
   return (
-    <div class="col-md-4 mb-3 m-3">
-      <div class="p-3 w-250px">
+    <div class="col-md-4 mb-3">
+      <div class="w-250px">
         <div id="carousel00" class="carousel carousel-dark slide p-5" data-interval="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel00" data-bs-slide-to="0" aria-label="Slide 1" class="active"aria-current="true"></button>
