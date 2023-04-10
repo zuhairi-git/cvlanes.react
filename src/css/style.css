@@ -104,6 +104,19 @@ h6 {
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+/* Carousel Custom */
+.carousel-control-next, .carousel-control-prev {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.rounded-custom {
+    border-radius: 2rem !important;
+}
+
+.carousel-indicators {
+    margin-top: 1200px !important;
+}
 
 /* Start Custom */
 .overflow-x-hidden {

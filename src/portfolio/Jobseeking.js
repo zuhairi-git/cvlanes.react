@@ -11,6 +11,8 @@ import Footer from '../pages/Footer';
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import LowFidJobseeking from '../generic/carousel/jobseeking/LowFidJobseeking';
+import LowFidJobseekingNormal from '../generic/carousel/jobseeking/LowFidJobseekingNormal';
+import LowFidJobseekingCarousel from '../generic/carousel/jobseeking/LowFidJobseekingCarousel';
 
 class App extends React.Component {
     componentDidMount() {
@@ -54,128 +56,31 @@ class App extends React.Component {
                         <h2 className='primary-title'>Job Seeking Application</h2>
                         <p>In today's digital era, mobile applications are essential tools for job seekers. With millions of people using smartphones, job search apps can make the process of finding employment more convenient, efficient, and less time-consuming. </p>
                         <div className="row mt-5">
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn">
                                 <h5 className='mt-2'>Project Type</h5>
                                 <p>Fontend Appliction for End User</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn">
                                 <h5 className='mt-2'>Timeline</h5>
                                 <p>8 Weeks</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn">
                                 <h5 className='mt-2'>Roles</h5>
                                 <p>Product Designer | Product Manager | User Research | Testing | User Behavior Analytics</p>
                             </div>
 
-                            <div className="col-sm-12 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="col-sm-12 col-md-3 wow fadeIn">
                                 <h5 className='mt-2'>Tools</h5>
                                 <p>Figma, Figma Jam, Maze</p>
                             </div>
 
                         </div>
 
-                        <Container>
-                            <h5 className='text-center mt-5 text-secondary'>Low-Fid Prototype</h5>
-                            <Row className='mt-4'>
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Splash.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Splash</Card.Title>
-                                            <Card.Text>
-                                                After Delay Effect.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Login.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Login</Card.Title>
-                                            <Card.Text>
-                                                Login Screen.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Main.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Home</Card.Title>
-                                            <Card.Text>
-                                                Search for jobs.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Calendar.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Calendar</Card.Title>
-                                            <Card.Text>
-                                                Applied Jobs.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/CalendarNext.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Calendar</Card.Title>
-                                            <Card.Text>
-                                                Next Shifts.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/CalendarHistory.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Calendar</Card.Title>
-                                            <Card.Text>
-                                                History.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Messeges.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Messeges</Card.Title>
-                                            <Card.Text>
-                                                Messeges and Chats.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-
-                                <Col className="mb-5" md={3}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/low-fid/Profile.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Profile</Card.Title>
-                                            <Card.Text>
-                                                Earnings, Skills, Etc.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            </Row>
-                        </Container>
+                        <div className='d-flex justify-content-center text-center'>
+                            <LowFidJobseekingCarousel />
+                        </div>
 
                         <Container>
                             <div className='col-md-auto mb-5 d-none'>
