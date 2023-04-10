@@ -22,7 +22,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="overflow-x-hidden"> {/* className="App overflow-x-hidden" */}
+            <div className=""> {/* className="App overflow-x-hidden" */}
                 <ScrollToTop />
                 <TopNavGeneric />
                 <Helmet>
@@ -37,7 +37,7 @@ class App extends React.Component {
                     <meta name="image:alt" content="Job Seeking Application" />
                 </Helmet>
 
-                <div className="jobseeking" id="jobseeking">
+                <div className="jobseeking overflow-x-hidden" id="jobseeking">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-sm-12 col-md-6">
