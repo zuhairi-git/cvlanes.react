@@ -55,10 +55,10 @@ h6 {
 }
 
 .border-bold {
-    border: solid 10px #8e8e8e !important;
+    border: solid 10px #434343 !important;
     border-radius: 2rem;
+    background-image: url('../img/iphone14.png');
 }
-
 
 /* Section Backgrounds */
 .blog-bg::before {    

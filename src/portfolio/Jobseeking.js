@@ -75,14 +75,11 @@ class App extends React.Component {
                                 <h5 className='mt-2'>Tools</h5>
                                 <p>Figma, Figma Jam, Maze</p>
                             </div>
-
+                            <hr className='m-5 border border-lite'/>
                         </div>
 
-                        <div className='d-flex justify-content-center text-center'>
-                            <LowFidJobseekingCarousel />
-                        </div>
-
-                        <Container>
+                        <Container className='mt-3'>
+                            <h2 className='primary-title'>Low-Fid Prototype</h2>
                             <div className='col-md-auto mb-5 d-none'>
                                 <div className="figma text-center">
                                     <iframe
@@ -95,14 +92,19 @@ class App extends React.Component {
                                 </div>
 
                             </div>
-                            <Row className="mb-5 d-flex justify-content-center">
-                                <Col className="mb-5 text-center" md={4}>
+                            <Row className="mt-5 d-flex justify-content-center">
+                                <Col className="text-center" md={4}>
                                     <Button className='w-100' href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644" target="_blank" variant="primary">Low-Fid Prototype (Figma)</Button>
                                 </Col>
-                                <Col className="mb-5 text-center" md={4}>
+                                <Col className="text-center" md={4}>
                                     <Button className='w-100' href="#" target="_blank" variant="primary">High-Fid Prototype (Coming Soon)</Button>
                                 </Col>
                             </Row>
+                            <div className='d-flex justify-content-center text-center'>
+                                <LowFidJobseekingCarousel />
+                            </div>
+
+
                         </Container>
 
                     </div>
