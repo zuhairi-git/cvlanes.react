@@ -75,7 +75,7 @@ class App extends React.Component {
                                 <h5 className='mt-2'>Tools</h5>
                                 <p>Figma, Figma Jam, Maze</p>
                             </div>
-                            <hr className='m-5 border border-lite'/>
+                            <hr className='m-5 border border-lite' />
                         </div>
 
                         <Container className='mt-3'>
@@ -100,7 +100,7 @@ class App extends React.Component {
                                     <Button className='w-100' href="#" target="_blank" variant="primary">High-Fid Prototype (Coming Soon)</Button>
                                 </Col>
                             </Row>
-                            <div className='d-flex justify-content-center text-center'>
+                            <div className='d-flex justify-content-center text-center mb-5'>
                                 <LowFidJobseekingCarousel />
                             </div>
 
