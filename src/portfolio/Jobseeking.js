@@ -22,7 +22,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div> {/* className="App overflow-x-hidden" */}
+            <div className="overflow-x-hidden"> {/* className="App overflow-x-hidden" */}
                 <ScrollToTop />
                 <TopNavGeneric />
                 <Helmet>
