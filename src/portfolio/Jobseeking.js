@@ -58,7 +58,7 @@ class App extends React.Component {
                             <div className="row mt-5">
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
                                     <h5 className='mt-2'>Project Type</h5>
-                                    <p>Fontend Appliction for End User</p>
+                                    <p>Frontend Appliction for End User</p>
                                 </div>
 
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
