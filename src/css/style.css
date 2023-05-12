@@ -62,6 +62,22 @@ h6 {
     color: #939393;
 }
 
+.blur-container{
+    padding: 0 0 2px 2px;
+    border-radius: 20px;
+}
+
+.blur-background  {
+    background: #ffffff;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    min-height: 50px;
+}
+
+.text-blur  {
+    margin-top: -50px !important;
+}
+
 div .card-hero-top {
     height: 275px !important;
 }
