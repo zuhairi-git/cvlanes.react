@@ -68,7 +68,7 @@ const Portfolio = () => {
                            <Card.Body className='card-content'>
                                 <Card.Title>Collaboration Workflow Platform</Card.Title>
                                 <Card.Text>
-                                    <p>Coming Soon</p>
+                                    <p>Inprogress</p>
                                     <p>Enabling a smooth and effective system for real-time collaboration on documents.</p>
                                 </Card.Text>
                                 <Button href="#" variant="primary" disabled>Read more</Button>
