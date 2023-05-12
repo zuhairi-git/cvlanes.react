@@ -222,7 +222,17 @@ class App extends React.Component {
                                             </Row>
                                         </Card.Title>
                                         <Card.Text>
-                                            Text
+                                            Name: John J.<br />
+                                            Age: 35<br />
+                                            Profession: Marketing Manager<br />
+                                            Background: John J. has been working in the marketing industry for the past ten years. He has experience working in various roles such as digital marketing, content marketing, and product marketing. John is a highly skilled marketing professional with excellent communication and leadership skills. He has a passion for innovation and is always looking for ways to improve the marketing strategies of his company.
+                                            <br />Goals: John's primary goal is to increase the revenue of his company by implementing effective marketing strategies. He wants to achieve this by collaborating with his team and stakeholders efficiently and effectively. John is always on the lookout for new technologies and tools that can help him achieve his goals.
+                                            <br />Challenges: John faces several challenges in his role as a marketing manager. One of the most significant challenges is managing his team's workload and ensuring that they are working collaboratively and effectively. He also struggles with keeping up with the latest trends and technologies in the industry and ensuring that his team is utilizing them effectively.
+                                            <br />Persona: John is a highly motivated and driven individual who is always looking for ways to improve his work and the work of his team. He is a strategic thinker who is not afraid to take risks and try new things. John is an excellent communicator and is always willing to listen to his team's ideas and feedback. He values collaboration and believes that working together is the key to success.
+                                            John is highly tech-savvy and is always on the lookout for new technologies and tools that can help him achieve his goals. He is a quick learner and is not afraid to experiment with new technologies to see how they can benefit his team and the company.
+                                            Overall, John is a dedicated marketing professional who is always looking for ways to improve his work and the work of his team. He is a natural leader and collaborator who values innovation and is always willing to try new things to achieve success.
+                                            Regenerate response
+
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -244,7 +254,16 @@ class App extends React.Component {
                                             </Row>
                                         </Card.Title>
                                         <Card.Text>
-                                            Text
+                                            Name: Julia Romes<br />
+                                            Age: 30<br />
+                                            Profession: Sales Director<br />
+                                            Background: Julia has been working in sales for the past 5 years and has a proven track record of success. She has worked for several companies in the past and has experience in various sales roles, including sales representative, sales manager, and sales director. Julia is a highly skilled sales professional with excellent communication, leadership, and organizational skills. She is dedicated to achieving her sales targets and growing her team.
+                                            <br />Goals: Julia's primary goal is to increase the sales revenue of her company by implementing effective sales strategies. She wants to achieve this by collaborating with her team and stakeholders efficiently and effectively. Julia is always on the lookout for new technologies and tools that can help her achieve her goals.
+                                            <br />Challenges: Julia faces several challenges in her role as a sales director. One of the most significant challenges is managing her team's workload and ensuring that they are working collaboratively and effectively. She also struggles with keeping up with the latest trends and technologies in the industry and ensuring that her team is utilizing them effectively.
+                                            <br />Persona: Julia is a highly driven and results-oriented sales professional who is always looking for ways to improve her work and the work of her team. She is a strategic thinker who is not afraid to take risks and try new things. Julia is an excellent communicator and is always willing to listen to her team's ideas and feedback. She values collaboration and believes that working together is the key to success.
+                                            Julia is always on the go, and she needs a mobile application that is simple and easy to use to stay connected with her team and stakeholders. She wants a platform that allows her to communicate with her team, share files, and manage tasks on the go. Julia values her time and wants a platform that is quick and easy to use, so she can focus on achieving her sales targets.
+                                            Overall, Julia is a dedicated sales professional who is always looking for ways to improve her work and the work of her team. She is a natural leader and collaborator who values innovation and is always willing to try new things to achieve success. Julia needs a simple and easy to use mobile application that can help her stay connected with her team and stakeholders while she is on the go.
+
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
