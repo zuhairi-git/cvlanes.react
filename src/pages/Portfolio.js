@@ -50,8 +50,8 @@ const Portfolio = () => {
                 <Row>
                 <Col md={4} className='mb-5'>
                         <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/jobseeking-cover.jpeg" />
-                            <Card.Body>
+                            <Card.Img className='card-hero-top' variant="top" src="../img/jobseeking-cover.jpeg" />
+                           <Card.Body className='card-content'>
                                 <Card.Title>Job Seeking</Card.Title>
                                 <Card.Text>
                                     <p>Inprogress</p>
@@ -64,12 +64,12 @@ const Portfolio = () => {
 
                     <Col md={4} className='mb-5'>
                         <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/smart-banking/hassle-free-banking.jpg" />
-                            <Card.Body>
-                                <Card.Title>Smart Banking</Card.Title>
+                            <Card.Img className='card-hero-top' variant="top" src="../img/collaboration/collaboration.png" />
+                           <Card.Body className='card-content'>
+                                <Card.Title>Collaboration Workflow Platform</Card.Title>
                                 <Card.Text>
                                     <p>Coming Soon</p>
-                                    <p>Hassle free banking application. It's time to get productive.</p>
+                                    <p>Enabling a smooth and effective system for real-time collaboration on documents.</p>
                                 </Card.Text>
                                 <Button href="#" variant="primary" disabled>Read more</Button>
                             </Card.Body>
@@ -78,12 +78,26 @@ const Portfolio = () => {
 
                     <Col md={4} className='mb-5'>
                         <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/smart-shopping/smart-shopping-cover.jpg" />
-                            <Card.Body>
+                            <Card.Img className='card-hero-top' variant="top" src="../img/smart-shopping/smart-shopping-cover.jpg" />
+                           <Card.Body className='card-content'>
                                 <Card.Title>Smart Shopping</Card.Title>
                                 <Card.Text>
-                                    <p>Coming Soon</p>
+                                    <p>Next</p>
                                     <p>Why not take pleasure when there is an opportunity?</p>
+                                </Card.Text>
+                                <Button href="#" variant="primary" disabled>Read more</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={4} className='mb-5'>
+                        <Card className='border bordered-1'>
+                            <Card.Img className='card-hero-top' variant="top" src="../img/smart-banking/hassle-free-banking.jpg" />
+                           <Card.Body className='card-content'>
+                                <Card.Title>Smart Banking</Card.Title>
+                                <Card.Text>
+                                    <p>Next</p>
+                                    <p>Hassle free banking application. It's time to get productive.</p>
                                 </Card.Text>
                                 <Button href="#" variant="primary" disabled>Read more</Button>
                             </Card.Body>

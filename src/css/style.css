@@ -49,6 +49,27 @@ h6 {
     backdrop-filter: blur(5px);
 }
 
+div .card-hero-top {
+    height: 275px !important;
+}
+
+.card-hero-top {
+    max-height: 100%;
+    max-width: 100%;
+    border-bottom: solid 1px #00000010;
+}
+
+div .card-content {
+    height: 255px;
+
+}
+
+.card-content {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
 .brand-border-bold {
     border: solid 10px #1EB6C3 !important;
     border-radius: 2rem;
