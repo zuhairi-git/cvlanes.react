@@ -150,7 +150,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Challenge</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Text</p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                         <div className="row m-4">
@@ -158,9 +158,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Discovery</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>
-                                    Text
-                                </p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                         <div className="row m-4">
@@ -168,9 +166,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Initial Research</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>
-                                    Text
-                                </p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                         <div className="row m-4">
@@ -178,9 +174,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Hypothesis</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>
-                                    Text
-                                </p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                         <div className="row m-4">
@@ -188,10 +182,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Primary Research</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>
-                                    <i className='d-none fa fa-circle-notch fa-lg fa-spin' style={{ animationDuration: '7s', marginTop: '10px' }}></i>
-                                    Text
-                                </p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                     </div>
@@ -253,10 +244,10 @@ class App extends React.Component {
                                             </Row>
                                         </Card.Title>
                                         <Card.Text>
-                                        <b>Name:</b> Julia Romes<br />
-                                        <b>Age:</b> 30<br />
-                                        <b>Profession:</b> Sales Director<br />
-                                        <b>Background:</b> Julia has been working in sales for the past 5 years and has a proven track record of success. She has worked for several companies in the past and has experience in various sales roles, including sales representative, sales manager, and sales director. Julia is a highly skilled sales professional with excellent communication, leadership, and organizational skills. She is dedicated to achieving her sales targets and growing her team.
+                                            <b>Name:</b> Julia Romes<br />
+                                            <b>Age:</b> 30<br />
+                                            <b>Profession:</b> Sales Director<br />
+                                            <b>Background:</b> Julia has been working in sales for the past 5 years and has a proven track record of success. She has worked for several companies in the past and has experience in various sales roles, including sales representative, sales manager, and sales director. Julia is a highly skilled sales professional with excellent communication, leadership, and organizational skills. She is dedicated to achieving her sales targets and growing her team.
                                             <br /><b>Goals:</b> Julia's primary goal is to increase the sales revenue of her company by implementing effective sales strategies. She wants to achieve this by collaborating with her team and stakeholders efficiently and effectively. Julia is always on the lookout for new technologies and tools that can help her achieve her goals.
                                             <br /><b>Challenges:</b> Julia faces several challenges in her role as a sales director. One of the most significant challenges is managing her team's workload and ensuring that they are working collaboratively and effectively. She also struggles with keeping up with the latest trends and technologies in the industry and ensuring that her team is utilizing them effectively.
                                             <br /><b>Persona:</b> Julia is a highly driven and results-oriented sales professional who is always looking for ways to improve her work and the work of her team. She is a strategic thinker who is not afraid to take risks and try new things. Julia is an excellent communicator and is always willing to listen to her team's ideas and feedback. She values collaboration and believes that working together is the key to success.
@@ -279,7 +270,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Epic</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Text</p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                         <div className="row m-4">
@@ -287,7 +278,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>User Journey</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Coming Soon</p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                     </div>
@@ -301,7 +292,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>User Test - Session 1</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Coming Soon</p>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                     </div>
