@@ -96,7 +96,7 @@ const Portfolio = () => {
                            <Card.Body className='card-content'>
                                 <Card.Title>Smart Banking</Card.Title>
                                 <Card.Text>
-                                    <p>Next</p>
+                                    <p>After Next</p>
                                     <p>Hassle free banking application. It's time to get productive.</p>
                                 </Card.Text>
                                 <Button href="#" variant="primary" disabled>Read more</Button>
