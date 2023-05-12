@@ -217,7 +217,7 @@ class App extends React.Component {
                                                 </Col>
                                                 <Col className='col-auto'>
                                                     John J.
-                                                    <p className='avatars-job'><small>Sales Manager</small></p>
+                                                    <p className='avatars-job'><small>Marketing Manager</small></p>
                                                 </Col>
                                             </Row>
                                         </Card.Title>
