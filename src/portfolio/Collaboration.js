@@ -270,7 +270,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Epic</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>It can be challenging to find a platform that offers a comprehensive end-to-end solution while also catering to the diverse needs of users across different levels of complexity. Such a platform must strike a delicate balance between sophistication and simplicity to meet the expectations of various user groups.</p>
                             </div>
                         </div>
                         <div className="row m-4">
