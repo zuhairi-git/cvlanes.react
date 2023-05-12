@@ -54,7 +54,7 @@ const Portfolio = () => {
                            <Card.Body className='card-content'>
                                 <Card.Title>Job Seeking</Card.Title>
                                 <Card.Text>
-                                    <p>Inprogress</p>
+                                    <p>Final Touches</p>
                                     <p>User journey and behavior analytics. User actions, awareness, consideration, loyalty, feelings, opportunities, and pain points. </p>
                                 </Card.Text>
                                 <Button href="/portfolio/jobseeking" variant="primary">Read more</Button>
