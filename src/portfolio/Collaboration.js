@@ -209,7 +209,9 @@ class App extends React.Component {
                                 <Card>
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
-                                        <Card.Title className='primary-title'>John J.</Card.Title>
+                                        <Card.Title className='primary-title'>
+                                            <img src="../img/collaboration/avatars/john.png" className="avatars" />John J.
+                                        </Card.Title>
                                         <Card.Text>
                                             Text
                                         </Card.Text>
@@ -220,7 +222,9 @@ class App extends React.Component {
                                 <Card>
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
-                                        <Card.Title className='primary-title'>Julia Romes</Card.Title>
+                                        <Card.Title className='primary-title'>
+                                            <img src="../img/collaboration/avatars/julia.png" className="avatars" />Julia Romes
+                                        </Card.Title>
                                         <Card.Text>
                                             Text
                                         </Card.Text>
