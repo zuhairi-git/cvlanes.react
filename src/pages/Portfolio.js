@@ -71,7 +71,7 @@ const Portfolio = () => {
                                     <p>Inprogress</p>
                                     <p>Enabling a smooth and effective system for real-time collaboration on documents.</p>
                                 </Card.Text>
-                                <Button href="#" variant="primary" disabled>Read more</Button>
+                                <Button href="/portfolio/collaboration" variant="primary">Read more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
