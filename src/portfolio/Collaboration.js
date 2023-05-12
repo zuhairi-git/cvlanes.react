@@ -210,7 +210,16 @@ class App extends React.Component {
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
                                         <Card.Title className='primary-title'>
-                                            <img src="../img/collaboration/avatars/john.png" className="avatars" />John J.
+                                            <Row>
+                                                <Col className='col-auto'>
+                                                    <img src="../img/collaboration/avatars/john.png" className="avatars" />
+
+                                                </Col>
+                                                <Col className='col-auto'>
+                                                    John J.
+                                                    <p className='avatars-job'><small>Sales Manager</small></p>
+                                                </Col>
+                                            </Row>
                                         </Card.Title>
                                         <Card.Text>
                                             Text
@@ -223,7 +232,16 @@ class App extends React.Component {
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
                                         <Card.Title className='primary-title'>
-                                            <img src="../img/collaboration/avatars/julia.png" className="avatars" />Julia Romes
+                                            <Row>
+                                                <Col className='col-auto'>
+                                                    <img src="../img/collaboration/avatars/julia.png" className="avatars" />
+
+                                                </Col>
+                                                <Col className='col-auto'>
+                                                    Julia Romes
+                                                    <p className='avatars-job'><small>Sales Director</small></p>
+                                                </Col>
+                                            </Row>
                                         </Card.Title>
                                         <Card.Text>
                                             Text
