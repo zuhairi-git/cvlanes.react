@@ -80,28 +80,33 @@ class App extends React.Component {
                                 </div>
                                 <hr className='m-5 border border-lite' />
                             </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid">
+                        <div className='m-lg-5 m-xs-3 m-sm-3'>
+                            <h2 className='primary-title'>Objectives</h2>
+                        </div>
 
-                            <Container className='mt-3'>
-                                <h2 className='primary-title'>Objectives</h2>
-                                <Row className="mt-5 d-flex justify-content-center mb-5">
-                                    <ul>
-                                        <li className='p-1'><b>User-Friendly:</b> Clarify the purpose behind each step.</li>
-                                        <li className='p-1'><b>Intuitive:</b> Using marketing business logic for communication.</li>
-                                        <li className='p-1'><b>Customizable:</b> More control over the UI</li>
-                                        <li className='p-1'><b>Consistent:</b> Consistency in design, colors, and icons should convey the same meaning across all interfaces.</li>
-                                        <li className='p-1'><b>Responsive:</b> Develop the design with a mobile-first approach in mind.</li>
-                                        <li className='p-1'><b>Sephestication and Simplicity:</b> Text</li>
-                                    </ul>
-
-                                </Row>
-                                <div className='d-flex justify-content-center text-center mb-5'>
-                                </div>
-                            </Container>
-
+                        <div className="m-lg-5 m-xs-3 m-sm-3">
+                            <p>
+                                If a service becomes too complex and involves advanced features, it can be problematic for users who don't have the time or need to learn new technologies, making it difficult for them to use the service. <br />
+                                Therefore, companies should consider delivering their services on different levels based on the needs of different user groups. <br />
+                                A highly sophisticated service may provide a wide range of advanced options and customization, but can be challenging for users who are not familiar with the technology. <br />
+                                In contrast, a simple service may have fewer features and options, but it can be more straightforward to understand and use even for those without technical expertise. <br />
+                                Ultimately, the choice between sophistication and simplicity depends on the user's priorities and how they intend to use the service.
+                            </p>
+                            <p>My Objectives In This Project:</p>
+                            <ul>
+                                <li className='p-1'><b>User-Friendly:</b> Clarify the purpose behind each step.</li>
+                                <li className='p-1'><b>Intuitive:</b> Using marketing business logic for communication.</li>
+                                <li className='p-1'><b>Customizable:</b> More control over the UI</li>
+                                <li className='p-1'><b>Consistent:</b> Consistency in design, colors, and icons should convey the same meaning across all interfaces.</li>
+                                <li className='p-1'><b>Mobile Friendly:</b> Develop the design with a mobile-first approach in mind.</li>
+                            </ul>
                         </div>
                     </div>
 
-                    <div className="full-image" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
+                    <div className="full-image mt-5" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
                         <div className="container-fluid">
                             <div className='m-lg-5 m-xs-3 m-sm-3'>
                                 <h2 className='primary-title mb-3 mt-5'>Application Flow</h2>

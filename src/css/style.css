@@ -27,7 +27,7 @@
     color: #fff;
 }
 
-p {
+p, li, ul {
     font-family: 'Montserrat', sans-serif;
 }
 
