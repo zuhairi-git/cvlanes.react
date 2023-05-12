@@ -231,7 +231,6 @@ class App extends React.Component {
                                             <br /><b>Persona:</b> John is a highly motivated and driven individual who is always looking for ways to improve his work and the work of his team. He is a strategic thinker who is not afraid to take risks and try new things. John is an excellent communicator and is always willing to listen to his team's ideas and feedback. He values collaboration and believes that working together is the key to success.
                                             John is highly tech-savvy and is always on the lookout for new technologies and tools that can help him achieve his goals. He is a quick learner and is not afraid to experiment with new technologies to see how they can benefit his team and the company.
                                             Overall, John is a dedicated marketing professional who is always looking for ways to improve his work and the work of his team. He is a natural leader and collaborator who values innovation and is always willing to try new things to achieve success.
-                                            Regenerate response
 
                                         </Card.Text>
                                     </Card.Body>
