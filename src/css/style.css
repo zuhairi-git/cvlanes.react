@@ -85,6 +85,7 @@ div .card-hero-top {
 .card-hero-top {
     max-height: 100%;
     max-width: 100%;
+    object-fit: contain;
     border-bottom: solid 1px #00000010;
 }
 
@@ -611,7 +612,7 @@ a:focus {
 }
 
 .collaboration {
-    background-image: url(/src/img/cwp.png);
+    background-image: url(/src/img/collaboration/cwp.png);
 }
 
 .blog-author {

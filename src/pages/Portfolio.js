@@ -64,7 +64,7 @@ const Portfolio = () => {
 
                     <Col md={4} className='mb-5'>
                         <Card className='border bordered-1'>
-                            <Card.Img className='card-hero-top' variant="top" src="../img/collaboration/collaboration.png" />
+                            <Card.Img className='card-hero-top' variant="top" src="../img/collaboration/cwp.png" />
                            <Card.Body className='card-content'>
                                 <Card.Title>Collaboration Workflow Platform</Card.Title>
                                 <Card.Text>
