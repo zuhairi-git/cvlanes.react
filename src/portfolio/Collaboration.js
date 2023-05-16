@@ -66,7 +66,7 @@ class App extends React.Component {
 
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
                                     <h5 className='mt-2'>Timeline</h5>
-                                    <p>24 Weeks</p>
+                                    <p>18 Weeks</p>
                                 </div>
 
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
@@ -77,6 +77,9 @@ class App extends React.Component {
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
                                     <h5 className='mt-2'>Tools</h5>
                                     <p>Figma, Figma Jam, Maze</p>
+                                </div>
+                                <div>
+                                    <img src='/img/collaboration/Platforms.png' className='w-100 border-thin pill-image'></img>
                                 </div>
                                 <hr className='m-5 border border-lite' />
                             </div>
