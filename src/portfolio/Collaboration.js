@@ -79,7 +79,7 @@ class App extends React.Component {
                                     <p>Figma, Figma Jam, Maze</p>
                                 </div>
                                 <div>
-                                    <img src='/img/collaboration/Platforms.png' className='w-100 border-thin pill-image'></img>
+                                    <img src='/img/collaboration/Platforms.png' className='w-100 mt-4 border-thin pill-image'></img>
                                 </div>
                                 <hr className='m-5 border border-lite' />
                             </div>
