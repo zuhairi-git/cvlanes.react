@@ -108,27 +108,9 @@ class App extends React.Component {
                         </div>
                     </div>
 
-                    <div className="full-image" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
-                        <div className="container-fluid">
-                            <div className='m-lg-5 m-xs-3 m-sm-3'>
-                                <h2 className='primary-title mb-3 mt-5'>Application Flow</h2>
-                                <Col className="mb-5" md={12}>
-                                    <Card>
-                                        <Card.Img className='w-100 border border-1' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
-                                        <Card.Body>
-                                            <Card.Title className='primary-title'></Card.Title>
-                                            <Card.Text>
-                                                The MVP (Minimum Viable Product) workflow facilitates a quicker and more effective initiation of idea development and application towards achieving maturity. This approach is particularly crucial for startups and independent professionals who aim to rapidly build their portfolios, as I do.
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="container-fluid">
                         <div className='m-lg-5 m-xs-3 m-sm-3'>
+                            <hr className='m-5 border border-lite' />
                             <h2 className='primary-title'>Design Process</h2>
                             <img src='../img/jobseeking/DesignProcess.jpg' className="w-100" alt="cover" />
                         </div>
@@ -266,9 +248,15 @@ class App extends React.Component {
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Journey</h3>
                             </div>
-                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
-                            </div>
+                            <Card>
+                                <Card.Img className='w-100' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
+                                <Card.Body>
+                                    <Card.Title className='primary-title'></Card.Title>
+                                    <Card.Text>
+                                        The MVP (Minimum Viable Product) workflow facilitates a quicker and more effective initiation of idea development and application towards achieving maturity. This approach is particularly crucial for startups and independent professionals who aim to rapidly build their portfolios, as I do.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </div>
                     <div className="container-fluid mb-2">

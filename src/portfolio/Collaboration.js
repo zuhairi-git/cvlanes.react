@@ -109,7 +109,7 @@ class App extends React.Component {
                         </div>
                     </div>
 
-                    <div className="full-image mt-5" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
+                    <div className="d-none full-image mt-5" style={{ backgroundImage: 'url("../img/jobseeking/WorkFlowBG-2.jpg")' }}>
                         <div className="container-fluid">
                             <div className='m-lg-5 m-xs-3 m-sm-3'>
                                 <h2 className='primary-title mb-3 mt-5'>Application Flow</h2>
@@ -130,6 +130,7 @@ class App extends React.Component {
 
                     <div className="container-fluid">
                         <div className='m-lg-5 m-xs-3 m-sm-3'>
+                            <hr className='m-5 border border-lite' />
                             <h2 className='primary-title'>Design Process</h2>
                             <img src='../img/jobseeking/DesignProcess.jpg' className="w-100" alt="cover" />
                         </div>
