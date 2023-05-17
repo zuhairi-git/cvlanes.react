@@ -241,6 +241,12 @@ class App extends React.Component {
                             </Col>
                         </Row>
                     </div>
+                    <div className="container-fluid mb-2">
+                        <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                            <h3 className='primary-title mt-5'>Product requirements</h3>
+                        </div>
+
+                    </div>
 
                     <div className='brand-bg p-5'>
                         <h2 className='primary-title primary-title-color'>Develope Phase</h2>
@@ -254,12 +260,24 @@ class App extends React.Component {
                                 <p>The most effective method of quickly earning money.</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="container-fluid mb-2">
                         <div className="row m-4">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Journey</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Coming Soon</p>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>User Testing</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                     </div>
@@ -270,10 +288,40 @@ class App extends React.Component {
                     <div className="container-fluid mb-2">
                         <div className="row m-4">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <h3 className='primary-title'>User Test - Session 1</h3>
+                                <h3 className='primary-title'>High Fidelity Prototype</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Coming Soon</p>
+                                <Button href="#" target="_blank" variant="primary">High-Fid Prototype (Coming Soon)</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Design Reviews</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Quality Assurance</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Design Documentation</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
                             </div>
                         </div>
                     </div>

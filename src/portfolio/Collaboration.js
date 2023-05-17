@@ -282,6 +282,8 @@ class App extends React.Component {
                                 <p>It can be challenging to find a platform that offers a comprehensive end-to-end solution while also catering to the diverse needs of users across different levels of complexity. Such a platform must strike a delicate balance between sophistication and simplicity to meet the expectations of various user groups.</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="container-fluid mb-2">
                         <div className="row m-4">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Journey</h3>
@@ -291,9 +293,39 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>User Testing</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='brand-bg p-5'>
                         <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>High Fidelity Prototype</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <Button href="#" target="_blank" variant="primary">High-Fid Prototype (Coming Soon)</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Design Reviews</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
                     </div>
                     <div className="container-fluid mb-2">
                         <div className="row m-4">
@@ -308,7 +340,7 @@ class App extends React.Component {
                     <div className="container-fluid mb-2">
                         <div className="row m-4">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <h3 className='primary-title'>User Test - Session 1</h3>
+                                <h3 className='primary-title'>Design Documentation</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>Inprogress</p>
