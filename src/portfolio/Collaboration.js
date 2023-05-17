@@ -343,7 +343,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Design Documentation</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>Inprogress </p>
                             </div>
                         </div>
                     </div>
