@@ -263,6 +263,12 @@ class App extends React.Component {
                             </Col>
                         </Row>
                     </div>
+                    <div className="container-fluid mb-2">
+                        <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                            <h3 className='primary-title mt-5'>Product requirements</h3>
+                        </div>
+
+                    </div>
 
                     <div className='brand-bg p-5'>
                         <h2 className='primary-title primary-title-color'>Develope Phase</h2>
@@ -288,6 +294,16 @@ class App extends React.Component {
 
                     <div className='brand-bg p-5'>
                         <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-4">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Quality Assurance</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p>Inprogress</p>
+                            </div>
+                        </div>
                     </div>
                     <div className="container-fluid mb-2">
                         <div className="row m-4">
