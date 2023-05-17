@@ -90,7 +90,6 @@ class App extends React.Component {
                                             allowfullscreen >
                                         </iframe>
                                     </div>
-
                                 </div>
                                 <Row className="mt-5 d-flex justify-content-center">
                                     <Col className="text-center mb-5" md={4}>
@@ -248,15 +247,17 @@ class App extends React.Component {
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Journey</h3>
                             </div>
-                            <Card>
-                                <Card.Img className='w-100' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
-                                <Card.Body>
-                                    <Card.Title className='primary-title'></Card.Title>
-                                    <Card.Text>
-                                        The MVP (Minimum Viable Product) workflow facilitates a quicker and more effective initiation of idea development and application towards achieving maturity. This approach is particularly crucial for startups and independent professionals who aim to rapidly build their portfolios, as I do.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <Card>
+                                    <Card.Img className='w-100' variant="top" src="../img/jobseeking/JobSeekingFlow.jpg" />
+                                    <Card.Body>
+                                        <Card.Title className='primary-title'></Card.Title>
+                                        <Card.Text>
+                                            The MVP (Minimum Viable Product) workflow facilitates a quicker and more effective initiation of idea development and application towards achieving maturity. This approach is particularly crucial for startups and independent professionals who aim to rapidly build their portfolios, as I do.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
