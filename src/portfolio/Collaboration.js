@@ -352,8 +352,8 @@ class App extends React.Component {
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>
-                                    In the final phase of the design process, creating comprehensive design documentation is crucial. This documentation serves as a future reference, facilitating collaboration and maintenance of the design. 
-                                    It provides clarity on design decisions and their rationale, fostering effective communication between designers, developers, and team members.
+                                    Maintaining documentation for sophisticated solutions can be a significant challenge due to the workload and intensive collaboration involved in keeping the design relevant and consistent. However, in the final phase of the design process, creating comprehensive design documentation becomes crucial. 
+                                    This documentation serves as a valuable point of reference for the future, enabling seamless collaboration and ensuring the ongoing maintenance of the design. By providing clarity on design decisions and their underlying rationale, it fosters effective communication among designers, developers, and team members.
                                 </p>
                             </div>
                         </div>
