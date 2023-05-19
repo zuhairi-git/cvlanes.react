@@ -154,7 +154,14 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Challenge</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                    <ul>
+                                        <li>Team-to-team and team-to-customer communication: Clear and efficient communication between teams is crucial when designing and delivering services at different levels. Teams working on advanced features need to communicate effectively with those working on simpler versions to ensure consistency and avoid misunderstandings regarding capabilities, limitations, and dependencies.</li>
+                                        <li>User research and feedback: Understanding the needs and preferences of different user groups is essential. Collaboration between simple and advanced users in user research can provide valuable data and feedback that shape the development process and guide decisions on feature inclusion or simplification.</li>
+                                        <li>Training: Collaboration between different user levels requires training for advanced users to support and guide basic users effectively. Ensuring that even advanced features are presented in a way that all user levels can understand and use is crucial for effective collaboration.</li>
+                                        <li>Documentation and support: Providing comprehensive documentation and support for users across different levels, including technical writers, support teams, and developers, is necessary. Addressing common user questions and problems proactively and providing resources to assist users in utilizing the service optimally is essential.</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                         <div className="row m-4">
