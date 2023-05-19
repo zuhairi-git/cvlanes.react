@@ -226,10 +226,27 @@ class App extends React.Component {
                         <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                             <h3 className='primary-title mt-5'>Product requirements</h3>
                         </div>
-
+                            <p>
+                            <b>User Registration and Profile Creation:</b> The application should allow users to create an account and build a comprehensive profile that includes their educational background, work experience, skills, and any other relevant information. This profile will be used by employers to evaluate potential candidates.
+                            </p>
+                            <p>
+                            <b>Job Search and Filtering:</b> The app should provide users with a robust job search functionality, allowing them to search for job openings based on various criteria such as location, industry, job title, and salary range. Users should also be able to save their preferred search filters for future use.
+                            </p>
+                            <p>
+                            <b>Alerts and Notifications:</b> The app should have a notification system that keeps users informed about relevant job opportunities based on their preferences. Users should receive notifications for new job openings, application deadlines, interview requests, and other important updates.
+                            </p>
+                            <p>
+                            <b>Communication and Messaging:</b> The app should include a messaging system that allows users to communicate directly with employers, hiring managers, or other job seekers. This feature should facilitate easy and secure communication for scheduling interviews, asking questions, or discussing job-related matters.
+                            </p>
+                            <p>
+                            <b>Personalized Recommendations:</b> The application should leverage user data and preferences to offer personalized job recommendations based on their skills, experience, and interests. This can help users discover relevant job opportunities that they may not have otherwise considered.
+                            </p>
+                            <p>
+                            <b>Analytics and Insights:</b> The app should provide users with analytics and insights regarding their job search activities. This could include metrics such as the number of applications submitted, the success rate, and recommendations for improving their job search strategy.
+                            </p>
                     </div>
 
-                    <div className='brand-bg p-5'>
+                    <div className='brand-bg mt-5 p-5'>
                         <h2 className='primary-title primary-title-color'>Develope Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
@@ -290,7 +307,12 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Design Reviews</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                To conduct a design review, begin with an introduction that covers the design objectives, project background, and constraints. 
+                                Present the design systematically, explaining key features and how they address the problem-solving approach and project requirements. 
+                                </p>
+                                <p>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </p>
+                                <p>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</p>
                             </div>
                         </div>
                     </div>
@@ -300,7 +322,9 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Quality Assurance</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                    QA in design is vital for ensuring the quality and usability of a design. It helps identify and address potential issues and errors, leading to improved user satisfaction and reduced rework. QA involves activities such as usability testing, evaluation, and functional testing, ensuring the design meets high-quality standards and is compatible across different devices.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +334,10 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Design Documentation</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                    In the final phase of the design process, creating comprehensive design documentation is crucial. This documentation serves as a future reference, facilitating collaboration and maintenance of the design. 
+                                    It provides clarity on design decisions and their rationale, fostering effective communication between designers, developers, and team members.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -324,7 +324,12 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Design Reviews</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                To conduct a design review, begin with an introduction that covers the design objectives, project background, and constraints. 
+                                Present the design systematically, explaining key features and how they address the problem-solving approach and project requirements. 
+                                </p>
+                                <p>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </p>
+                                <p>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</p>
                             </div>
                         </div>
                     </div>
@@ -334,7 +339,9 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Quality Assurance</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                    QA in design is vital for ensuring the quality and usability of a design. It helps identify and address potential issues and errors, leading to improved user satisfaction and reduced rework. QA involves activities such as usability testing, evaluation, and functional testing, ensuring the design meets high-quality standards and is compatible across different devices.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -344,7 +351,10 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Design Documentation</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress </p>
+                                <p>
+                                    In the final phase of the design process, creating comprehensive design documentation is crucial. This documentation serves as a future reference, facilitating collaboration and maintenance of the design. 
+                                    It provides clarity on design decisions and their rationale, fostering effective communication between designers, developers, and team members.
+                                </p>
                             </div>
                         </div>
                     </div>
