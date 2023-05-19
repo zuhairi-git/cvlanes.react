@@ -169,7 +169,12 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Discovery</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                
+                                <p>During the discovery phase, the focus intensifies on addressing challenges and establishing a connection between users, the service, and the competition.</p>
+                                <p>When dealing with a complex product that encompasses varying levels of technicality, it becomes crucial to engage extensively with basic-level users while simultaneously refining and enhancing the solution to cater to sophisticated needs.
+                                 This approach ensures a harmonious blend of simplicity and clarity on one hand, while incorporating advanced features that offer automation capabilities to basic users on the other. </p>
+                                <p>By striking this balance, the product aims to provide a user experience that is both streamlined and comprehensive.</p>
+                                
                             </div>
                         </div>
                         <div className="row m-4">
