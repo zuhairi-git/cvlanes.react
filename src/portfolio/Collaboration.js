@@ -207,7 +207,7 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Define Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <Row className='mb-5 mt-4'>
+                        <Row className='m-lg-5 m-xs-2 m-sm-2'>
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Personas</h3>
                             </div>
