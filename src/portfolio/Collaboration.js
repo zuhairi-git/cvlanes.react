@@ -283,9 +283,9 @@ class App extends React.Component {
 
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <ol className='mb-5'>
-                                    <li>
+                                    <li className='list-text-style'>
+                                        <b>Team-to-team and team-to-customer communication:</b>
                                         <ul className='mb-3'>
-                                            <b>Team-to-team and team-to-customer communication:</b>
                                             <li>
                                                 Develop a clear and efficient communication system that facilitates seamless collaboration between teams working on different levels of service complexity.
                                             </li>
@@ -294,9 +294,9 @@ class App extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li className='list-text-style'>
+                                        <b>User research and feedback:</b>
                                         <ul className='mb-3'>
-                                            <b>User research and feedback:</b>
                                             <li>
                                                 Conduct user research activities involving both simple and advanced users to gain insights into their needs, preferences, and pain points.
                                             </li>
@@ -308,9 +308,9 @@ class App extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li className='list-text-style'>
+                                        <b>Training:</b>
                                         <ul className='mb-3'>
-                                            <b>Training:</b>
                                             <li>
                                                 Develop comprehensive training materials and resources for advanced users to support and guide basic users in utilizing the service.
                                             </li>
@@ -322,9 +322,9 @@ class App extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li className='list-text-style'>
+                                        <b>Documentation and support:</b>
                                         <ul className='mb-3'>
-                                            <b>Documentation and support:</b>
                                             <li>
                                                 Provide comprehensive and user-friendly documentation that covers all aspects of the service, including instructions, troubleshooting guides, and FAQs.
                                             </li>

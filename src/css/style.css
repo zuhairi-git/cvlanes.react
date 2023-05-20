@@ -577,6 +577,10 @@ a:focus {
     border-radius: 35px;
 }
 
+.list-text-style {
+    text-indent: 2px;
+}
+
 .full-image {
     position: relative;
     width: 100%;
