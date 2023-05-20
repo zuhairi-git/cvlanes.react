@@ -358,6 +358,7 @@ class App extends React.Component {
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>Inprogress</p>
+                                <img src='/img/collaboration/Collaboration-Workflow-UJ.jpg' className='mt-4 rounded-5 w-100'></img>
                             </div>
                         </div>
                     </div>
