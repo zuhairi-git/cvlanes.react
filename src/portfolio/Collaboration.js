@@ -149,7 +149,7 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Discover Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Challenges</h3>
                             </div>
@@ -164,7 +164,7 @@ class App extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Discovery</h3>
                             </div>
@@ -177,7 +177,7 @@ class App extends React.Component {
 
                             </div>
                         </div>
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Initial Research</h3>
                             </div>
@@ -185,7 +185,7 @@ class App extends React.Component {
                                 <p>Inprogress</p>
                             </div>
                         </div>
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Hypothesis</h3>
                             </div>
@@ -193,7 +193,7 @@ class App extends React.Component {
                                 <p>Inprogress</p>
                             </div>
                         </div>
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Primary Research</h3>
                             </div>
@@ -207,7 +207,7 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Define Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <Row className='m-lg-5 m-xs-2 m-sm-2'>
+                        <Row className='m-lg-5 m-xs-2 m-sm-2 mt-3 mt-3'>
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Personas</h3>
                             </div>
@@ -276,7 +276,7 @@ class App extends React.Component {
                         </Row>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Product requirements</h3>
                             </div>
@@ -342,7 +342,7 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Develope Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Epic</h3>
                             </div>
@@ -352,7 +352,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Journey</h3>
                             </div>
@@ -362,7 +362,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>User Testing</h3>
                             </div>
@@ -376,7 +376,7 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Deliver Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>High Fidelity Prototype</h3>
                             </div>
@@ -386,7 +386,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Design Reviews</h3>
                             </div>
@@ -401,7 +401,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Quality Assurance</h3>
                             </div>
@@ -413,7 +413,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className="row m-lg-5 m-xs-2 m-sm-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Design Documentation</h3>
                             </div>
