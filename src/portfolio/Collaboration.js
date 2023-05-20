@@ -169,12 +169,12 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Discovery</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                
+
                                 <p>During the discovery phase, the focus intensifies on addressing challenges and establishing a connection between users, the service, and the competition.</p>
                                 <p>When dealing with a complex product that encompasses varying levels of technicality, it becomes crucial to engage extensively with basic-level users while simultaneously refining and enhancing the solution to cater to sophisticated needs.
-                                 This approach ensures a harmonious blend of simplicity and clarity on one hand, while incorporating advanced features that offer automation capabilities to basic users on the other. </p>
+                                    This approach ensures a harmonious blend of simplicity and clarity on one hand, while incorporating advanced features that offer automation capabilities to basic users on the other. </p>
                                 <p>By striking this balance, the product aims to provide a user experience that is both streamlined and comprehensive.</p>
-                                
+
                             </div>
                         </div>
                         <div className="row m-4">
@@ -207,13 +207,13 @@ class App extends React.Component {
                         <h2 className='primary-title primary-title-color'>Define Phase</h2>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
-                            <h3 className='primary-title mt-5'>Personas</h3>
-                        </div>
-
                         <Row className='mb-5 mt-4'>
-                            <Col className="mb-5" md={12}>
-                                <Card>
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Personas</h3>
+                            </div>
+
+                            <Col className="mb-5" md={9}>
+                                <Card className='mb-4'>
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
                                         <Card.Title className='primary-title'>
@@ -242,8 +242,7 @@ class App extends React.Component {
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
-                            </Col>
-                            <Col className="mb-5" md={12}>
+
                                 <Card>
                                     <Card.Img className='w-100' variant="top" src="" />
                                     <Card.Body>
@@ -277,10 +276,66 @@ class App extends React.Component {
                         </Row>
                     </div>
                     <div className="container-fluid mb-2">
-                        <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
-                            <h3 className='primary-title mt-5'>Product requirements</h3>
-                        </div>
+                        <div className='row m-4'>
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Product requirements</h3>
+                            </div>
 
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <ol className='mb-5'>
+                                    <li>
+                                        <ul className='mb-3'>
+                                            <b>Team-to-team and team-to-customer communication:</b>
+                                            <li>
+                                                Develop a clear and efficient communication system that facilitates seamless collaboration between teams working on different levels of service complexity.
+                                            </li>
+                                            <li>
+                                                Implement communication channels and tools that enable effective information sharing, such as chat platforms, project management systems, and regular team meetings.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul className='mb-3'>
+                                            <b>User research and feedback:</b>
+                                            <li>
+                                                Conduct user research activities involving both simple and advanced users to gain insights into their needs, preferences, and pain points.
+                                            </li>
+                                            <li>
+                                                Establish channels for gathering user feedback, such as surveys, interviews, or feedback forms, to capture valuable data that guides decision-making during the development process.
+                                            </li>
+                                            <li>
+                                                Utilize user feedback to prioritize feature inclusion or simplification, ensuring that the product addresses the diverse requirements of different user groups effectively.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul className='mb-3'>
+                                            <b>Training:</b>
+                                            <li>
+                                                Develop comprehensive training materials and resources for advanced users to support and guide basic users in utilizing the service.
+                                            </li>
+                                            <li>
+                                                Create training programs or workshops that enable advanced users to effectively communicate and collaborate with basic users, fostering a productive and inclusive environment.
+                                            </li>
+                                            <li>
+                                                Ensure that training materials and resources are accessible and easily understandable for users across different levels of technical proficiency.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul className='mb-3'>
+                                            <b>Documentation and support:</b>
+                                            <li>
+                                                Provide comprehensive and user-friendly documentation that covers all aspects of the service, including instructions, troubleshooting guides, and FAQs.
+                                            </li>
+                                            <li>
+                                                Regularly update documentation and support resources based on user feedback and evolving service requirements, ensuring accuracy and relevance.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
 
                     <div className='brand-bg p-5'>
@@ -337,8 +392,8 @@ class App extends React.Component {
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>
-                                To conduct a design review, begin with an introduction that covers the design objectives, project background, and constraints. 
-                                Present the design systematically, explaining key features and how they address the problem-solving approach and project requirements. 
+                                    To conduct a design review, begin with an introduction that covers the design objectives, project background, and constraints.
+                                    Present the design systematically, explaining key features and how they address the problem-solving approach and project requirements.
                                 </p>
                                 <p>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </p>
                                 <p>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</p>
@@ -364,7 +419,7 @@ class App extends React.Component {
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>
-                                    Maintaining documentation for sophisticated solutions can be a significant challenge due to the workload and intensive collaboration involved in keeping the design relevant and consistent. However, in the final phase of the design process, creating comprehensive design documentation becomes crucial. 
+                                    Maintaining documentation for sophisticated solutions can be a significant challenge due to the workload and intensive collaboration involved in keeping the design relevant and consistent. However, in the final phase of the design process, creating comprehensive design documentation becomes crucial.
                                     This documentation serves as a valuable point of reference for the future, enabling seamless collaboration and ensuring the ongoing maintenance of the design. By providing clarity on design decisions and their underlying rationale, it fosters effective communication among designers, developers, and team members.
                                 </p>
                             </div>
