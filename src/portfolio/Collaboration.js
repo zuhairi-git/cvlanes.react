@@ -415,6 +415,16 @@ class App extends React.Component {
                     <div className="container-fluid mb-2">
                         <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
                             <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <h3 className='primary-title'>Platform Logo</h3>
+                            </div>
+                            <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <img src='/img/collaboration/logo-options.png' className='mt-4 rounded-5 w-100'></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mb-2">
+                        <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
+                            <div className='col-sm-12 col-md-3 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <h3 className='primary-title'>Design Documentation</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>

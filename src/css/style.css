@@ -597,6 +597,10 @@ a:focus {
     border-radius: 400px;
 }
 
+.pill-div {
+    border: 1px white solid;
+}
+
 .border-thin {
     border: 1px solid #c8e7ea;
 }
