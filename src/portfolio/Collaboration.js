@@ -419,6 +419,7 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Platform Logo</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
+                                <p><b>Collaboration</b> Plays a <i className='text-decoration-none'> Key</i> Role in Fostering a Seamless <b>Workflow</b>.</p>
                                 <img src='/img/collaboration/logo-options.png' className='mt-4 rounded-5 w-100'></img>
                             </div>
                         </div>
