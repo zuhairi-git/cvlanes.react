@@ -200,7 +200,7 @@ class App extends React.Component {
                                     For instance, in many user interfaces, the green button is commonly associated with positive actions or affirmations. It serves as a representation of the primary or preferred action, such as confirming a selection, submitting a form, or initiating a desired process. The color green is often associated with notions of "go" or "success," thus conveying to users that pressing the green button will lead to a favorable outcome or progress within the interface.
                                 </p>
                                 <p>
-                                However, it is also crucial to consider accessibility in design, ensuring that the solution is usable by people with disabilities. By incorporating accessibility thinking into the design process, we can extend the user experience to individuals with diverse needs and ensure equal access to the solution.
+                                    However, it is also crucial to consider accessibility in design, ensuring that the solution is usable by people with disabilities. By incorporating accessibility thinking into the design process, we can extend the user experience to individuals with diverse needs and ensure equal access to the solution.
                                 </p>
                             </div>
                         </div>
