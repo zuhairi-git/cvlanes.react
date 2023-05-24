@@ -182,7 +182,18 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Initial Research</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p><b>
+                                    Comparative Analysis of Non-Technical Mobile App Users and Technical Users of a Sophisticated Collaboration Workflow Platform
+                                </b></p>
+                                <p>
+                                    <b>Abstract:</b> This research aims to compare and analyze the characteristics, preferences, and behaviors of non-technical mobile app users and technical users who utilize a sophisticated Collaboration Workflow Platform. As mobile apps and Collaboration Workflow Platforms gain popularity, understanding the differences between these user groups becomes crucial for designers to optimize user experiences and tailor products to specific segments.
+                                </p>
+                                <p>
+                                    Additionally, we acknowledge that mobile applications generally offer a low risk of data loss if developed properly, as even if the application crashes, data can usually be saved within the app and restored upon the next launch. This attribute makes mobile apps highly appealing to non-technical users who prioritize efficiency, simplicity, and the ability to accomplish more tasks in less time.
+                                </p>
+                                <p>
+                                    In contrast, web users generally prefer web applications due to their accessibility across different devices and platforms. They enjoy the flexibility of accessing the application on various screens, and their performance tends to enhance when utilizing a larger screen. This is because a larger screen enables them to view a greater amount of data simultaneously, reducing the need for excessive scrolling and enhancing overall task efficiency.
+                                </p>
                             </div>
                         </div>
                         <div className="row m-lg-5 m-xs-2 m-sm-2 mt-3">
