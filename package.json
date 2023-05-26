@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "bootstrap-progress-bar": "^1.1.3",
+    "compression": "^1.7.4",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -34,7 +35,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "cd /build && gzip *.js && gzip *.css",
+    "postbuild": "tar -cvzf cvlanes.react.tar.gz /build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
