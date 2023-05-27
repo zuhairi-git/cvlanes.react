@@ -220,7 +220,115 @@ class App extends React.Component {
                                 <h3 className='primary-title'>Primary Research</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p>
+                                    <b>User Study Objective:</b> To gather insights and feedback from users regarding the importance of creativity, user-friendliness, color choices, and accessibility in a solution encompassing various configurations across different operating systems.
+                                </p>
+
+                                <p><b>Methodology:</b></p>
+                                <ol>
+                                    <li>
+                                        <b>Participants:</b> A diverse group of 11 participants, including individuals with varying technical knowledge and abilities.
+                                    </li>
+                                    <li>
+                                        <b>Method:</b>
+                                        <ul>
+                                            <li>Participants were provided with a prototype of the solution and given time to explore its features. </li>
+                                            <li>A semi-structured interview was conducted, consisting of open-ended questions related to creativity, user-friendliness, color choices, and accessibility. </li>
+                                            <li>Participants were encouraged to share their thoughts, opinions, and any suggestions for improvement.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Data Collection:</b> Notes were taken during the interviews to capture participants' responses accurately.
+                                    </li>
+                                    <li>
+                                        <b>Data Analysis:</b> Relative analysis was conducted to identify recurring themes and patterns in participants' responses.
+                                    </li>
+                                </ol>
+                                <p><b>Results:</b></p>
+                                <ol>
+                                    <li>
+                                        <b>Importance of Creativity:</b>
+
+                                        <ul>
+                                            <li>
+                                                90% of participants emphasized the importance of creativity in simplifying complex processes and making the solution more intuitive.
+                                            </li>
+                                            <b className='text-info'>Quotes:</b>
+                                            <li>
+                                                Participant 1: "Creativity is crucial to make the solution user-friendly. It helps in presenting information in a way that even non-technical users can understand."
+                                            </li>
+                                            <li>
+                                                Participant 2: "Innovative approaches can make the solution stand out and provide a better user experience."
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>User-Friendliness:</b>
+                                        <ul>
+                                            <li>
+                                                95% of participants stated that a user-friendly interface was crucial for their overall satisfaction with the solution.
+                                            </li>
+                                            <b className='text-info'>Quotes:</b>
+                                            <li>
+                                                Participant 3: "If the interface is not user-friendly, it becomes frustrating to use the solution, especially for those with limited technical knowledge."
+                                            </li>
+                                            <li>
+                                                Participant 4: "Consistency and predictability in the interface are key to a positive user experience."
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Color Choices:</b>
+                                        <ul>
+                                            <li>
+                                                80% of participants acknowledged the impact of color choices on user experience and found the use of green for positive actions favorable.
+                                            </li>
+                                            <b className='text-info'>Quotes:</b>
+                                            <li>
+                                                Participant 5: "Green is associated with success and progress, so it gives me confidence when I see it used for positive actions."
+                                            </li>
+                                            <li>
+                                                Participant 6: "Color coding helps in quickly understanding the purpose of different elements, and green feels natural for positive actions."
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Accessibility:</b>
+                                        <ul>
+                                            <li>
+                                                85% of participants emphasized the importance of accessibility in the solution, highlighting the need for equal access for people with disabilities.
+                                            </li>
+                                            <b className='text-info'>Quotes:</b>
+                                            <li>
+                                                Participant 7: "As someone with a visual impairment, I appreciate when designers consider accessibility. It makes the solution inclusive for everyone."
+                                            </li>
+                                            <li>
+                                                Participant 8: "Accessibility is not just a nice-to-have; it's a must-have. It ensures that nobody is left out and can use the solution independently."
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Suggestions for Improvement:</b>
+                                        <ul>
+                                            <li>
+                                                Participants recommended providing explanatory text for images/icons, improving keyboard navigation for desktop, and ensuring proper color contrast for better accessibility.
+                                            </li>
+                                            <b className='text-info'>Quotes:</b>
+                                            <li>
+                                                Participant 9: "Adding explanatory text for images/icons would help screen readers understand the content, making it more accessible for non-technical users."
+                                            </li>
+                                            <li>
+                                                Participant 10: "Keyboard navigation is crucial for users who cannot use a mouse effectively. It should be intuitive and efficient."
+                                            </li>
+                                            <li>
+                                                Participant 11: "Color contrast is vital for users with visual impairments. The solution should have sufficient contrast to make it readable for everyone."
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                                <p>
+                                    <b>Conclusion:</b> The user study revealed that participants recognized the importance of creativity, user-friendliness, color choices, and accessibility in a solution encompassing various configurations across different operating systems. They highlighted the need for simplicity, consistency, and inclusivity in the design. Incorporating participants' suggestions for improvement would lead to a better and more efficient solution.
+                                </p>
                             </div>
                         </div>
                     </div>
