@@ -498,7 +498,24 @@ class App extends React.Component {
                                 <h3 className='primary-title'>User Testing</h3>
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
-                                <p>Inprogress</p>
+                                <p><b>User Testing Scenario:</b></p>
+                                <p>
+                                    <b>Objective:</b> To evaluate the effectiveness of the solution in terms of creativity, user-friendliness, color choices, and accessibility, based on the feedback from users.
+                                    <ul>
+                                        <li>
+                                            <b>Scenario:</b> You are a participant in a user testing session for a solution that encompasses various configurations across different operating systems. The solution aims to streamline the experience for users with limited technical knowledge while adhering to design principles and considering accessibility.</li>
+                                        <li>
+                                            <b>Task:</b> You have been provided with a prototype of the solution and are asked to perform the following task:</li>
+                                        <ul>
+                                            <li>Imagine you need to configure a new device on the solution. Please explore the interface and perform the necessary steps to configure the device according to your preferences. As you go through the process, pay attention to the design, intuitiveness, color choices, and any accessibility features that might be present.</li>
+                                            <li>Think aloud as you navigate through the interface, explaining your actions, thoughts, and any challenges you encounter. Feel free to provide feedback, suggestions, or any improvements you think could enhance the user experience.</li>
+                                            <li>Remember, the goal is to evaluate how well the solution incorporates creativity, user-friendliness, color choices, and accessibility.</li>
+                                            <li>Once you have completed the task or have explored the interface thoroughly, we will follow up with a short interview to gather additional insights about your experience.</li>
+                                        </ul>
+                                        <li><b>Note:</b> This user testing session aims to collect valuable feedback and insights to improve the solution. Your opinions and suggestions are highly valuable, so please be honest and provide as much detail as possible.
+                                            Finaly, I want to thank you for participating in this user testing session.</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
