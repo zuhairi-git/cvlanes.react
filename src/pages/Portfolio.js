@@ -5,6 +5,7 @@ import '../lib/owlcarousel/assets/owl.carousel.min.css';
 import '../lib/lightbox/css/lightbox.min.css';
 import '../css/style.css';
 import TopNavGeneric from './TopNavGeneric';
+import TopNavGenericNew from './TopNavGenericNew';
 import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
 import { Helmet } from "react-helmet";
