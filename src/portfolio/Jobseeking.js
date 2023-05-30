@@ -143,7 +143,36 @@ class App extends React.Component {
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>
                                     <i className='d-none fa fa-circle-notch fa-lg fa-spin' style={{ animationDuration: '7s', marginTop: '10px' }}></i>
-                                    It is crucial at this point to identify potential test candidates who are actively searching for temporary or permanent employment. These candidates should fall under two main categories, namely temporary job seekers and permanent job seekers. Additionally, each category should be further hypothetically divided into various personas.
+                                    <b>Introduction:</b> This primary research aims to investigate the impact of a local job provider application on individuals seeking permanent/temporary/weekend job opportunities. The study focuses on exploring the effectiveness of a job-finding app that prioritizes the local market, offers efficient profile creation, and user-friendly features.
+                                </p>
+                                <p>
+                                    <b>Research Objectives:</b>
+                                    <ol>
+                                        <li>
+                                            Assess the level of awareness and utilization of job-finding applications among individuals seeking job opportunities.
+                                        </li>
+                                        <li>
+                                            Explore the advantages and difficulties faced by a diverse range of job seekers when utilizing job-finding applications.
+                                        </li>
+                                        <li>
+                                            Gather feedback and suggestions from participants on improving the user experience of job-finding apps.
+                                        </li>
+                                    </ol>
+                                </p>
+                                <p>
+                                    <b>Methodology:</b> This research will employ a mixed-methods approach, combining both qualitative and quantitative data collection methods. The study will involve the following steps:
+                                    <ol>
+                                        <li><b>Survey Questionnaire:</b> A survey will be distributed among individuals who actively seek weekend job opportunities. The survey will assess their awareness and usage of job-finding applications, their motivations for seeking weekend work, and their preferences regarding app features. The survey will include both closed-ended and open-ended questions.</li>
+                                        <li><b>Interviews:</b> Semi-structured interviews will be conducted with a subset of participants to gain in-depth insights into their experiences and perspectives on using job-finding apps. The interviews will explore the perceived benefits, challenges, and suggestions for improvement.</li>
+                                        <li><b>App Usage Tracking:</b> With the consent of participants, app usage data will be tracked to gather quantitative information on the frequency of app usage, the duration of app sessions, and specific features utilized. This data will provide insights into user engagement and the effectiveness of the app in facilitating job matches.</li>
+                                        <li><b>Data Analysis:</b> The survey responses will be analyzed using descriptive statistics and thematic analysis to identify patterns, common themes, and key findings. The interview data will be transcribed, coded, and analyzed using content analysis to extract meaningful insights. The app usage data will be analyzed quantitatively to identify usage patterns and trends.</li>
+                                    </ol>
+                                </p>
+                                <p>
+                                    <b>Ethical Considerations:</b> Participants will be informed about the purpose of the study and their right to withdraw at any time. Confidentiality and anonymity will be ensured throughout the research process.
+                                </p>
+                                <p>
+                                    <b>Expected Results and Conclusion:</b> This primary research expects to uncover insights into the awareness and utilization of job-finding applications among various job seekers. The findings will provide an understanding of the perceived benefits and challenges of using such apps and evaluate the impact of a local job provider app that emphasizes the local market, efficient profile creation, and user-friendly features.
                                 </p>
                             </div>
                         </div>
@@ -248,7 +277,7 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
-                    
+
                     <Container className='mt-3'>
                         <h2 className='primary-title'>Low-Fid Prototype</h2>
                         <div className='col-md-auto mb-5 d-none'>
