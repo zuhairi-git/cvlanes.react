@@ -88,20 +88,20 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
-        <a href="/portfolio/collaboration">
+        <a href="/portfolio/collaboration" className='text-dark'>
           <MenuItem onClick={handleClose} disableRipple>
             <GroupsIcon />
             Collaboration Workflow Platform
           </MenuItem>
         </a>
-        <a href="/portfolio/jobseeking">
+        <a href="/portfolio/jobseeking" className='text-dark'>
           <MenuItem onClick={handleClose} disableRipple>
             <WorkOutlineIcon />
             Job Seeking
           </MenuItem>
         </a>
         <Divider sx={{ my: 0.5 }} />
-        <a href="/portfolio">
+        <a href="/portfolio" className='text-dark'>
           <MenuItem onClick={handleClose} disableRipple>
             <MoreHorizIcon />
             More
