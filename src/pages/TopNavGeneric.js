@@ -4,6 +4,7 @@ import { NavDropdown } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../img/cvlanes-white.png'
 import { useState } from 'react';
+import DropDown from './DropDown';
 
 function ResponsiveNavbar() {
   const [show, setShow] = useState(false);
@@ -22,6 +23,7 @@ function ResponsiveNavbar() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
+            <DropDown />
 
             <NavDropdown eventKey="1" title="Portfolio" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
               <NavDropdown.Item style={{marginTop:'8px'}} eventKey="1.1" href="/portfolio">Portfolio Home</NavDropdown.Item>

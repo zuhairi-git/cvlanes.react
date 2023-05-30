@@ -7,10 +7,10 @@ import '../lib/lightbox/css/lightbox.min.css';
 import '../css/style.css';
 import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
+import TopNavGenericNew from '../pages/DropDown';
 import Footer from '../pages/Footer';
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import LowFidJobseekingCarousel from '../generic/carousel/jobseeking/LowFidJobseekingCarousel';
 
 class App extends React.Component {
     componentDidMount() {
