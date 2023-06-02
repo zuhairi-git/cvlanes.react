@@ -13,6 +13,7 @@ import DayOfMylife from '../vector/DayOfMylife.svg'
 import TopNav from '../pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
+import Footer from '../pages/Footer'
 
 
 class App extends React.Component {
@@ -27,34 +28,34 @@ class App extends React.Component {
                 <ScrollToTop />
                 <TopNav />
 
-                <div className="hero" id="home">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-sm-12 col-md-6">
-                                <div className="hero-content">
-                                    <div className="hero-text text-start">
-                                        <p>I'm</p>
-                                        <h1>Ali Zuhairi</h1>
-                                        <h2 style={{ fontSize: '1.4rem' }}>
-                                            <TypewriterComponent
-                                                options={{
-                                                    strings: ['Professional Product Designer', 'Web Designer', 'Workflow Management Developer', 'Web UI Developer', 'Front End UI Developer', 'App Designer', 'App UI Developer'],
-                                                    autoStart: true,
-                                                    delay: 30,
-                                                    deleteSpeed: 10,
-                                                    loop: true,
-                                                }}
-                                            />
-                                        </h2>
-                                    </div>
-                                    <div className="hero-btn">
-                                        <a className="btn mb-2" href="#team">Contact Me</a>
+                <div className='hero-bg'>
+                    <div className="hero" id="home">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-sm-12 col-md-6">
+                                    <div className="hero-content">
+                                        <div className="hero-text mb-3 text-start">
+                                            <p>I'm</p>
+                                            <h1>Ali Zuhairi</h1>
+                                            <h2 style={{ fontSize: '1.4rem' }}>
+                                                <TypewriterComponent
+                                                    options={{
+                                                        strings: ['Professional Product Designer', 'Web Designer', 'Workflow Management Developer', 'Web UI Developer', 'Front End UI Developer', 'App Designer', 'App UI Developer'],
+                                                        autoStart: true,
+                                                        delay: 30,
+                                                        deleteSpeed: 10,
+                                                        loop: true,
+                                                    }}
+                                                />
+                                            </h2>
+                                        </div>
+                                        <a className="button-generic mb-2" href="#team">Contact Me</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-sm-12 col-md-6 d-md-block">
-                                <div className="hero-image pe-0 wow zoomIn" data-wow-delay="0.1s">
-                                    <img src={Hero} alt="Ali" />
+                                <div className="col-sm-12 col-md-6 d-md-block">
+                                    <div className="hero-image pe-0 wow zoomIn" data-wow-delay="0.1s">
+                                        <img src={Hero} alt="Ali" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -82,8 +83,8 @@ class App extends React.Component {
                                             many platforms.
                                         </p>
                                     </div>
-                                    <a className="btn m-2" href="#team">Keep in touch with me</a>
-                                    <a className="btn m-2" href={MyCV}>My CV (PDF)</a>
+                                    <a className="button-generic m-2" href="#team">Keep In Touch With Me</a>
+                                    <a className="button-generic m-2" href={MyCV}>My CV (PDF)</a>
 
                                 </div>
                             </div>
@@ -257,7 +258,7 @@ class App extends React.Component {
                         <div className='text-center'>
                             <h6>Imagine this with <b>James Earl Jones</b> Voice</h6>
                             <h1 className="mb-3">This is on HubSpot</h1>
-                            <a className="btn m-2" href="https://cvlanes.online">cvlanes.online</a>
+                            <a className="button-generic m-2" href="https://cvlanes.online">cvlanes.online</a>
                         </div>
                     </div>
                     <div className='wow slideInRight col-md-5 col-sm-12 image-col-align pt-5' data-wow-delay="0.2s">
@@ -347,40 +348,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
-
-                <div id="footer" className="footer wow fadeIn" data-wow-delay="0.2s">
-                    <div className="container-fluid">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-4 col-xs-12">
-                                    <div className="footer-info">
-                                        <div className="footer-social">
-                                            <img src={require("../img/cvlanes-bg.png")} style={{ height: '256px' }} alt="Logo" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-xs-12 align-items-center text-center">
-                                    <div className="footer-info">
-                                        <img src={DayOfMylife} alt="Ali" style={{ height: '230px' }} />
-                                        <h3>A Day Of My Life</h3>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-xs-12 mb-2">
-                                    <div className="footer-info hidden-sm hidden-xs hidden-xxs">
-                                        <p className='mt-3 lh-lg fs-5 text-start ps-3 text-white border-start border-2'><b>Ali Zuhairi</b> <br /> Espoo, Suurpelto <br /> 044 2 844 844 <br /> zohairi@live.com</p>
-                                    </div>
-                                    <div className="footer-info hidden-md hidden-lg hidden-xl hidden-xxl copyright">
-                                        <p className='mt-3 lh-lg fs-5 text-center ps-3 text-white'><b>Ali Zuhairi</b> <br /> Espoo, Suurpelto <br /> 044 2 844 844 <br /> zohairi@live.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="container copyright">
-                            <p>&copy; CV Lanes 2022 | Made With React JS</p>
-                        </div>
-                    </div>
-                </div>
-
+                <Footer />
 
             </div>
 

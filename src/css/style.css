@@ -12,8 +12,53 @@
 # Main
 
 #1EB6C3;
-#ededf4;
+#EDEDf4;
+#C8E7EA;
 --------------------------------------------------------------*/
+.button-generic,.button-generic:after {
+    border: 2px solid  #ffe44c00;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button-generic {
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    background-color: #0d757f;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    z-index: 10;
+}
+
+.button-generic:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition: 0.2s;
+}
+
+.button-generic:hover:after {
+    top: 7px;
+    left: 7px;
+}
+
+@media (min-width: 768px) {
+    .button-generic {
+        padding: 13px 50px 13px;
+    }
+}
 
 .primary-title {
     font-family: 'Playfair Display', serif;
@@ -45,6 +90,7 @@ h6 {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
+
 .blur {
     backdrop-filter: blur(5px);
 }
@@ -701,6 +747,10 @@ a:focus {
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
+.hero-bg {
+    background-color: #1EB6C3;
+    z-index: -1000000;
+}
 
 .hero {
     position: relative;
@@ -708,7 +758,6 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#1EB6C3, #1EB6C3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -733,7 +782,6 @@ a:focus {
 .hero .hero-content {
     position: relative;
     padding-left: 75px;
-    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
