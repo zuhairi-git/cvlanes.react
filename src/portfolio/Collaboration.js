@@ -540,11 +540,14 @@ class App extends React.Component {
                             </div>
                             <div className='col-sm-12 col-md-9 mb-lg-5 mb-xs-2 mb-sm-2'>
                                 <p>
-                                    To conduct a design review, begin with an introduction that covers the design objectives, project background, and constraints.
-                                    Present the design systematically, explaining key features and how they address the problem-solving approach and project requirements.
+                                    We begin with an introduction that covers the design objectives, project background, and constraints.
+                                    We present the design systematically, explaining key features and how they address the problem-solving approach and project requirements.
                                 </p>
-                                <p>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </p>
-                                <p>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</p>
+                                <p><b>Key requirements:</b></p>
+                                <ul>
+                                    <li>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </li>
+                                    <li>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
