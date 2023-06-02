@@ -353,6 +353,7 @@ class App extends React.Component {
                                     <li>Encourage constructive discussion and collect feedback on both positive aspects and areas needing improvement. </li>
                                     <li>Summarize the discussion's key points and share a comprehensive review report with all attendees, documenting the feedback and decisions made.</li>
                                 </ul>
+                                <b>Still in progress...</b>
                             </div>
                         </div>
                     </div>
@@ -365,6 +366,7 @@ class App extends React.Component {
                                 <p>
                                     QA in design is vital for ensuring the quality and usability of a design. It helps identify and address potential issues and errors, leading to improved user satisfaction and reduced rework. QA involves activities such as usability testing, evaluation, and functional testing, ensuring the design meets high-quality standards and is compatible across different devices.
                                 </p>
+                                <b>Still in progress...</b>
                             </div>
                         </div>
                     </div>
