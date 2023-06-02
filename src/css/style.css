@@ -26,12 +26,11 @@
 
 .button-generic {
     letter-spacing: 1px;
-    padding: 13px 20px 13px;
+    padding: 10px 15px;
     outline: 0;
     cursor: pointer;
     position: relative;
     background-color: #0d757f;
-    user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     z-index: 10;
@@ -52,12 +51,6 @@
 .button-generic:hover:after {
     top: 7px;
     left: 7px;
-}
-
-@media (min-width: 768px) {
-    .button-generic {
-        padding: 13px 50px 13px;
-    }
 }
 
 .primary-title {

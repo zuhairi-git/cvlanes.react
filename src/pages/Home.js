@@ -83,8 +83,14 @@ class App extends React.Component {
                                             many platforms.
                                         </p>
                                     </div>
-                                    <a className="button-generic m-2" href="#team">Keep In Touch With Me</a>
-                                    <a className="button-generic m-2" href={MyCV}>My CV (PDF)</a>
+                                    <div className='row'>
+                                        <div className='col-md-6 col-xs-12 col-sm-12 mb-5'>
+                                            <a className="button-generic" href="#team">Keep In Touch With Me</a>
+                                        </div>
+                                        <div className='col-md-6 col-xs-12 col-sm-12'>
+                                            <a className="button-generic" href={MyCV}>My CV (PDF)</a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
