@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../img/cvlanes-white.png'
+import DropDown from './DropDown';
 
 function ResponsiveNavbar() {
   return (
@@ -19,7 +20,7 @@ function ResponsiveNavbar() {
             <Nav.Link href="#team" className='hidden-xxs hidden-xs hidden-sm'>Social Media</Nav.Link>
             <Nav.Link href="#teammobile" className='hidden-md hidden-lg hidden-xl hidden-xxl'>Social Media</Nav.Link>
             <Nav.Link href="#review">Recommendations</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            <DropDown />
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="#footer">Contact</Nav.Link>
           </Nav>
