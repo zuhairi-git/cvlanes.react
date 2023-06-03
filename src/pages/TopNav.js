@@ -16,7 +16,8 @@ function ResponsiveNavbar() {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#achievements">Achievements</Nav.Link>
-            <Nav.Link href="#team">Social Media</Nav.Link>
+            <Nav.Link href="#team" className='hidden-xxs hidden-xs hidden-sm'>Social Media</Nav.Link>
+            <Nav.Link href="#teammobile" className='hidden-md hidden-lg hidden-xl hidden-xxl'>Social Media</Nav.Link>
             <Nav.Link href="#review">Recommendations</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>

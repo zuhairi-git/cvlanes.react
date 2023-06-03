@@ -51,6 +51,7 @@ class App extends React.Component {
                                             </h2>
                                         </div>
                                         <a className="buttonGeneric mb-2 hidden-xxs hidden-xs hidden-sm" href="#team">Contact Me</a>
+                                        <a className="buttonGeneric mb-2 hidden-md hidden-lg hidden-xl hidden-xxl" href="#teammobile">Contact Me</a>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 d-md-block">
