@@ -294,12 +294,9 @@ class App extends React.Component {
                                         <img src={require("../img/takeAction.jpg")} alt="Ali" />
                                     </div>
                                     <div className="team-text text-start">
-                                        <div style={{borderLeft:'solid 3px #FFE54C', paddingLeft:'10px'}}>
+                                        <div style={{borderLeft:'solid 3px #FFE54C', paddingLeft:'10px'}} className='mb-3'>
                                             <h2>Ali Zuhairi</h2>
-                                            <h4 style={{marginBottom:'0'}}>Divergent Thinking</h4>
-                                            <p>
-                                                Creative problem-solving
-                                            </p>
+                                            <h4 style={{marginBottom:'0', lineHeight:'20px'}}>Creative Problem-Solving, Divergent Thinking, Thoughtful Disruption & Exploring New Perspectives</h4>
                                         </div>
                                         <div className="team-social pb-1">
                                             <a className="buttonIcon" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
