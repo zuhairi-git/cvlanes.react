@@ -20,11 +20,12 @@
 }
 
 .buttonIcon {
-    min-width: 37px;
+    min-width: 42px;
+    min-height: 42px;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid  #ffffff00;
-    padding: 3px 7px;
-    margin: 0.3em;
+    padding: 6px 7px;
+    margin: 0.5em;
     border-radius: 5px;
     background-color: #0D757F;
     color: white;
@@ -1526,6 +1527,23 @@ a:focus {
     position: relative;
     margin-top: 45px;
     background: #1EB6C3;
+}
+
+.footer-text {
+    font-size: 13px;
+}
+
+.footer-link-uderline {
+    border-bottom: 1px dashed;
+}
+
+.footer-links {
+    font-size: 13px;
+    color: white;
+}
+
+.footer-links:hover {
+    color: yellow;
 }
 
 .footer .container-fluid {

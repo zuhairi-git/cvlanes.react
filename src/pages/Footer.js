@@ -23,11 +23,27 @@ class App extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-xs-12 mb-2">
-                                    <div className="footer-info hidden-sm hidden-xs hidden-xxs">
-                                        <p className='mt-3 lh-lg fs-5 text-start ps-3 text-white border-start border-2'><b>Ali Zuhairi</b> <br /> Espoo, Suurpelto <br /> 044 2 844 844 <br /> zohairi@live.com</p>
-                                    </div>
-                                    <div className="footer-info hidden-md hidden-lg hidden-xl hidden-xxl copyright">
-                                        <p className='mt-3 lh-lg fs-5 text-center ps-3 text-white'><b>Ali Zuhairi</b> <br /> Espoo, Suurpelto <br /> 044 2 844 844 <br /> zohairi@live.com</p>
+                                    <div className="footer-info">
+                                        <div className='mt-3 fs-5 text-start ps-3 text-white'>
+                                            <div className='mb-3'>
+                                                <h4 className='mb-0 text-light'>Ali Zuhairi</h4>
+                                                <div className='footer-text'>Professional Product Designer</div>
+                                            </div>
+                                            <div className='mb-3'>
+                                                <h4 className='mb-0 text-light'>My Projects</h4>
+                                                <div >
+                                                    <a href='/portfolio' className='footer-text footer-links footer-link-uderline'>All Projects</a><br />
+                                                    <a href='/portfolio/collaboration' className='footer-text footer-links footer-link-uderline'>Collaboration Workflow Platform</a><br />
+                                                    <a href='/portfolio/jobseeking' className='footer-text footer-links footer-link-uderline'>Job Seeking</a><br />
+                                                </div>
+                                            </div>
+                                            <div className='mb-3'>
+                                                <h4 className='mb-0 text-light'>Address</h4>
+                                                <div className='footer-text'>Espoo, Suurpelto</div>
+                                                <div className='footer-text'>044 2 844 844</div>
+                                                <div className='footer-text'>zohairi@live.com</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
