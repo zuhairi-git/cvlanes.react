@@ -30,11 +30,14 @@ class App extends React.Component {
                                                 <div className='footer-text'>Professional Product Designer</div>
                                             </div>
                                             <div className='mb-3'>
-                                                <h4 className='mb-0 text-light'>My Projects</h4>
-                                                <div >
-                                                    <a href='/portfolio' className='footer-text footer-links footer-link-uderline'>All Projects</a><br />
-                                                    <a href='/portfolio/collaboration' className='footer-text footer-links footer-link-uderline'>Collaboration Workflow Platform</a><br />
-                                                    <a href='/portfolio/jobseeking' className='footer-text footer-links footer-link-uderline'>Job Seeking</a><br />
+                                                <h4 className='mb-0 text-light'>Links</h4>
+                                                <div>
+                                                    <a href='/' className='footer-text footer-links footer-link-uderline'>Home</a><br />
+                                                    <a href='/portfolio' className='footer-text footer-links footer-link-uderline'>Portfolio Projects</a><br />
+                                                    <div className='border-start'>
+                                                        <a href='/portfolio/collaboration' className='ms-3 footer-text footer-links footer-link-uderline'>Collaboration Workflow Platform</a><br />
+                                                        <a href='/portfolio/jobseeking' className='ms-3 footer-text footer-links footer-link-uderline'>Job Seeking</a><br />
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div className='mb-3'>
