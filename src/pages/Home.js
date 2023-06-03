@@ -281,7 +281,7 @@ class App extends React.Component {
                 </div>
                 <div className='separator mt-5'></div>
 
-                <div className="team mb-5 mt-5" id="team">
+                <div className="team mb-5 mt-5 hidden-xxs hidden-xs hidden-sm" id="team">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                             <p className='sectionSeparator'>Social Media</p>
@@ -294,9 +294,9 @@ class App extends React.Component {
                                         <img src={require("../img/takeAction.jpg")} alt="Ali" />
                                     </div>
                                     <div className="team-text text-start">
-                                        <div style={{borderLeft:'solid 3px #FFE54C', paddingLeft:'10px'}} className='mb-3'>
+                                        <div style={{ borderLeft: 'solid 3px #FFE54C', paddingLeft: '10px' }} className='mb-3'>
                                             <h2>Ali Zuhairi</h2>
-                                            <h4 style={{marginBottom:'0', lineHeight:'20px'}}>Creative Problem-Solving, Divergent Thinking, Thoughtful Disruption & Exploring New Perspectives</h4>
+                                            <h4 style={{ marginBottom: '0', lineHeight: '20px' }}>Creative Problem-Solving, Divergent Thinking, Thoughtful Disruption & Exploring New Perspectives</h4>
                                         </div>
                                         <div className="team-social pb-1">
                                             <a className="buttonIcon" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
@@ -313,6 +313,39 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="team mb-5 mt-5 hidden-md hidden-lg hidden-xl hidden-xxl" id="team">
+                    <div className="container">
+                        <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                            <p className='sectionSeparator'>Social Media</p>
+                            <h2>Get in touch with me</h2>
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                            <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.0s">
+                                <div className="team-item">
+                                    <div className="team-img" style={{ width: '100%' }}>
+                                        <img src={require("../img/takeAction.jpg")} alt="Ali" />
+                                    </div>
+                                </div>
+                                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.0s">
+                                    <div className="text-start">
+                                        <div style={{ borderLeft: 'solid 3px #FFE54C', paddingLeft: '10px' }} className='mb-3'>
+                                            <h2>Ali Zuhairi</h2>
+                                            <p style={{ marginBottom: '0', lineHeight: '20px' }}>Creative Problem-Solving, Divergent Thinking, Thoughtful Disruption & Exploring New Perspectives</p>
+                                        </div>
+                                        <div className="team-social d-block text-center pb-1">
+                                            <a className="buttonIcon" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
+                                            <a className="buttonIcon" href="https://www.linkedin.com/in/ali-zuhairi/"><i className="fab fa-linkedin-in"></i></a>
+                                            <a className="buttonIcon" href="https://www.facebook.com/zuhairi.one"><i className="fab fa-facebook-f"></i></a>
+                                            <a className="buttonIcon" href="https://www.tiktok.com/@zuhairi.ali"><Tiktok /></a>
+                                            <a className="buttonIcon" href="https://www.youtube.com/@Ali.Zuhairi"><Youtube /></a>
+                                            <a className="buttonIcon" href="mailto:zohairi@live.com"><i className="fa fa-envelope"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div>
                 </div>
 
                 <div className='separator'></div>
