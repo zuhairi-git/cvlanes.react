@@ -50,7 +50,7 @@ class App extends React.Component {
                                                 />
                                             </h2>
                                         </div>
-                                        <a className="buttonGeneric mb-2" href="#team">Contact Me</a>
+                                        <a className="buttonGeneric mb-2 hidden-xxs hidden-xs hidden-sm" href="#team">Contact Me</a>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 d-md-block">
@@ -89,7 +89,7 @@ class App extends React.Component {
                                             <a className="buttonGeneric" href="#team">Keep In Touch With Me</a>
                                         </div>
                                         <div className='col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl hidden-xxl mb-4'>
-                                            <a className="buttonGeneric w-100" href="#team">Keep In Touch With Me</a>
+                                            <a className="buttonGeneric w-100" href="#teammobile">Keep In Touch With Me</a>
                                         </div>
                                         <div className='col-md-6 hidden-xxs hidden-xs hidden-sm'>
                                             <a className="buttonGeneric" href={MyCV}>My CV (PDF)</a>
@@ -315,7 +315,7 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                <div className="team mb-5 mt-5 hidden-md hidden-lg hidden-xl hidden-xxl" id="team">
+                <div className="team mb-5 mt-5 hidden-md hidden-lg hidden-xl hidden-xxl" id="teammobile">
                     <div className="container">
                         <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                             <p className='sectionSeparator'>Social Media</p>
