@@ -49,7 +49,7 @@ class App extends React.Component {
                                                 />
                                             </h2>
                                         </div>
-                                        <a className="button-generic mb-2" href="#team">Contact Me</a>
+                                        <a className="buttonGeneric mb-2" href="#team">Contact Me</a>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 d-md-block">
@@ -84,11 +84,17 @@ class App extends React.Component {
                                         </p>
                                     </div>
                                     <div className='row'>
-                                        <div className='col-md-6 col-xs-12 col-sm-12 mb-5'>
-                                            <a className="button-generic" href="#team">Keep In Touch With Me</a>
+                                        <div className='col-md-6 hidden-xxs hidden-xs hidden-sm mb-5'>
+                                            <a className="buttonGeneric" href="#team">Keep In Touch With Me</a>
                                         </div>
-                                        <div className='col-md-6 col-xs-12 col-sm-12'>
-                                            <a className="button-generic" href={MyCV}>My CV (PDF)</a>
+                                        <div className='col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl hidden-xxl mb-4'>
+                                            <a className="buttonGeneric w-100" href="#team">Keep In Touch With Me</a>
+                                        </div>
+                                        <div className='col-md-6 hidden-xxs hidden-xs hidden-sm'>
+                                            <a className="buttonGeneric" href={MyCV}>My CV (PDF)</a>
+                                        </div>
+                                        <div className='col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl hidden-xxl'>
+                                            <a className="buttonGeneric w-100" href={MyCV}>My CV (PDF)</a>
                                         </div>
                                     </div>
 

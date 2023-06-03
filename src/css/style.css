@@ -15,6 +15,24 @@
 #EDEDf4;
 #C8E7EA;
 --------------------------------------------------------------*/
+.buttonGeneric {
+    min-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid  #ffe44c00;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #0d757f;
+    color: white;
+    display: inline-block;
+    text-align: center !important;
+    box-shadow: -0.2em -0.2em 0 #ffe54c;
+}
+
+.buttonGeneric:hover {
+    box-shadow: 0.4em 0.4em 0 #ffe54c;
+    color: #fff;
+}
+
 .button-generic,.button-generic:after {
     border: 2px solid  #ffe44c00;
     border-radius: 5px;
