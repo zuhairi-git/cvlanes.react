@@ -19,6 +19,25 @@
     color: #FFE54C;
 }
 
+.buttonIcon {
+    min-width: 37px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid  #ffffff00;
+    padding: 3px 7px;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-color: #0D757F;
+    color: white;
+    display: inline-block;
+    text-align: center !important;
+    box-shadow: -0.07em -0.07em 0 #FFE54C;
+}
+
+.buttonIcon:hover {
+    box-shadow: 0.2em 0.2em 0 #FFE54C;
+    color: #fff;
+}
+
 .buttonGeneric {
     min-width: 200px;
     font-family: 'Montserrat', sans-serif;
@@ -87,7 +106,7 @@
     color: #fff;
 }
 
-p, li, ul {
+p, li, ul, ol, span {
     font-family: 'Montserrat', sans-serif;
 }
 

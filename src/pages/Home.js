@@ -14,6 +14,7 @@ import TopNav from '../pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
 import Footer from '../pages/Footer'
+import { Margin } from '@mui/icons-material';
 
 
 class App extends React.Component {
@@ -270,7 +271,7 @@ class App extends React.Component {
                         <div className='text-center'>
                             <h6>Imagine this with <b>James Earl Jones</b> Voice</h6>
                             <h1 className="mb-3">This is on HubSpot</h1>
-                            <a className="button-generic m-2" href="https://cvlanes.online">cvlanes.online</a>
+                            <a className="buttonGeneric m-2" href="https://cvlanes.online">cvlanes.online</a>
                         </div>
                     </div>
                     <div className='wow slideInRight col-md-5 col-sm-12 image-col-align pt-5' data-wow-delay="0.2s">
@@ -293,20 +294,22 @@ class App extends React.Component {
                                         <img src={require("../img/takeAction.jpg")} alt="Ali" />
                                     </div>
                                     <div className="team-text text-start">
-                                        <h2>Ali Zuhairi</h2>
-                                        <h4>Professional Product Designer</h4>
-                                        <p>
-                                            Thinking outside the box
-                                        </p>
+                                        <div style={{borderLeft:'solid 3px #FFE54C', paddingLeft:'10px'}}>
+                                            <h2>Ali Zuhairi</h2>
+                                            <h4 style={{marginBottom:'0'}}>Divergent Thinking</h4>
+                                            <p>
+                                                Creative problem-solving
+                                            </p>
+                                        </div>
                                         <div className="team-social pb-1">
-                                            <a className="btn" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
-                                            <a className="btn" href="https://www.linkedin.com/in/ali-zuhairi/"><i className="fab fa-linkedin-in"></i></a>
-                                            <a className="btn" href="https://www.facebook.com/zuhairi.one"><i className="fab fa-facebook-f"></i></a>
+                                            <a className="buttonIcon" href="https://twitter.com/AliZohairi"><i className="fab fa-twitter"></i></a>
+                                            <a className="buttonIcon" href="https://www.linkedin.com/in/ali-zuhairi/"><i className="fab fa-linkedin-in"></i></a>
+                                            <a className="buttonIcon" href="https://www.facebook.com/zuhairi.one"><i className="fab fa-facebook-f"></i></a>
                                         </div>
                                         <div className="team-social">
-                                            <a className="btn" href="https://www.tiktok.com/@zuhairi.ali"><Tiktok /></a>
-                                            <a className="btn" href="https://www.youtube.com/@Ali.Zuhairi"><Youtube /></a>
-                                            <a className="btn" href="mailto:zohairi@live.com"><i className="fa fa-envelope"></i></a>
+                                            <a className="buttonIcon" href="https://www.tiktok.com/@zuhairi.ali"><Tiktok /></a>
+                                            <a className="buttonIcon" href="https://www.youtube.com/@Ali.Zuhairi"><Youtube /></a>
+                                            <a className="buttonIcon" href="mailto:zohairi@live.com"><i className="fa fa-envelope"></i></a>
                                         </div>
                                     </div>
                                 </div>
