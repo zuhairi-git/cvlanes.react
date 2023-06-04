@@ -10,17 +10,23 @@
 
 /*--------------------------------------------------------------
 # Main
---------------------------------------------------------------*/
-div {
-    font-family: 'Montserrat', sans-serif;
-}
 
+--------------------------------------------------------------*/
 .brandColors {
     color: #1EB6C3;
     color: #C8E7EA;
     color: #EDEDF4;
     color: #0D757F;
     color: #FFE54C;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reminderSelf {
+    color: white;
+
 }
 
 .buttonIcon {

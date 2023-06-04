@@ -14,8 +14,7 @@ import TopNav from '../pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
 import Footer from '../pages/Footer'
-import { Margin } from '@mui/icons-material';
-
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
 class App extends React.Component {
     componentDidMount() {
@@ -36,7 +35,7 @@ class App extends React.Component {
                                 <div className="col-sm-12 col-md-6">
                                     <div className="hero-content">
                                         <div className="hero-text mb-3 text-start">
-                                            <p>I'm</p>
+                                            <div className='text-light' style={{ fontSize: '1.4rem' }}><b>I'm</b></div>
                                             <h1>Ali Zuhairi</h1>
                                             <h2 style={{ fontSize: '1.4rem' }}>
                                                 <TypewriterComponent
@@ -50,8 +49,18 @@ class App extends React.Component {
                                                 />
                                             </h2>
                                         </div>
-                                        <a className="buttonGeneric mb-2 hidden-xxs hidden-xs hidden-sm" href="#team">Contact Me</a>
-                                        <a className="buttonGeneric mb-2 hidden-md hidden-lg hidden-xl hidden-xxl" href="#teammobile">Contact Me</a>
+                                        <hr className='text-light' />
+                                        <div className="reminderSelf mt-4 mb-5">
+                                            <h5 className='reminderSelf'>NOTE TO SELF</h5>
+                                            <div className='text-light'>
+                                                <FormatQuoteIcon /> Feeling discouraged when you're unable to achieve your goals, despite trying different methods and staying persistent, does not define you as a failure. It's important to remember that setbacks and challenges are a natural part of the journey towards success. Achieving success is a journey, and it's crucial to continue pushing forward until you reach your desired outcome.<FormatQuoteIcon />
+                                            </div>
+                                            <i><b>- Ali</b></i>
+                                        </div>
+                                        <div className='mb-3 d-none'>
+                                            <a className="buttonGeneric mb-2 hidden-xxs hidden-xs hidden-sm" href="#team">Contact Me</a>
+                                            <a className="buttonGeneric mb-2 hidden-md hidden-lg hidden-xl hidden-xxl" href="#teammobile">Contact Me</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 d-md-block">
