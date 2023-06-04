@@ -50,12 +50,12 @@ class App extends React.Component {
                                             </h2>
                                         </div>
                                         <hr className='text-light' />
-                                        <div className="reminderSelf mt-4 mb-5">
+                                        <div className="reminderSelf text-start mt-4 mb-5">
                                             <h5 className='reminderSelf'>NOTE TO SELF</h5>
                                             <div className='text-light'>
                                                 <FormatQuoteIcon /> Feeling discouraged when you're unable to achieve your goals, despite trying different methods and staying persistent, does not define you as a failure. It's important to remember that setbacks and challenges are a natural part of the journey towards success. Achieving success is a journey, and it's crucial to continue pushing forward until you reach your desired outcome.<FormatQuoteIcon />
                                             </div>
-                                            <i><b>- Ali</b></i>
+                                            <i className='text-light'><b>- Ali</b></i>
                                         </div>
                                         <div className='mb-3 d-none'>
                                             <a className="buttonGeneric mb-2 hidden-xxs hidden-xs hidden-sm" href="#team">Contact Me</a>
