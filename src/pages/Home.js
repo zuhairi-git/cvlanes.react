@@ -29,7 +29,7 @@ class App extends React.Component {
                 <TopNav />
 
                 <div className='hero-bg'>
-                    <div className="hero" id="home">
+                    <div className="hero hero-bg-img" id="home">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-sm-12 col-md-6">

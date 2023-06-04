@@ -635,7 +635,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#058e9a, #1EB6C3), url(../img/pexels-3.jpg);
+    background: linear-gradient(#058e9a, #1EB6C3), url(../img/pexels-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -795,6 +795,18 @@ a:focus {
 .hero-bg {
     background-color: #1EB6C3;
     z-index: -1000000;
+}
+
+.hero-bg-img::before {
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.08;
+    background-image: url(/public/img/pexels-6.jpg);
 }
 
 .hero {
