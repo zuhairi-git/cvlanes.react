@@ -53,11 +53,17 @@ class App extends React.Component {
                         <div className='m-lg-5 m-xs-3 m-sm-3'>
                             <h2 className='primary-title'>Collaboration Workflow Platform</h2>
                             <h5 className='mt-4'>Introduction</h5>
-                            <p>At the core of Collaboration Workflow Platform lies creativity, interconnectivity, and collaboration. As the name suggests, our service is designed to facilitate effective teamwork and streamline workflows, but we want to delve deeper into how our platform can help unleash your creative potential.
+                            <p>
+                                At the core of Collaboration Workflow Platform lies creativity, interconnectivity, and collaboration. As the name suggests, our service is designed to facilitate effective teamwork and streamline workflows, but we want to delve deeper into how our platform can help unleash your creative potential.
+                            </p>
+                            <p>
                                 Our Collaboration Workflow Platform is designed to foster a culture of creativity by providing a seamless and efficient platform for live collaboration on documents. With our suite of tools and features, team members can work together in real-time, exchanging feedback and finalizing deals and content faster.
                                 In addition, our platform promotes interconnectivity by removing communication barriers and enabling customers and team members to connect across various locations, time zones, and devices. This integration ensures that everyone is on the same page, improving communication and collaboration.
-                                Lastly, Collaboration Workflow Platform emphasizes collaboration by providing a space for teamwork to thrive. Our platform allows team members to work together seamlessly, sharing documents and resources, and leveraging each other's strengths. This collaborative approach encourages individuals to work towards common goals, resulting in greater outcomes.
-                                In conclusion, Collaboration Workflow Platform offers a comprehensive solution that fosters creativity, interconnectivity, and collaboration. By using our platform, individuals can unlock their creative potential, connect with others, and achieve common goals more efficiently.</p>
+                                Lastly, Collaboration Workflow Platform emphasizes collaboration by providing a space for teamwork to thrive.
+                            </p>
+                            <p>
+                                Our platform allows team members to work together seamlessly, sharing documents and resources, and leveraging each other's strengths. This collaborative approach encourages individuals to work towards common goals, resulting in greater outcomes.
+                            </p>
                             <div className="row mt-5">
                                 <div className="col-sm-12 col-md-3 wow fadeIn">
                                     <h5 className='mt-2'>Project Type</h5>
@@ -92,10 +98,13 @@ class App extends React.Component {
 
                         <div className="m-lg-5 m-xs-3 m-sm-3">
                             <p>
-                                If a service becomes too complex and involves advanced features, it can be problematic for users who don't have the time or need to learn new technologies, making it difficult for them to use the service. <br />
-                                Therefore, companies should consider delivering their services on different levels based on the needs of different user groups. <br />
-                                A highly sophisticated service may provide a wide range of advanced options and customization, but can be challenging for users who are not familiar with the technology. <br />
-                                In contrast, a simple service may have fewer features and options, but it can be more straightforward to understand and use even for those without technical expertise. <br />
+                                If a service becomes too complex and involves advanced features, it can be problematic for users who don't have the time or need to learn new technologies, making it difficult for them to use the service.
+                                Therefore, companies should consider delivering their services on different levels based on the needs of different user groups. </p>
+                            <p>
+                                A highly sophisticated service may provide a wide range of advanced options and customization, but can be challenging for users who are not familiar with the technology.
+                            </p>
+                            <p>
+                                In contrast, a simple service may have fewer features and options, but it can be more straightforward to understand and use even for those without technical expertise. 
                                 Ultimately, the choice between sophistication and simplicity depends on the user's priorities and how they intend to use the service.
                             </p>
                             <p>My Objectives In This Project:</p>
