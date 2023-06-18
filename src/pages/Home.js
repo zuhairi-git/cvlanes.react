@@ -82,16 +82,15 @@ class App extends React.Component {
                                         <p className='sectionSeparator'>About Me</p>
                                         <h2>10 Years Experience</h2>
                                     </div>
-                                    <div className="about-text">
+                                    <div className="about-text mb-4">
                                         <p>
-                                            Creating user-centric and business-relevant product is my true
-                                            passion. Getting a well-designed product that reflects the brand
-                                            identity into the hands of compassionate users is my calling.
-                                            I have the privilege to work with professional partners, marketers,
-                                            sales directors, and consultants. Also, participating closely with
-                                            developers with different backgrounds allowed me to create the
-                                            core functionality for a sophisticated solution that supports
-                                            many platforms.
+                                            As a product designer, the Double Diamond design model serves as the bedrock of my design process. It empowers me to embrace divergent thinking, exploring a multitude of ideas and possibilities, ultimately leading to the creation of innovative products. Simplicity and elegance are fundamental principles that underpin my design philosophy, driving me to craft designs that are both visually appealing and intuitively functional.
+                                        </p>
+                                        <p>
+                                            Moreover, I possess strong problem-solving skills, which enable me to approach complex challenges with a strategic and analytical mindset.
+                                        </p>
+                                        <p>
+                                            With this approach, I am well-equipped to conceptualize, prototype, and iterate upon designs that are not only visually striking but also highly functional and user-centric. By incorporating the Double Diamond model into my design process and emphasizing simplicity, elegance, and problem-solving, I consistently create designs that captivate users and solve complex challenges with precision and creativity.
                                         </p>
                                     </div>
                                     <div className='row'>
@@ -111,8 +110,12 @@ class App extends React.Component {
 
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4">
+                            <div className="col-lg-6 mt-5">
                                 <div className="about-content">
+                                    <div className="section-header text-left">
+                                        <p className='sectionSeparator'>Strengths</p>
+                                        <h2>Skillset</h2>
+                                    </div>
                                     <div className="skills">
                                         <div className="skill-name text-start">
                                             <p>UI/UX - Figma & Adobe XD</p><p></p>
