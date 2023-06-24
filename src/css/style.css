@@ -22,9 +22,9 @@
 
 .quoteContainer {
     background-color: #C8E7EA;
-    padding: 10px;
+    padding: 20px;
     font-size: 130%;
-    border-radius: 20px;
+    border-radius: 10px;
 } 
 
 .quoteHighlight {
@@ -32,18 +32,16 @@
 }
 
 .quoteHighlightLight {
-    background-color: #C8E7EA
+    background-color: #fefeb8
 }
 
 .quoteLine {
     display: block;
-    height: 1px;
     width: 40px;
     border: 0;
     border-top: 4px solid #FFFF00;
     margin: 0.5em 0;
-    padding-bottom: 20px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 div {
@@ -985,6 +983,10 @@ a:focus {
         padding: 10px 15px;
         letter-spacing: 1px;
     }
+    .blog-width{
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 575.98px) {
@@ -1023,6 +1025,11 @@ a:focus {
     .scroll-to-top {
         padding: 5px 7px;
     }
+    
+    .blog-width{
+        width: 100%;
+    }
+
 }
 
 

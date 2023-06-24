@@ -51,7 +51,7 @@ class App extends React.Component {
                 </div>
 
                 <div className="container-fluid">
-                    <div className='blog-width m-5 mx-auto'>
+                    <div className='blog-width m-5-xl m-5-lg m-1-xs m-1-sm mx-auto'>
                         <h4 className='primary-title'>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</h4>
                         <BlogAuthor />
                         <div className='quoteContainer mb-5'>
@@ -119,13 +119,13 @@ class App extends React.Component {
                             To accomplish this, in my opinion, there are three key points to consider:
                             <ol>
                                 <li>
-                                    <span className='quoteHighlight'>Know-what:</span> It is crucial to understand what AI is and how developers interact with it at a code level. This entails gaining knowledge about the inner workings of AI systems.
+                                    <span className='fw-bold'>Know-what:</span> It is crucial to understand what AI is and how developers interact with it at a code level. This entails gaining knowledge about the inner workings of AI systems.
                                 </li>
                                 <li>
-                                    <span className='quoteHighlight'>Know-why:</span> We must strive to reach a collective understanding and, ideally, an agreement on why we need AI. This involves recognizing the benefits and potential risks associated with its implementation.
+                                    <span className='fw-bold'>Know-why:</span> We must strive to reach a collective understanding and, ideally, an agreement on why we need AI. This involves recognizing the benefits and potential risks associated with its implementation.
                                 </li>
                                 <li>
-                                    <span className='quoteHighlight'>Know-how:</span> By mastering the first two points, we can begin to establish regulations or boundaries that are universally understood and accepted.
+                                    <span className='fw-bold'>Know-how:</span> By mastering the first two points, we can begin to establish regulations or boundaries that are universally understood and accepted.
                                 </li>
                             </ol>
                         </p>
