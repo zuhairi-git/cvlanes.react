@@ -20,6 +20,32 @@
     color: #FFE54C;
 }
 
+.quoteContainer {
+    background-color: #C8E7EA;
+    padding: 10px;
+    font-size: 130%;
+    border-radius: 20px;
+} 
+
+.quoteHighlight {
+    background-color: #FFFF00
+}
+
+.quoteHighlightLight {
+    background-color: #C8E7EA
+}
+
+.quoteLine {
+    display: block;
+    height: 1px;
+    width: 40px;
+    border: 0;
+    border-top: 4px solid #FFFF00;
+    margin: 0.5em 0;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
 div {
     font-family: 'Montserrat', sans-serif;
 }
