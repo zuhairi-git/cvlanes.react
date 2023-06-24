@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 
 const LowFidJobseekingCarousel = () => {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
 
   return (
     <div className="col-md-4 mb-3">
@@ -24,28 +19,28 @@ const LowFidJobseekingCarousel = () => {
 
         <div className="carousel-inner border-bold">
           <div className="carousel-item active">
-            <img alt="image" src="../img/jobseeking/low-fid/Splash.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Splash.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/Login.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Login.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/Main.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Main.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/Calendar.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Calendar.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/CalendarNext.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/CalendarNext.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/CalendarHistory.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/CalendarHistory.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/Messeges.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Messeges.jpg" className="border-hover-primary w-100" />
           </div>
           <div className="carousel-item">
-            <img alt="image" src="../img/jobseeking/low-fid/Profile.jpg" className="border-hover-primary w-100" />
+            <img alt='Image' src="../img/jobseeking/low-fid/Profile.jpg" className="border-hover-primary w-100" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carousel00" data-bs-slide="prev">
