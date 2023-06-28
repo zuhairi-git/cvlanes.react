@@ -24,15 +24,17 @@ class App extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <meta charSet="utf-8" />
+                    <meta charSet='utf-8' />
                     <title>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</title>
-                    <meta name="description" content="How to get notifications on iOS with personal focus on?" />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
-                    <meta property="og:image" content='https://cvlanes.com/img/iphone-mail-notifications.jpg' />
-                    <meta property="og:image:width" content='1200' />
-                    <meta property="og:image:height" content='630' />
-                    <meta name="image:alt" content="How to get notifications on iOS with personal focus on?" />
+                    <meta name='description' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
+                    <meta property='og:title' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
+                    <meta property='og:description' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
+                    <meta property='og:type' content='article' />
+                    <meta property='og:url' content='https://cvlanes.com/blogs/premitive-human' />
+                    <meta property='og:image' content='https://cvlanes.com/img/blog/Human-AI/human-AI-jpg' />
+                    <meta property='og:image:width' content='1200' />
+                    <meta property='og:image:height' content='630' />
+                    <meta name='image:alt' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
                 </Helmet>
 
                 <ScrollToTop />
@@ -55,7 +57,7 @@ class App extends React.Component {
                 <div className="container-fluid">
                     <div className='blog-width m-5-xl m-5-lg m-1-xs m-1-sm mx-auto'>
                         <h4 className='primary-title'>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</h4>
-                        <BlogAuthor datePublished={dateOfPublish}/>
+                        <BlogAuthor datePublished={dateOfPublish} />
                         <div className='quoteContainer mb-5'>
                             <q className='mb-4'>
                                 I have a feeling that with the progress of AI and the advancements in machine learning, our world will reach such a level of sophistication that most humans may appear <span className='quoteHighlight'>primitive once more.</span>
