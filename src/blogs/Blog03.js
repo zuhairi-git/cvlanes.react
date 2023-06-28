@@ -62,7 +62,10 @@ class App extends React.Component {
                                 Ali
                             </p>
                         </div>
-
+                        <div className='text-center'>
+                            <h3 className='mt-5'>Chapter Zero - It is me AI</h3>
+                            <div className='titleUnderLine mb-4'></div>
+                        </div>
                         <h4>Introduction:</h4>
                         <p>
                             In an era where technological advancements are reshaping our world at an unprecedented pace, it is not uncommon for individuals to ponder the future implications of such progress. Among these advancements, the rise of Artificial Intelligence (AI) and Machine Learning (ML) has been particularly transformative. This article explores the belief that our world is headed towards an extraordinary level of sophistication, potentially rendering humans primitive in comparison.
@@ -113,7 +116,11 @@ class App extends React.Component {
                             In case you are still uncertain or sceptical, it is important to note that the article thus far has been created by an AI, utilizing my statement: <span className='quoteHighlightLight'>"I have a feeling that with the progress of AI and the advancements in machine learning, our world will reach such a level of sophistication that most humans may appear primitive once more."</span> I must admit, it is quite remarkable.
                         </p>
 
-                        <h4>Chapter One - Focus on Human</h4>
+                        <div className='text-center'>
+                            <h3 className='mt-5'>Chapter One - Focus on Human</h3>
+                            <div className='titleUnderLine mb-4'></div>
+                        </div>
+                        <h4>Pivotal Moment</h4>
                         <p>
                             The inception of this idea behind this article was not driven by me being against AI, but rather by a profound belief in the significance of expanding our understanding of the ever-changing world and redefining educational principles. We stand at a pivotal moment in history, where the path we tread holds the potential for irreversible consequences. This demands a profound change in our approach to education and the work environment. As I often emphasize, the focus should not solely be on enhancing the intelligence of our surroundings. Instead, we ought to explore ways to enhance human capabilities and embrace the enhancement of our creativity.
                         </p>
@@ -131,9 +138,11 @@ class App extends React.Component {
                                 </li>
                             </ol>
                         </p>
-                        <h4>
-                            Chapter Two - Rewrite the rules
-                        </h4>
+                        <div className='text-center'>
+                            <h3 className='mt-5'>Chapter Two - Rewrite the rules</h3>
+                            <div className='titleUnderLine mb-4'></div>
+                        </div>
+                        <h4>Robotics Ruls for Human</h4>
                         <p>
                             The core element revolves around control, and those who possess it can govern and shape the course of events. While humans in positions of control may occasionally make mistakes, the situation may differ when it comes to AI and its sophisticated problem-solving abilities. The one with the most reliable decision-making pattern can eventually determine the outcome of matters that hold utmost importance to humans, such as the value of things and the establishment of rules.
                         </p>
@@ -155,6 +164,13 @@ class App extends React.Component {
                         <p>
                             My first attempt sounds good enough for me. Now, bear in mind that you should shift your mindset to understand this vision. It may not appear practical, but think about a world without any authoritarian force, where humans simply live side by side in a world that caters to all human needs.
                         </p>
+                        <h4>
+                            Final Conclusion
+                        </h4>
+                        <p>
+                            Text...
+                        </p>
+
                         <h4>
                             There is more...
                         </h4>

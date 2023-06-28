@@ -44,6 +44,15 @@
     font-weight: 600;
 }
 
+.titleUnderLine {
+    display: block;
+    width: 70px;
+    border: 0;
+    border-bottom: 4px solid #04eaff;
+    margin: 0.5em auto;
+    font-weight: 600;
+}
+
 div {
     font-family: 'Montserrat', sans-serif;
 }
