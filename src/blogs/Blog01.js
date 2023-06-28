@@ -19,6 +19,8 @@ class App extends React.Component {
         }).init();
     }
     render() {
+        const dateOfPublish = '2023-03-20'; // Replace with your specific date
+
         return (
             <div>
                 <Helmet>
@@ -53,7 +55,7 @@ class App extends React.Component {
                 <div className="container-fluid">
                     <div className='blog-width m-5 mx-auto'>
                         <h2 className='primary-title'>Circle of Daily Rhythm</h2>
-                        <BlogAuthor />
+                        <BlogAuthor datePublished={dateOfPublish}/>
                         <p className='mb-4'>
                             The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day. This can include things like waking up, eating, preparing, working or studying, exercising, and sleeping. Taking notes about the circle of one's daily rhythm can be a useful exercise in understanding and optimizing one's daily routine.
 

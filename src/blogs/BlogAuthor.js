@@ -2,6 +2,8 @@ import React from 'react';
 
 class App extends React.Component {
     render() {
+        const { datePublished } = this.props;
+
         return (
             <div className="container-fluid">
                 <div className='div-author d-flex mt-4 mb-3'>
@@ -10,7 +12,7 @@ class App extends React.Component {
                     </div>
                     <div className='position-relative me-2'>
                         <h5 className='blog-author-name'>Ali Zuhairi</h5>
-                        <p className='blog-author-position'>Professional Product Designer</p>
+                        <p className='blog-author-position text-secondary'>Professional Product Designer <br /> Published on {datePublished}</p>
                     </div>
                 </div>
 

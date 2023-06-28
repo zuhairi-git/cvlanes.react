@@ -19,6 +19,8 @@ class App extends React.Component {
         }).init();
     }
     render() {
+        const dateOfPublish = '2023-06-20'; // Replace with your specific date
+
         return (
             <div>
                 <Helmet>
@@ -53,7 +55,7 @@ class App extends React.Component {
                 <div className="container-fluid">
                     <div className='blog-width m-5-xl m-5-lg m-1-xs m-1-sm mx-auto'>
                         <h4 className='primary-title'>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</h4>
-                        <BlogAuthor />
+                        <BlogAuthor datePublished={dateOfPublish}/>
                         <div className='quoteContainer mb-5'>
                             <q className='mb-4'>
                                 I have a feeling that with the progress of AI and the advancements in machine learning, our world will reach such a level of sophistication that most humans may appear <span className='quoteHighlight'>primitive once more.</span>
