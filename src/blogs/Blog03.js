@@ -67,7 +67,7 @@ class App extends React.Component {
                             </p>
                         </div>
                         <div className='text-center'>
-                            <h3 className='mt-5'>Chapter Zero - It is me AI</h3>
+                            <h3 className='mt-5'>Chapter Zero - It is me, AI</h3>
                             <div className='titleUnderLine mb-4'></div>
                         </div>
                         <h4>Introduction:</h4>
