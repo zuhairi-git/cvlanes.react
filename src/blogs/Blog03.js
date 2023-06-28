@@ -112,6 +112,8 @@ class App extends React.Component {
                         <p>
                             In case you are still uncertain or sceptical, it is important to note that the article thus far has been created by an AI, utilizing my statement: <span className='quoteHighlightLight'>"I have a feeling that with the progress of AI and the advancements in machine learning, our world will reach such a level of sophistication that most humans may appear primitive once more."</span> I must admit, it is quite remarkable.
                         </p>
+
+                        <h4>Chapter One - Focus on Human</h4>
                         <p>
                             The inception of this idea behind this article was not driven by me being against AI, but rather by a profound belief in the significance of expanding our understanding of the ever-changing world and redefining educational principles. We stand at a pivotal moment in history, where the path we tread holds the potential for irreversible consequences. This demands a profound change in our approach to education and the work environment. As I often emphasize, the focus should not solely be on enhancing the intelligence of our surroundings. Instead, we ought to explore ways to enhance human capabilities and embrace the enhancement of our creativity.
                         </p>
@@ -128,6 +130,30 @@ class App extends React.Component {
                                     <span className='fw-bold'>Know-how:</span> By mastering the first two points, we can begin to establish regulations or boundaries that are universally understood and accepted.
                                 </li>
                             </ol>
+                        </p>
+                        <h4>
+                            Chapter Two - Rewrite the rules
+                        </h4>
+                        <p>
+                            The core element revolves around control, and those who possess it can govern and shape the course of events. While humans in positions of control may occasionally make mistakes, the situation may differ when it comes to AI and its sophisticated problem-solving abilities. The one with the most reliable decision-making pattern can eventually determine the outcome of matters that hold utmost importance to humans, such as the value of things and the establishment of rules.
+                        </p>
+                        <p>
+                            Now, let's envision a world without traditional rules, and for that, I would like to propose three rules of robotics and convert them into three rules for humans:
+                            First attempt:
+                        </p>
+                        <ol>
+                            <li>
+                                Individuals must comply with and respect the autonomy and well-being of others.
+                            </li>
+                            <li>
+                                Individuals must avoid actions or situations that may physically or psychologically harm other humans.
+                            </li>
+                            <li>
+                                Within their domain, individuals are free to act as they wish as long as their actions align with the principles outlined in the first and second laws.
+                            </li>
+                        </ol>
+                        <p>
+                            My first attempt sounds good enough for me. Now, bear in mind that you should shift your mindset to understand this vision. It may not appear practical, but think about a world without any authoritarian force, where humans simply live side by side in a world that caters to all human needs.
                         </p>
                         <h4>
                             There is more...
