@@ -13,17 +13,18 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 const BlogPage = () => {
     return (
 
-        <div className='blog-bg'> {/* className="App overflow-x-hidden" */} 
+        <div className='blog-bg'> {/* className="App overflow-x-hidden" */}
             <Helmet>
-                <meta charSet="utf-8" />
+                <meta charSet='utf-8' />
                 <title>Blog</title>
+                <meta property='og:title' content='Blog' />
                 <meta name="description" content="To Blog... or not to Blog" />
-                <meta name="type" content="blog" />
-                <meta name="url" content="https://cvlanes.com/portfolio" />
+                <meta property='og:type' content='blog' />
+                <meta property='og:url' content='https://cvlanes.com/blog' />
                 <meta property="og:image" content='https://cvlanes.com/img/blog-cover.jpeg' />
-                <meta property="og:image:width" content='1200' />
-                <meta property="og:image:height" content='630' />
-                <meta name="image:alt" content="Blog" />
+                <meta property='og:image:width' content='1200' />
+                <meta property='og:image:height' content='630' />
+                <meta name='image:alt' content="Blog" />
             </Helmet>
 
             <ScrollToTop />
