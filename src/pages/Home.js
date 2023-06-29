@@ -15,6 +15,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
 import Footer from '../pages/Footer'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {
