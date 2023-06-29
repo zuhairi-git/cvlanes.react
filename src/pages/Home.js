@@ -28,7 +28,7 @@ class App extends React.Component {
             <div>
                 <Helmet>
                     <meta charSet='utf-8' />
-                    <title>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</title>
+                    <title>CV Lanes | Homepage</title>
                     <meta property='og:title' content='Ali Zuhairi' />
                     <meta property='og:description' content='Professional Product Designer' />
                     <meta property='og:type' content='profile' />
