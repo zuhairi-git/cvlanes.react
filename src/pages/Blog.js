@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import BlogList from './BlogList';
 
 const BlogPage = () => {
     return (
@@ -42,62 +43,14 @@ const BlogPage = () => {
                     </div>
                 </div>
             </div>
+
             <Container>
                 <Row>
                     <Col>
                         <h1 className="text-center my-5 primary-title display-2">My Blog</h1>
                     </Col>
                 </Row>
-                <Row>
-                    <Col md={4} className='mb-5'>
-                        <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/blog-writing.jpg" />
-                            <Card.Body>
-                                <Card.Title>Circle of Daily Rhythm</Card.Title><br />
-                                <Card.Text>
-                                    The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day.
-                                </Card.Text>
-                                <Button href="/blogs/circle-of-rhythm" variant="primary">Read more</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col md={4} className='mb-5'>
-                        <Card className='border bordered-1'>
-                            <Card.Img variant="top" src="../img/blog/iphone-mail-notifications.jpg" />
-                            <Card.Body>
-                                <Card.Title>How to get notifications on iOS with personal focus on?</Card.Title>
-                                <Card.Text>
-                                    Are you one of those people who have been experiencing difficulty getting notifications on your iPhone lately?
-                                </Card.Text>
-                                <Button href="/blogs/ios-notifications" variant="primary">Read more</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col md={4} className='d-none'>
-                        <Card className="my-4">
-                            <Card.Body>
-                                <Card.Title>Recent Posts</Card.Title>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a href="#">Blog Post Title</a>
-                                    </li>
-                                </ul>
-                            </Card.Body>
-                        </Card>
-                        <Card className="my-4">
-                            <Card.Body>
-                                <Card.Title>Categories</Card.Title>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a href="#">Category 1</a>
-                                    </li>
-                                </ul>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+                <BlogList />
             </Container>
             <Footer />
 
