@@ -132,7 +132,7 @@ class App extends React.Component {
                             To accomplish this, in my opinion, there are three key points to consider:
                             <ol>
                                 <li>
-                                    <span className='fw-bold'>Know-what:</span> It is crucial to understand what AI is and how developers interact with it at a code level. This entails gaining knowledge about the inner workings of AI systems.
+                                    <span className='fw-bold'>Know-what:</span> It is crucial to understand what AI is and how developers interact with it at a code level. This ensure gaining knowledge about the inner workings of AI systems.
                                 </li>
                                 <li>
                                     <span className='fw-bold'>Know-why:</span> We must strive to reach a collective understanding and, ideally, an agreement on why we need AI. This involves recognizing the benefits and potential risks associated with its implementation.
