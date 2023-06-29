@@ -152,7 +152,7 @@ class App extends React.Component {
                         </p>
                         <p>
                             Now, let's envision a world without traditional rules, and for that, I would like to propose three rules of robotics and convert them into three rules for humans:
-                            First attempt:
+                            <br />First attempt:
                         </p>
                         <ol>
                             <li>
