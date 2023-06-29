@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BlogPage = ({ id, title, to, image, content }) => {
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="card d-flex flex-column">
       <img src={image} className="card-img-top" alt="Blog Image" />
@@ -9,7 +13,7 @@ const BlogPage = ({ id, title, to, image, content }) => {
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{content}</p>
         <div className="mt-auto">
-          <Link to={to} className="btn btn-primary">Read More</Link>
+          <Link to={to} className="btn btn-primary" onClick={handleClick}>Read More</Link>
         </div>
       </div>
     </div>
