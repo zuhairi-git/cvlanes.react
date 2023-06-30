@@ -26,18 +26,6 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Helmet>
-                    <meta charSet='utf-8' />
-                    <title>CV Lanes | Homepage</title>
-                    <meta property='og:title' content='Ali Zuhairi' />
-                    <meta property='og:description' content='Professional Product Designer' />
-                    <meta property='og:type' content='profile' />
-                    <meta property='og:url' content='https://cvlanes.com' />
-                    <meta property="og:image" content='https://cvlanes.com/img/ali.png' />
-                    <meta property='og:image:width' content='1200' />
-                    <meta property='og:image:height' content='630' />
-                    <meta name='image:alt' content="Ali" />
-                </Helmet>
 
                 <div className="App overflow-x-hidden">
                     <ScrollToTop />
