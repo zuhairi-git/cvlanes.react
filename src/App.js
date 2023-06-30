@@ -15,21 +15,22 @@ import Blog03 from "./blogs/Blog03";
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>CV Lanes | Homepage</title>
+        <meta property='og:title' content='Ali Zuhairi' />
+        <meta property='og:description' content='Professional Product Designer' />
+        <meta property='og:type' content='profile' />
+        <meta property='og:url' content='https://cvlanes.com' />
+        <meta property="og:image" content='https://cvlanes.com/img/ali.png' />
+        <meta property='og:image:width' content='1200' />
+        <meta property='og:image:height' content='630' />
+        <meta name='image:alt' content="Ali" />
+      </Helmet>
+
       <Routes>
         <Route path="/" element={
           <>
-            <Helmet>
-              <meta charSet='utf-8' />
-              <title>CV Lanes | Homepage</title>
-              <meta property='og:title' content='Ali Zuhairi' />
-              <meta property='og:description' content='Professional Product Designer' />
-              <meta property='og:type' content='profile' />
-              <meta property='og:url' content='https://cvlanes.com' />
-              <meta property="og:image" content='https://cvlanes.com/img/ali.png' />
-              <meta property='og:image:width' content='1200' />
-              <meta property='og:image:height' content='630' />
-              <meta name='image:alt' content="Ali" />
-            </Helmet>
             <Home />
           </>
         } />
