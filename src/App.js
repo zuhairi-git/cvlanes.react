@@ -20,9 +20,9 @@ function App() {
           <>
             <Helmet>
               <meta charSet='utf-8' />
-              <title>CV Lanes | Homepage</title>
+              <title>CV Lanes | Landing Page</title>
               <meta property='og:title' content='Ali Zuhairi' />
-              <meta property='og:description' content='Professional Product Designer' />
+              <meta name='description' content='Professional Product Designer' />
               <meta property='og:type' content='profile' />
               <meta property='og:url' content='https://cvlanes.com' />
               <meta property="og:image" content='https://cvlanes.com/img/ali.png' />
