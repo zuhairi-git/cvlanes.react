@@ -9,13 +9,11 @@ import '../css/style.css';
 import TypewriterComponent from 'typewriter-effect';
 import Hero from '../img/Hero-left.png'
 import MyCV from '../pdf/CV.pdf'
-import DayOfMylife from '../vector/DayOfMylife.svg'
 import TopNav from '../pages/TopNav';
 import ScrollToTop from "react-scroll-to-top";
 import { Tiktok, Youtube } from "react-bootstrap-icons";
 import Footer from '../pages/Footer'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {

@@ -5,10 +5,8 @@ import '../lib/owlcarousel/assets/owl.carousel.min.css';
 import '../lib/lightbox/css/lightbox.min.css';
 import '../css/style.css';
 import TopNavGeneric from './TopNavGeneric';
-import TopNavGenericNew from './DropDown';
 import ScrollToTop from "react-scroll-to-top";
 import Footer from './Footer';
-import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Portfolio = () => {
