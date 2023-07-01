@@ -7,10 +7,8 @@ import '../lib/lightbox/css/lightbox.min.css';
 import '../css/style.css';
 import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
-import TopNavGenericNew from '../pages/DropDown';
 import Footer from '../pages/Footer';
-import { Helmet } from "react-helmet";
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Col, Card, Button } from 'react-bootstrap';
 
 class App extends React.Component {
     componentDidMount() {
@@ -23,17 +21,6 @@ class App extends React.Component {
             <div> {/* className="App overflow-x-hidden" */}
                 <ScrollToTop />
                 <TopNavGeneric />
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Collaboration Workflow Platform</title>
-                    <meta name="description" content="Collaboration Workflow Platform" />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/portfolio/collaboration" />
-                    <meta property="og:image" content='https://cvlanes.com/img/jobseeking-cover.jpeg' />
-                    <meta property="og:image:width" content='1200' />
-                    <meta property="og:image:height" content='630' />
-                    <meta name="image:alt" content="Collaboration Workflow Platform" />
-                </Helmet>
                 <div className="App overflow-x-hidden">
                     <div className="collaboration" id="collaboration">
                         <div className="container">

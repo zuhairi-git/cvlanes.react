@@ -23,19 +23,6 @@ class App extends React.Component {
 
         return (
             <div>
-                <Helmet>
-                    <meta charSet='utf-8' />
-                    <title>Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication</title>
-                    <meta name='description' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
-                    <meta property='og:title' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
-                    <meta property='og:description' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
-                    <meta property='og:type' content='article' />
-                    <meta property='og:url' content='https://cvlanes.com/blogs/premitive-human' />
-                    <meta property='og:image' content='https://cvlanes.com/img/blog/Human-AI/human-AI-jpg' />
-                    <meta property='og:image:width' content='1200' />
-                    <meta property='og:image:height' content='630' />
-                    <meta name='image:alt' content="Embracing the Era of AI: Humanity's Journey to Unparalleled Sophistication" />
-                </Helmet>
 
                 <ScrollToTop />
                 <TopNavGeneric />

@@ -10,7 +10,6 @@ import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import BlogAuthor from './BlogAuthor';
 import BlogShare from './BlogShare';
-import { Helmet } from "react-helmet";
 import YoutubeShortsEmbed from "../generic/YoutubeShortsEmbed";
 import { TikTok } from "react-tiktok";
 
@@ -25,17 +24,6 @@ class App extends React.Component {
 
         return (
             <div>
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>How to get notifications on iOS with personal focus on?</title>
-                    <meta name="description" content="How to get notifications on iOS with personal focus on?" />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
-                    <meta property="og:image" content='https://cvlanes.com/img/iphone-mail-notifications.jpg' />
-                    <meta property="og:image:width" content='1200' />
-                    <meta property="og:image:height" content='630' />
-                    <meta name="image:alt" content="How to get notifications on iOS with personal focus on?" />
-                </Helmet>
 
                 <ScrollToTop />
                 <TopNavGeneric />

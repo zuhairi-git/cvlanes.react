@@ -8,10 +8,7 @@ import '../css/style.css';
 import ScrollToTop from "react-scroll-to-top";
 import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
-import { Helmet } from "react-helmet";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import LowFidJobseeking from '../generic/carousel/jobseeking/LowFidJobseeking';
-import LowFidJobseekingNormal from '../generic/carousel/jobseeking/LowFidJobseekingNormal';
 import LowFidJobseekingCarousel from '../generic/carousel/jobseeking/LowFidJobseekingCarousel';
 
 class App extends React.Component {
@@ -25,17 +22,6 @@ class App extends React.Component {
             <div> {/* className="App overflow-x-hidden" */}
                 <ScrollToTop />
                 <TopNavGeneric />
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Job Seeking Application</title>
-                    <meta name="description" content="Job Seeking Application" />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/portfolio/jobseeking" />
-                    <meta property="og:image" content='https://cvlanes.com/img/jobseeking-cover.jpeg' />
-                    <meta property="og:image:width" content='1200' />
-                    <meta property="og:image:height" content='630' />
-                    <meta name="image:alt" content="Job Seeking Application" />
-                </Helmet>
                 <div className="App overflow-x-hidden">
                     <div className="jobseeking" id="jobseeking">
                         <div className="container">
@@ -287,7 +273,7 @@ class App extends React.Component {
                                     width="100%"
                                     height="auto"
                                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGu3b0JHoN773RkYQ1iz7eV%2FLow-Fidelity-Design-Kit%3Fpage-id%3D403%253A643%26node-id%3D403-664%26viewport%3D131%252C463%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D403%253A644"
-                                    allowfullscreen >
+                                    allowFullScreen >
                                 </iframe>
                             </div>
                         </div>

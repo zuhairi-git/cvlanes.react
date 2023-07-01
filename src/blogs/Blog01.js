@@ -10,7 +10,6 @@ import TopNavGeneric from '../pages/TopNavGeneric';
 import Footer from '../pages/Footer';
 import BlogAuthor from '../blogs/BlogAuthor';
 import BlogShare from '../blogs/BlogShare';
-import { Helmet } from "react-helmet";
 
 class App extends React.Component {
     componentDidMount() {
@@ -23,17 +22,6 @@ class App extends React.Component {
 
         return (
             <div>
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Circle of Daily Rhythm</title>
-                    <meta name="description" content="The circle of daily rhythm is the pattern of behaviors and activities that one follows throughout a typical day." />
-                    <meta name="type" content="blog" />
-                    <meta name="url" content="https://cvlanes.com/blogs/circle-of-rhythm" />
-                    <meta name="image" content="https://cvlanes.com/img/circle-daily-rhythm.jpg" />
-                    <meta name="image:width" content="1200" />
-                    <meta name="image:height" content="630" />
-                    <meta name="image:alt" content="Circle of Rhythm" />
-                </Helmet>
 
                 <ScrollToTop />
                 <TopNavGeneric />
